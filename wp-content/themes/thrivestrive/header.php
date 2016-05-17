@@ -8,6 +8,7 @@
 		<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 		<?php endif; ?>
+		<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 		<?php wp_head(); ?>
 		<script src="https://use.typekit.net/hbz7aio.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>

@@ -13,12 +13,19 @@
   padding: 4rem 0;
   text-align: center;
   margin-bottom: 2rem; }
+  .hero h1 {
+    font-size: 4rem;
+    line-height: 1; }
 
 .profiles {
   margin-bottom: 2rem; }
   .profiles .profile {
     border: 1px solid #e6e6e6;
     padding: 10px; }
+    .profiles .profile .profile-hero {
+      margin-bottom: 1rem; }
+    .profiles .profile p {
+      font-size: 0.8rem; }
 
 .article {
   padding: 2rem 0; }
