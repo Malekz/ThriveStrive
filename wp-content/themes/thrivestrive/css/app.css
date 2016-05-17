@@ -27,7 +27,8 @@ a {
   text-align: center; }
   .hero h1 {
     font-size: 4rem;
-    line-height: 1; }
+    line-height: 1;
+    margin-bottom: 0; }
 
 .profiles {
   padding: 2rem 0;
@@ -40,6 +41,8 @@ a {
       margin-bottom: 1rem; }
     .profiles .profile p {
       font-size: 0.8rem; }
+  .profiles .callout {
+    border-width: 5px; }
 
 .article {
   padding: 2rem 0; }
@@ -1720,7 +1723,7 @@ label > [type='radio'] {
 label {
   display: block;
   margin: 0;
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: normal;
   line-height: 1.8;
   color: #0a0a0a; }
