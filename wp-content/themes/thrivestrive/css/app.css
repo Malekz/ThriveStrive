@@ -9,10 +9,10 @@ a {
   transition: 0.2s linear all; }
 
 .button {
-  font-family: "Proxima Nova", sans-serif; }
+  font-family: "proxima-nova", sans-serif; }
 
 .top-bar li a {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-weight: bold;
   color: #FF686B; }
   .top-bar li a:hover {
@@ -1285,7 +1285,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-weight: bold;
   font-style: normal;
   color: inherit;
