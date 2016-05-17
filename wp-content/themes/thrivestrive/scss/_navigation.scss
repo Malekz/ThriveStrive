@@ -1,5 +1,17 @@
 .top-bar {
 	li a {
 		font-family: $body-font-sans-serif;
+		font-weight: $global-weight-bold;
+	}
+
+	.menu-text a {
+		padding: rem-calc(7) rem-calc(10) rem-calc(5);
+		font-size: rem-calc(32);
+		background-color: $green;
+		color: $oil;
+		&:hover {
+			color: $green;
+			background-color: $white;
+		}
 	}
 }

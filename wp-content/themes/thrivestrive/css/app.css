@@ -5,23 +5,37 @@
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+a {
+  transition: 0.2s linear all; }
+
 .top-bar li a {
-  font-family: "Proxima Nova", sans-serif; }
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: bold; }
+
+.top-bar .menu-text a {
+  padding: 0.35rem 0.5rem 0.25rem;
+  font-size: 1.6rem;
+  background-color: #84DCC6;
+  color: #333333; }
+  .top-bar .menu-text a:hover {
+    color: #84DCC6;
+    background-color: #fefefe; }
 
 .hero {
-  background-image: url("http://placehold.it/1600x1200");
+  background-color: #84DCC6;
   padding: 4rem 0;
-  text-align: center;
-  margin-bottom: 2rem; }
+  text-align: center; }
   .hero h1 {
     font-size: 4rem;
     line-height: 1; }
 
 .profiles {
-  margin-bottom: 2rem; }
+  padding: 2rem 0;
+  background-color: #eeeeee; }
   .profiles .profile {
     border: 1px solid #e6e6e6;
-    padding: 10px; }
+    padding: 10px;
+    background-color: #fefefe; }
     .profiles .profile .profile-hero {
       margin-bottom: 1rem; }
     .profiles .profile p {
@@ -29,6 +43,20 @@
 
 .article {
   padding: 2rem 0; }
+  .article p, .article h2, .article h3, .article h4, .article ul {
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto; }
+
+.sections {
+  padding: 2rem 0 1rem; }
+  .sections .section-box {
+    background-color: #84DCC6;
+    padding: 3rem 1rem;
+    margin-bottom: 1rem; }
+    .sections .section-box a {
+      color: #333333;
+      border-bottom: 1px solid #333333; }
 
 footer {
   background-color: #e6e6e6;
@@ -408,7 +436,7 @@ body {
   font-family: "adelle", serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
+  color: #333333;
   background: #fefefe;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -1288,12 +1316,12 @@ h6 {
     font-size: 0.8rem; } }
 
 a {
-  color: #2199e8;
+  color: #84DCC6;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #1585cf; }
+    color: #5ed1b4; }
   a img {
     border: 0; }
 
@@ -1350,7 +1378,7 @@ cite {
     content: '\2014 \0020'; }
 
 abbr {
-  color: #0a0a0a;
+  color: #333333;
   cursor: help;
   border-bottom: 1px dotted #0a0a0a; }
 
@@ -2022,7 +2050,7 @@ select {
   border: 1px solid rgba(10, 10, 10, 0.25);
   border-radius: 0;
   position: relative;
-  color: #0a0a0a;
+  color: #333333;
   background-color: white; }
   .callout > :first-child {
     margin-top: 0; }
@@ -2288,7 +2316,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: #2199e8 transparent transparent;
+  border-color: #84DCC6 transparent transparent;
   border-top-style: solid;
   border-bottom-width: 0;
   right: 5px;
@@ -2321,7 +2349,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent #2199e8 transparent transparent;
+  border-color: transparent #84DCC6 transparent transparent;
   border-right-style: solid;
   border-left-width: 0; }
 
@@ -2331,7 +2359,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent #2199e8;
+  border-color: transparent transparent transparent #84DCC6;
   border-left-style: solid;
   border-right-width: 0; }
 
@@ -2353,7 +2381,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #2199e8 transparent transparent;
+    border-color: #84DCC6 transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -2375,7 +2403,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #2199e8 transparent transparent;
+    border-color: transparent #84DCC6 transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .dropdown.menu.medium-vertical > li.opens-right > a::after {
@@ -2384,7 +2412,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #2199e8;
+    border-color: transparent transparent transparent #84DCC6;
     border-left-style: solid;
     border-right-width: 0; } }
 
@@ -2406,7 +2434,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #2199e8 transparent transparent;
+    border-color: #84DCC6 transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -2428,7 +2456,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #2199e8 transparent transparent;
+    border-color: transparent #84DCC6 transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .dropdown.menu.large-vertical > li.opens-right > a::after {
@@ -2437,7 +2465,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #2199e8;
+    border-color: transparent transparent transparent #84DCC6;
     border-left-style: solid;
     border-right-width: 0; } }
 
@@ -2482,7 +2510,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #2199e8 transparent transparent;
+    border-color: transparent #84DCC6 transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
@@ -2491,7 +2519,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #2199e8;
+    border-color: transparent transparent transparent #84DCC6;
     border-left-style: solid;
     border-right-width: 0; }
   .is-dropdown-submenu .is-dropdown-submenu {
@@ -3124,7 +3152,7 @@ table {
   table thead,
   table tfoot {
     background: #f8f8f8;
-    color: #0a0a0a; }
+    color: #333333; }
     table thead tr,
     table tfoot tr {
       background: transparent; }
@@ -3364,7 +3392,7 @@ table.hover tr:nth-of-type(even):hover {
     clear: both; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
+    background-color: #fefefe; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }

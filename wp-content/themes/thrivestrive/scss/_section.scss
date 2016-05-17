@@ -1,0 +1,12 @@
+.sections {
+	padding: 2rem 0 1rem;
+	.section-box {
+		background-color: $green;
+		padding: 3rem 1rem;
+		a {
+			color: $oil;
+			border-bottom: 1px solid $oil;
+		}
+		margin-bottom: 1rem;
+	}
+}

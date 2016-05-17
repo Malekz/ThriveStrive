@@ -3,10 +3,12 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import "base";
 @import "navigation";
 @import "hero";
 @import "profile";
 @import "article";
+@import "section";
 @import "footer";
 
 @include foundation-global-styles;

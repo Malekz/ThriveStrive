@@ -1,8 +1,10 @@
 .profiles {
-	margin-bottom: 2rem;
+	padding: 2rem 0;
+	background-color: $smoke;
 	.profile {
 		border: 1px solid $light-gray;
 		padding: 10px;
+		background-color: $white;
 		.profile-hero {
 			margin-bottom: 1rem;
 		}

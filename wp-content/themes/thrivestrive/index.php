@@ -8,6 +8,14 @@ get_header();
 		</div>
 	</div>
 </section>
+<section class="article">
+	<div class="row">
+		<div class="small-12 columns">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, officiis, aliquam! Quasi beatae natus, deserunt maxime. Odio dicta impedit incidunt, aliquid enim aperiam quia quod ipsum voluptatem sed, totam recusandae.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto commodi itaque deserunt obcaecati iusto, eaque saepe placeat molestias dignissimos neque voluptatum totam ea facere quidem consectetur et officia nobis.</p>
+		</div>
+	</div>
+</section>
 <section class="profiles">
 	<div class="row">
 		<div class="small-12 columns">
@@ -39,10 +47,24 @@ get_header();
 <section class="sections">
 	<div class="row">
 		<div class="small-12 large-6 columns">
-			<h2 class="text-center">Food</h2>
+			<div class="section-box">
+				<h2 class="text-center"><a href="/food">Food</a></h2>
+			</div>
 		</div>
 		<div class="small-12 large-6 columns">
-			<h2 class="text-center">Food</h2>
+			<div class="section-box">
+				<h2 class="text-center"><a href="/motivation">Motivation</a></h2>
+			</div>
+		</div>
+		<div class="small-12 large-6 columns">
+			<div class="section-box">
+				<h2 class="text-center"><a href="/food">Fitness</a></h2>
+			</div>
+		</div>
+		<div class="small-12 large-6 columns">
+			<div class="section-box">
+				<h2 class="text-center"><a href="/motivation">Challenges</a></h2>
+			</div>
 		</div>
 	</div>
 </section>

@@ -18,8 +18,8 @@
 		  	<div class="top-bar-left">
 		    	<ul class="dropdown menu" data-dropdown-menu>
 			      	<li class="menu-text"><a href="/">Thrive/Strive</a></li>
-			      	<li><a href="#">Start Here</a></li>
-			      	<li><a href="#">Resources</a></li>
+			      	<li><a href="/start">Start Here</a></li>
+			      	<li><a href="/resources">Resources</a></li>
 		    	</ul>
 		 	 </div>
 		</div>	
