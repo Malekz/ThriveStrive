@@ -1335,12 +1335,12 @@ h6 {
     font-size: 0.8rem; } }
 
 a {
-  color: #84DCC6;
+  color: #FF686B;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #5ed1b4; }
+    color: #ff363a; }
   a img {
     border: 0; }
 
@@ -2335,7 +2335,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: #84DCC6 transparent transparent;
+  border-color: #FF686B transparent transparent;
   border-top-style: solid;
   border-bottom-width: 0;
   right: 5px;
@@ -2368,7 +2368,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent #84DCC6 transparent transparent;
+  border-color: transparent #FF686B transparent transparent;
   border-right-style: solid;
   border-left-width: 0; }
 
@@ -2378,7 +2378,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent #84DCC6;
+  border-color: transparent transparent transparent #FF686B;
   border-left-style: solid;
   border-right-width: 0; }
 
@@ -2400,7 +2400,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #84DCC6 transparent transparent;
+    border-color: #FF686B transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -2422,7 +2422,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #84DCC6 transparent transparent;
+    border-color: transparent #FF686B transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .dropdown.menu.medium-vertical > li.opens-right > a::after {
@@ -2431,7 +2431,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #84DCC6;
+    border-color: transparent transparent transparent #FF686B;
     border-left-style: solid;
     border-right-width: 0; } }
 
@@ -2453,7 +2453,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #84DCC6 transparent transparent;
+    border-color: #FF686B transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -2475,7 +2475,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #84DCC6 transparent transparent;
+    border-color: transparent #FF686B transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .dropdown.menu.large-vertical > li.opens-right > a::after {
@@ -2484,7 +2484,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #84DCC6;
+    border-color: transparent transparent transparent #FF686B;
     border-left-style: solid;
     border-right-width: 0; } }
 
@@ -2529,7 +2529,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #84DCC6 transparent transparent;
+    border-color: transparent #FF686B transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
@@ -2538,7 +2538,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #84DCC6;
+    border-color: transparent transparent transparent #FF686B;
     border-left-style: solid;
     border-right-width: 0; }
   .is-dropdown-submenu .is-dropdown-submenu {
