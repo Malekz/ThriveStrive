@@ -52,14 +52,14 @@ a {
   padding: 2rem 0 1rem; }
   .sections .section-box {
     background-color: #84DCC6;
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 2rem;
     margin-bottom: 1rem; }
     .sections .section-box a {
-      color: #333333;
-      border-bottom: 1px solid #333333; }
+      background-color: #fefefe;
+      padding: 0.35rem 0.5rem 0.25rem;
+      color: #FF686B; }
       .sections .section-box a:hover {
-        border-color: #fefefe;
-        color: #fefefe; }
+        color: #333333; }
 
 footer {
   background-color: #e6e6e6;

@@ -46,24 +46,27 @@ get_header();
 </section>
 <section class="sections">
 	<div class="row">
+		<div class="small-12 columns">
+			<h2 class="text-center">What We Talk About</h2>
+		</div>
 		<div class="small-12 large-6 columns">
 			<div class="section-box">
-				<h2 class="text-center"><a href="/food">Food</a></h2>
+				<h3 class="text-center"><a href="/food">Food</a></h3>
 			</div>
 		</div>
 		<div class="small-12 large-6 columns">
 			<div class="section-box">
-				<h2 class="text-center"><a href="/motivation">Motivation</a></h2>
+				<h3 class="text-center"><a href="/motivation">Motivation</a></h3>
 			</div>
 		</div>
 		<div class="small-12 large-6 columns">
 			<div class="section-box">
-				<h2 class="text-center"><a href="/food">Fitness</a></h2>
+				<h3 class="text-center"><a href="/food">Fitness</a></h3>
 			</div>
 		</div>
 		<div class="small-12 large-6 columns">
 			<div class="section-box">
-				<h2 class="text-center"><a href="/motivation">Challenges</a></h2>
+				<h3 class="text-center"><a href="/motivation">Challenges</a></h3>
 			</div>
 		</div>
 	</div>
