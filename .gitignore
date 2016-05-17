@@ -102,3 +102,6 @@ node_modules/
 .phpintel
 
 .DS_STORE
+
+node_modules/*
+bower_components/*
