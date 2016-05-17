@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 		<?php wp_head(); ?>
 		<script src="https://use.typekit.net/hbz7aio.js"></script>
-		<script>try{Typekit.load();}catch(e){}</script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	</head>
 	<body>
 		<div class="top-bar">
