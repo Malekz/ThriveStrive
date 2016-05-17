@@ -11,7 +11,7 @@ get_header();
 </section>
 <section class="article">
 	<div class="row">
-		<div class="small-12 large-6 large-offset-3 columns">
+		<div class="small-12 columns">
 			<?php the_content('Read more...'); ?>
 		</div>
 	</div>

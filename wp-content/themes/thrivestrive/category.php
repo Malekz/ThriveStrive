@@ -8,12 +8,16 @@
 	</div>
 </section>
 <section class="article">
-	<?php while ( have_posts() ) : the_post(); ?>
-		<div class="article-box">
-			<h2 class="text-center"><a href="<?php echo the_permalink();?>"><?php echo the_title(); ?></a></h2>
-			<?php the_excerpt(); ?>
+	<div class="row">
+		<div class="small-12 columns">
+			<?php while ( have_posts() ) : the_post(); ?>
+				<div class="article-box">
+					<h2 class="text-center"><a href="<?php echo the_permalink();?>"><?php echo the_title(); ?></a></h2>
+					<?php the_excerpt(); ?>
+				</div>
+			<?php endwhile; ?>
 		</div>
-	<?php endwhile; ?>
+	</div>
 </section>
 <?php endif; ?>
 <?php get_footer();?>
