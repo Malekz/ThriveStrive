@@ -1,7 +1,7 @@
 .profiles {
 	margin-bottom: 2rem;
 	.profile {
-		padding: 1rem;
-		background-image: url('http://placehold.it/400x600');
+		border: 1px solid $light-gray;
+		padding: 10px;
 	}
 }

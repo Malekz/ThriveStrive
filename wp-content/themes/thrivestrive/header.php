@@ -13,3 +13,12 @@
 		<script>try{Typekit.load();}catch(e){}</script>
 	</head>
 	<body>
+		<div class="top-bar">
+		  	<div class="top-bar-left">
+		    	<ul class="dropdown menu" data-dropdown-menu>
+			      	<li class="menu-text"><a href="/">Thrive/Strive</a></li>
+			      	<li><a href="#">Start Here</a></li>
+			      	<li><a href="#">Resources</a></li>
+		    	</ul>
+		 	 </div>
+		</div>	

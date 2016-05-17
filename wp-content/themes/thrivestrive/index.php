@@ -12,19 +12,22 @@ get_header();
 	<div class="row">
 		<div class="small-12 large-4 columns">
 			<div class="profile">
-				<h2 class="text-center">Elisa</h2>
+				<div class="profile-hero"><img src="http://placehold.it/400x600"></div>
+				<h2 class="text-center"><a href="/elisa">Elisa</a></h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aliquam, alias repellat ipsam dolorem, sed voluptatum magnam, voluptates incidunt libero officia tempore suscipit impedit natus a quae laborum architecto. Quo!</p>
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
 			<div class="profile">
-				<h2 class="text-center">Elisa</h2>
+				<div class="profile-hero"><img src="http://placehold.it/400x600"></div>
+				<h2 class="text-center"><a href="/paul">Paul</a></h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aliquam, alias repellat ipsam dolorem, sed voluptatum magnam, voluptates incidunt libero officia tempore suscipit impedit natus a quae laborum architecto. Quo!</p>
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
 			<div class="profile">
-				<h2 class="text-center">Elisa</h2>
+				<div class="profile-hero"><img src="http://placehold.it/400x600"></div>
+				<h2 class="text-center"><a href="/stephen">Stephen</a></h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aliquam, alias repellat ipsam dolorem, sed voluptatum magnam, voluptates incidunt libero officia tempore suscipit impedit natus a quae laborum architecto. Quo!</p>
 			</div>
 		</div>
