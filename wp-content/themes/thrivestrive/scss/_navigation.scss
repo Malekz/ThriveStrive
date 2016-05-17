@@ -2,6 +2,10 @@
 	li a {
 		font-family: $body-font-sans-serif;
 		font-weight: $global-weight-bold;
+		color: $red;
+		&:hover {
+			color: $oil;
+		}
 	}
 
 	.menu-text a {

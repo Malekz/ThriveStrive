@@ -8,9 +8,15 @@
 a {
   transition: 0.2s linear all; }
 
+.button {
+  font-family: "Proxima Nova", sans-serif; }
+
 .top-bar li a {
   font-family: "Proxima Nova", sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #FF686B; }
+  .top-bar li a:hover {
+    color: #333333; }
 
 .top-bar .menu-text a {
   padding: 0.35rem 0.5rem 0.25rem;
@@ -67,6 +73,13 @@ a {
 footer {
   background-color: #e6e6e6;
   padding: 2rem 0 1rem; }
+  footer a {
+    color: #FF686B;
+    border-bottom: 1px solid #FF686B;
+    font-weight: bold; }
+    footer a:hover {
+      color: #333333;
+      border-color: #333333; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -1527,12 +1540,12 @@ kbd {
   padding: 0.85em 1em;
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
-  background-color: #2199e8;
+  background-color: #84DCC6;
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #1583cc;
+    background-color: #5bd0b3;
     color: #fefefe; }
   .button.tiny {
     font-size: 0.6rem; }
