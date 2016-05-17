@@ -57,6 +57,9 @@ a {
     .sections .section-box a {
       color: #333333;
       border-bottom: 1px solid #333333; }
+      .sections .section-box a:hover {
+        border-color: #fefefe;
+        color: #fefefe; }
 
 footer {
   background-color: #e6e6e6;

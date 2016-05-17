@@ -6,6 +6,10 @@
 		a {
 			color: $oil;
 			border-bottom: 1px solid $oil;
+			&:hover {
+				border-color: $white;
+				color: $white;
+			}
 		}
 		margin-bottom: 1rem;
 	}
