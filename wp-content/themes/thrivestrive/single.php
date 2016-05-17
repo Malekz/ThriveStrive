@@ -8,7 +8,7 @@ get_header();
 	</div>
 
 	<div class="row">
-		<div class="small-12 columns">
+		<div class="small-12 large-6 large-offset-3 columns">
 			<h1>Article Title</h1>
 			<img src="https://static.pexels.com/photos/39688/training-train-lime-barbell-39688-medium.jpeg" alt="Weights" />
 			<p>I'm not the biggest guy or the strongest, nor do I really want to be that person. I just want to be the guy that is happy with waking up and not feeling like a complete slob. Going to the gym does this for me. Are there days where I really don't want to get up, change, walk to the gym and workout? Shit, I'd be lying if I said I didn't get that feeling about four days a week. The one thing I know after each workout though, as shitty and tired as I feel, I have a sense of accomplishment about myself. I know that I have done something that has made me better for not only tomorrow, but for the future me as well. Trust me, during any workout I'm pissed and ask myself why I'm doing this to myself when I can be getting an extra hour of sleep. It all feels worth it though when the workout is completed. Plus I know that I will more than likely look that much better when I'm naked.</p>
