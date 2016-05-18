@@ -144,17 +144,12 @@ a {
     color: #fefefe; }
   .sections .section-box {
     background-color: #84DCC6;
-    padding: 1rem 1rem 0.5rem;
     border: 5px solid #fefefe;
     margin-bottom: 1rem; }
-    @media screen and (max-width: 39.9375em) {
-      .sections .section-box {
-        padding: 1rem 1rem 0.5rem; } }
     .sections .section-box a {
       display: block;
-      background-color: #fefefe;
-      padding: 0.35rem 0.5rem 0.25rem;
-      color: #FF686B; }
+      padding: 1rem 1rem 0.5rem;
+      color: #fefefe; }
       .sections .section-box a:hover {
         color: #333333; }
   .sections .food {

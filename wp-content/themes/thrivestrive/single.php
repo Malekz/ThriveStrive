@@ -19,8 +19,8 @@ get_header();
 <?php endwhile;endif; ?>
 <section class="profiles">
 	<div class="row">
-		<div class="small-12 large-8 large-offset-2 end columns">
-			<h3 class="text-center">Want to learn the basics to gym equipment? Subscribe now for a free guide.</h3>
+		<div class="small-12 large-10 large-offset-1 end columns">
+			<h2 class="text-center">Want to learn the basics to gym equipment? Subscribe now for a free guide.</h2>
 		</div>
 		<div class="small-12 large-6 columns large-offset-3 text-center end">
 			<form class="callout">
