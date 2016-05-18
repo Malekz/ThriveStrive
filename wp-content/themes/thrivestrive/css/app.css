@@ -40,13 +40,15 @@ a {
     background-color: #fefefe; }
 
 .hero {
-  background-color: #84DCC6;
+  background: linear-gradient(90deg, rgba(132, 220, 198, 0.5) 10%, rgba(255, 104, 107, 0.5) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg") fixed center no-repeat;
+  background-size: cover;
   padding: 4rem 0;
   text-align: center; }
   @media screen and (max-width: 39.9375em) {
     .hero {
       padding: 2rem 1rem; } }
   .hero h1 {
+    color: #fefefe;
     line-height: 1;
     margin-bottom: 0;
     font-size: 2rem; }
@@ -59,7 +61,9 @@ a {
 
 .profiles {
   padding: 2rem 0;
-  background-color: #eeeeee; }
+  background-color: #84DCC6; }
+  .profiles h2 {
+    color: #fefefe; }
   .profiles .profile {
     border: 1px solid #e6e6e6;
     padding: 10px;
@@ -133,20 +137,29 @@ a {
     margin-right: auto !important; }
 
 .sections {
-  padding: 2rem 0 1rem; }
+  padding: 2rem 0 1rem;
+  background: linear-gradient(90deg, rgba(132, 220, 198, 0.5) 10%, rgba(255, 104, 107, 0.5) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg") fixed center no-repeat;
+  background-size: cover; }
+  .sections h2 {
+    color: #fefefe; }
   .sections .section-box {
     background-color: #84DCC6;
-    padding: 3rem 1rem 2rem;
+    padding: 1rem 1rem 0.5rem;
+    border: 5px solid #fefefe;
     margin-bottom: 1rem; }
     @media screen and (max-width: 39.9375em) {
       .sections .section-box {
         padding: 1rem 0 0.5rem; } }
     .sections .section-box a {
+      display: block;
       background-color: #fefefe;
       padding: 0.35rem 0.5rem 0.25rem;
       color: #FF686B; }
       .sections .section-box a:hover {
         color: #333333; }
+  .sections .food {
+    background: linear-gradient(90deg, rgba(132, 220, 198, 0.5) 10%, rgba(255, 104, 107, 0.5) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg") fixed center no-repeat;
+    background-size: cover; }
 
 footer {
   background-color: #e6e6e6;

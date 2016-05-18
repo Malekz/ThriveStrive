@@ -44,6 +44,14 @@ get_header();
 		</div>
 	</div>
 </section>
+<section class="article">
+	<div class="row">
+		<div class="small-12 columns">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, officiis, aliquam! Quasi beatae natus, deserunt maxime. Odio dicta impedit incidunt, aliquid enim aperiam quia quod ipsum voluptatem sed, totam recusandae.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto commodi itaque deserunt obcaecati iusto, eaque saepe placeat molestias dignissimos neque voluptatum totam ea facere quidem consectetur et officia nobis.</p>
+		</div>
+	</div>
+</section>
 <section class="sections">
 	<div class="row">
 		<div class="small-12 columns">

@@ -1,12 +1,19 @@
 .sections {
 	padding: 2rem 0 1rem;
+	background: linear-gradient(90deg, rgba($green, 0.5) 10%, rgba($red, 0.5) 90%), url('https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg') fixed center no-repeat;
+	background-size: cover;
+	h2 {
+		color: $white;
+	}
 	.section-box {
 		background-color: $green;
-		padding: 3rem 1rem 2rem;
+		padding: 1rem 1rem 0.5rem;
+		border: 5px solid $white;
 		@include breakpoint (small only) {
 			padding: 1rem 0 0.5rem;
 		}
 		a {
+			display: block;
 			background-color: $white;
 			padding: rem-calc(7) rem-calc(10) rem-calc(5);
 			color: $red;
@@ -15,5 +22,10 @@
 			}
 		}
 		margin-bottom: 1rem;
+	}
+
+	.food {
+		background: linear-gradient(90deg, rgba($green, 0.5) 10%, rgba($red, 0.5) 90%), url('https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg') fixed center no-repeat;
+		background-size: cover;
 	}
 }
