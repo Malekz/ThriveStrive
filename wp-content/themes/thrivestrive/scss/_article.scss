@@ -21,6 +21,13 @@
 		border-radius: $global-radius;
 	}
 
+	.caption {
+		font-style: italic;
+		font-size: rem-calc(16);
+		margin-top: 0;
+		text-align: center;
+	}
+
 	blockquote {
 		margin-left: auto;
 		margin-right: auto;
