@@ -78,7 +78,8 @@ a {
     .profiles .profile p {
       font-size: 0.8rem; }
   .profiles .callout {
-    border-width: 5px; }
+    border-width: 5px;
+    border-color: #5cd1b4; }
 
 .article {
   padding: 2rem 0; }
@@ -1627,12 +1628,12 @@ kbd {
   padding: 0.85em 1em;
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
-  background-color: #84DCC6;
+  background-color: #FF686B;
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #5bd0b3;
+    background-color: #ff3236;
     color: #fefefe; }
   .button.tiny {
     font-size: 0.6rem; }
