@@ -149,7 +149,7 @@ a {
     margin-bottom: 1rem; }
     @media screen and (max-width: 39.9375em) {
       .sections .section-box {
-        padding: 1rem 0 0.5rem; } }
+        padding: 1rem 1rem 0.5rem; } }
     .sections .section-box a {
       display: block;
       background-color: #fefefe;

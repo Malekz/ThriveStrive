@@ -10,7 +10,7 @@
 		padding: 1rem 1rem 0.5rem;
 		border: 5px solid $white;
 		@include breakpoint (small only) {
-			padding: 1rem 0 0.5rem;
+			padding: 1rem 1rem 0.5rem;
 		}
 		a {
 			display: block;
