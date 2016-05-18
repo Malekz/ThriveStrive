@@ -21,8 +21,8 @@ a {
 .top-bar .menu-text a {
   padding: 0.35rem 0.5rem 0.25rem;
   font-size: 1.6rem;
-  background-color: #84DCC6;
-  color: #333333; }
+  background-color: #FF686B;
+  color: #fefefe; }
   .top-bar .menu-text a:hover {
     color: #84DCC6;
     background-color: #fefefe; }
@@ -56,6 +56,10 @@ a {
     max-width: 35rem;
     margin-left: auto;
     margin-right: auto; }
+  .article .article-box {
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #e6e6e6; }
 
 .sections {
   padding: 2rem 0 1rem; }
@@ -3403,7 +3407,7 @@ table.hover tr:nth-of-type(even):hover {
         transform: translateY(-50%); }
 
 .top-bar {
-  padding: 0.5rem; }
+  padding: 1rem 0.5rem; }
   .top-bar::before, .top-bar::after {
     content: ' ';
     display: table; }
