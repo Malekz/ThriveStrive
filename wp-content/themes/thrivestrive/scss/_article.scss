@@ -1,9 +1,36 @@
 .article {
 	padding: 2rem 0;
+
+	h1 {
+		@include breakpoint (medium only) {
+			font-size: 3rem;
+		}
+	}
+
+	p, li {
+		@include breakpoint (medium only) {
+			font-size: 17px;
+			padding-left: 1rem;
+			padding-right:1rem;
+		}
+		@include breakpoint (small only) {
+			font-size: 15px;
+			padding-left: 1rem;
+			padding-right:1rem;
+		}
+	}
 	p, h2, h3, h4, ul {
 		max-width: 35rem;
 		margin-left: auto;
 		margin-right: auto;
+		@include breakpoint (small only) {
+			padding-left: 1rem;
+			padding-right:1rem;
+		}
+		@include breakpoint (medium only) {
+			padding-left: 1rem;
+			padding-right:1rem;
+		}
 	}
 
 	.article-box {

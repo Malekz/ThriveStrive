@@ -1,5 +1,13 @@
 .sections {
 	padding: 2rem 0 1rem;
+	h2 {
+		@include breakpoint (medium only) {
+			font-size: 1.5rem;
+		}
+		@include breakpoint(small only) {
+			font-size: 1.25rem;
+		}
+	}
 	.section-box {
 		background-color: $green;
 		padding: 3rem 1rem 2rem;
