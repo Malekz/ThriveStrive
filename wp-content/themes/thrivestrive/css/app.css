@@ -32,9 +32,11 @@ a {
   padding: 4rem 0;
   text-align: center; }
   .hero h1 {
-    font-size: 4rem;
     line-height: 1;
     margin-bottom: 0; }
+    @media screen and (min-width: 40em) {
+      .hero h1 {
+        font-size: 4rem; } }
 
 .profiles {
   padding: 2rem 0;
