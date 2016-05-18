@@ -14,10 +14,14 @@
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	</head>
 	<body>
-		<div class="top-bar">
+		<div class="title-bar" data-responsive-toggle="thrive-menu" data-hide-for="medium">
+			<button class="menu-icon" type="button" data-toggle></button>
+			<div class="title-bar-title">Thrive/Strive</div>
+		</div>
+		<div class="top-bar" id="thrive-menu">
 		  	<div class="top-bar-left">
-		    	<ul class="dropdown menu" data-dropdown-menu>
-			      	<li class="menu-text"><a href="/">Thrive/Strive</a></li>
+		    	<ul class="vertical medium-horizontal menu" data-responsive-menu="medium-dropdown">
+			      	<li class="menu-text hide-for-small-only"><a href="/">Thrive/Strive</a></li>
 			      	<li><a href="/start">Start Here</a></li>
 			      	<li><a href="/about">About</a></li>
 			      	<li><a href="/resources">Resources</a></li>
