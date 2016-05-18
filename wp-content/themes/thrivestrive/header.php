@@ -19,6 +19,7 @@
 		    	<ul class="dropdown menu" data-dropdown-menu>
 			      	<li class="menu-text"><a href="/">Thrive/Strive</a></li>
 			      	<li><a href="/start">Start Here</a></li>
+			      	<li><a href="/about">About</a></li>
 			      	<li><a href="/resources">Resources</a></li>
 		    	</ul>
 		 	 </div>
