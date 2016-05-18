@@ -1,10 +1,17 @@
 .profiles {
 	padding: 2rem 0;
 	background-color: $smoke;
+	
 	.profile {
 		border: 1px solid $light-gray;
 		padding: 10px;
 		background-color: $white;
+		@include breakpoint(medium down) {
+			margin-bottom: 2rem;
+			h3 {
+				font-size: 1.5rem;
+			}
+		}
 		.profile-hero {
 			margin-bottom: 1rem;
 		}

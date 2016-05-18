@@ -32,9 +32,18 @@ a {
   padding: 4rem 0;
   text-align: center; }
   .hero h1 {
-    font-size: 4rem;
     line-height: 1;
     margin-bottom: 0; }
+    @media screen and (min-width: 64em) {
+      .hero h1 {
+        font-size: 4rem; } }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      .hero h1 {
+        font-size: 3rem; } }
+    @media screen and (max-width: 39.9375em) {
+      .hero h1 {
+        padding-left: 1rem;
+        padding-right: 1rem; } }
 
 .profiles {
   padding: 2rem 0;
@@ -43,6 +52,11 @@ a {
     border: 1px solid #e6e6e6;
     padding: 10px;
     background-color: #fefefe; }
+    @media screen and (max-width: 63.9375em) {
+      .profiles .profile {
+        margin-bottom: 2rem; }
+        .profiles .profile h3 {
+          font-size: 1.5rem; } }
     .profiles .profile .profile-hero {
       margin-bottom: 1rem; }
     .profiles .profile p {
@@ -52,10 +66,31 @@ a {
 
 .article {
   padding: 2rem 0; }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .article h1 {
+      font-size: 3rem; } }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .article p, .article li {
+      font-size: 17px;
+      padding-left: 1rem;
+      padding-right: 1rem; } }
+  @media screen and (max-width: 39.9375em) {
+    .article p, .article li {
+      font-size: 15px;
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   .article p, .article h2, .article h3, .article h4, .article ul {
     max-width: 35rem;
     margin-left: auto;
     margin-right: auto; }
+    @media screen and (max-width: 39.9375em) {
+      .article p, .article h2, .article h3, .article h4, .article ul {
+        padding-left: 1rem;
+        padding-right: 1rem; } }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      .article p, .article h2, .article h3, .article h4, .article ul {
+        padding-left: 1rem;
+        padding-right: 1rem; } }
   .article .article-box {
     padding-bottom: 1rem;
     margin-bottom: 2rem;
@@ -87,6 +122,12 @@ a {
 
 .sections {
   padding: 2rem 0 1rem; }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .sections h2 {
+      font-size: 1.5rem; } }
+  @media screen and (max-width: 39.9375em) {
+    .sections h2 {
+      font-size: 1.25rem; } }
   .sections .section-box {
     background-color: #84DCC6;
     padding: 3rem 1rem 2rem;
