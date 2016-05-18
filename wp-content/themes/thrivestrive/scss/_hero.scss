@@ -2,18 +2,18 @@
 	background-color: $green;
 	padding: 4rem 0;
 	text-align: center;
+	@include breakpoint (small only) {
+		padding: 2rem 1rem;
+	}
 	h1 {
 		line-height: 1;
 		margin-bottom: 0;
+		font-size: 2rem;
 		@include breakpoint (large) {
 			font-size: 4rem;
 		}
 		@include breakpoint (medium only) {
 			font-size: 3rem;
-		}
-		@include breakpoint (small only) {
-			padding-left: 1rem;
-			padding-right:1rem;
 		}
 
 	}

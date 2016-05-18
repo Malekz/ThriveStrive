@@ -31,19 +31,19 @@ a {
   background-color: #84DCC6;
   padding: 4rem 0;
   text-align: center; }
+  @media screen and (max-width: 39.9375em) {
+    .hero {
+      padding: 2rem 1rem; } }
   .hero h1 {
     line-height: 1;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-size: 2rem; }
     @media screen and (min-width: 64em) {
       .hero h1 {
         font-size: 4rem; } }
     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
       .hero h1 {
         font-size: 3rem; } }
-    @media screen and (max-width: 39.9375em) {
-      .hero h1 {
-        padding-left: 1rem;
-        padding-right: 1rem; } }
 
 .profiles {
   padding: 2rem 0;
@@ -71,12 +71,12 @@ a {
       font-size: 3rem; } }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .article p, .article li {
-      font-size: 17px;
+      font-size: 0.9rem;
       padding-left: 1rem;
       padding-right: 1rem; } }
   @media screen and (max-width: 39.9375em) {
     .article p, .article li {
-      font-size: 15px;
+      font-size: 0.8rem;
       padding-left: 1rem;
       padding-right: 1rem; } }
   .article p, .article h2, .article h3, .article h4, .article ul {
@@ -122,16 +122,13 @@ a {
 
 .sections {
   padding: 2rem 0 1rem; }
-  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    .sections h2 {
-      font-size: 1.5rem; } }
-  @media screen and (max-width: 39.9375em) {
-    .sections h2 {
-      font-size: 1.25rem; } }
   .sections .section-box {
     background-color: #84DCC6;
     padding: 3rem 1rem 2rem;
     margin-bottom: 1rem; }
+    @media screen and (max-width: 39.9375em) {
+      .sections .section-box {
+        padding: 1rem 0 0.5rem; } }
     .sections .section-box a {
       background-color: #fefefe;
       padding: 0.35rem 0.5rem 0.25rem;
@@ -1372,13 +1369,13 @@ h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 1.2rem; }
+  font-size: 1.8rem; }
 
 h2 {
-  font-size: 1rem; }
+  font-size: 1.4rem; }
 
 h3 {
-  font-size: 0.95rem; }
+  font-size: 1.2rem; }
 
 h4 {
   font-size: 0.9rem; }

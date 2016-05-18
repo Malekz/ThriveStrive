@@ -9,12 +9,12 @@
 
 	p, li {
 		@include breakpoint (medium only) {
-			font-size: 17px;
+			font-size: rem-calc(18);
 			padding-left: 1rem;
 			padding-right:1rem;
 		}
 		@include breakpoint (small only) {
-			font-size: 15px;
+			font-size: rem-calc(16);
 			padding-left: 1rem;
 			padding-right:1rem;
 		}
