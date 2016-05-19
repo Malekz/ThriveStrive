@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-<section class="hero">
+<section class="hero fitness">
 	<div class="row">
 		<div class="small-12 columns">
 			<h1>We aren&rsquo;t Instagram fitness heroes. We are schlubs trying to get better.</h1>
