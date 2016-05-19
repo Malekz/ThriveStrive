@@ -17,7 +17,7 @@ get_header();
 	</div>
 </section>
 <?php endwhile;endif; ?>
-<section class="profiles">
+<section class="hero">
 	<div class="row">
 		<div class="small-12 large-10 large-offset-1 end columns">
 			<h2 class="text-center">Want to learn the basics to gym equipment? Subscribe now for a free guide.</h2>
@@ -25,9 +25,9 @@ get_header();
 		<div class="small-12 large-6 columns large-offset-3 text-center end">
 			<form class="callout">
 				<label for="email">
-					<input type="email" name="email" placeholder="you.are@awesome.com">
+					<input type="email" class="text-center" name="email" placeholder="you.are@awesome.com">
 				</label>
-				<button type="Submit" class="button expanded">Get the guide</button>
+				<button type="Submit" class="button expanded">Get the free guide</button>
 			</form>
 		</div>
 	</div>

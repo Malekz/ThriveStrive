@@ -42,7 +42,7 @@ a {
 .hero {
   background: linear-gradient(90deg, rgba(132, 220, 198, 0.5) 10%, rgba(255, 104, 107, 0.5) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg") fixed center no-repeat;
   background-size: cover;
-  padding: 4rem 0;
+  padding: 8rem 0;
   text-align: center; }
   @media screen and (max-width: 39.9375em) {
     .hero {
@@ -58,6 +58,18 @@ a {
     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
       .hero h1 {
         font-size: 3rem; } }
+  .hero h2 {
+    color: #fefefe;
+    line-height: 1; }
+    @media screen and (min-width: 64em) {
+      .hero h2 {
+        font-size: 3rem; } }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      .hero h2 {
+        font-size: 3rem; } }
+  .hero .callout {
+    border-width: 5px;
+    border-color: rgba(92, 209, 180, 0.4); }
 
 .profiles {
   padding: 2rem 0;
@@ -158,8 +170,8 @@ a {
     background-size: cover; }
 
 footer {
-  background-color: #e6e6e6;
-  padding: 2rem 0 1rem; }
+  padding: 2rem 0 1rem;
+  text-align: center; }
   footer a {
     color: #FF686B;
     border-bottom: 1px solid #FF686B;
