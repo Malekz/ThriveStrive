@@ -135,12 +135,19 @@ a {
     border-bottom: 1px solid #e6e6e6; }
   .article strong {
     background-color: #84DCC6; }
+  .article .articles-list li {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e6e6e6; }
+    .article .articles-list li:last-child {
+      border-bottom: none; }
+  .article .articles-list a span {
+    font-size: 1.2rem;
+    font-weight: 900; }
   .article div.image {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 1rem; }
     .article div.image img {
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 1rem;
       padding: 0.5rem;
       border: 1px solid #e6e6e6;
       border-radius: 3px; }
