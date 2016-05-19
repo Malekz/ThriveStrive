@@ -1,6 +1,6 @@
 <?php get_header();?>
 <?php if ( have_posts() ) : ?>
-<section class="hero">
+<section class="hero <?php strolower(printf( single_cat_title( '', false ) )); ?>">
 	<div class="row">
 		<div class="small-12 columns">
 			<h1><?php printf( single_cat_title( '', false ) ); ?></h1>
