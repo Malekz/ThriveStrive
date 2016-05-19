@@ -124,6 +124,8 @@ a {
     border-bottom: 1px solid #e6e6e6; }
   .article strong {
     background-color: #84DCC6; }
+  .article div {
+    text-align: center; }
   .article img {
     margin-left: auto;
     margin-right: auto;
