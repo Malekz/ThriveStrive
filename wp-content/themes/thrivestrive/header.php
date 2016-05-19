@@ -23,6 +23,7 @@
 		    	<ul class="vertical medium-horizontal menu" data-responsive-menu="medium-dropdown">
 			      	<li class="menu-text hide-for-small-only"><a href="/">Thrive/Strive</a></li>
 			      	<li><a href="/start">Start Here</a></li>
+			      	<li><a href="/articles">Articles</a></li>
 			      	<li><a href="/about">About</a></li>
 			      	<li><a href="/resources">Resources</a></li>
 		    	</ul>
