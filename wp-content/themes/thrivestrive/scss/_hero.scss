@@ -1,5 +1,5 @@
 .hero {
-	padding: 8rem 0;
+	padding: 5rem 0 4rem;
 	text-align: center;
 	background: linear-gradient(90deg, rgba($green, 0.75) 10%, rgba($red, 0.75) 90%), url('https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg') fixed center no-repeat;
 	background-size: cover;
@@ -11,8 +11,11 @@
 		line-height: 1;
 		margin-bottom: 0;
 		font-size: 2rem;
+		border: 3px solid $white;
+		font-weight: 100;
+		padding: 1rem 1rem 0.5rem;
 		@include breakpoint (large) {
-			font-size: 4rem;
+			font-size: 5rem;
 		}
 		@include breakpoint (medium only) {
 			font-size: 3rem;
@@ -23,15 +26,17 @@
 		color: $white;
 		line-height: 1;
 		@include breakpoint (large) {
-			font-size: 3rem;
+			font-size: 2rem;
 		}
 		@include breakpoint (medium only) {
-			font-size: 3rem;
+			font-size: 2rem;
 		}
 	}
 	.subheader {
-		color: rgba($white, 0.95);
+		color: rgba($white, 1);
 		line-height: 1.2;
+		margin-top: 1rem;
+		padding-top: 1rem;
 	}
 	.callout {
 		border-width: 5px;
