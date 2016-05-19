@@ -2,7 +2,14 @@
 get_header();
 ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<section class="hero">
+<?php 
+$categories = get_the_category();
+ 
+if ( ! empty( $categories ) ) {
+    $category = strtolower(esc_html( $categories[0]->name ));   
+}
+?>
+<section class="hero <?php echo $category; ?>">
 	<div class="row">
 		<div class="small-12 columns text-center">
 			<?php the_title( '<h1 class="entry-title text-center">', '</h1>' ); ?>
@@ -17,7 +24,7 @@ get_header();
 	</div>
 </section>
 <?php endwhile;endif; ?>
-<section class="hero">
+<section class="hero <?php echo $category; ?>">
 	<div class="row">
 		<div class="small-12 large-10 large-offset-1 end columns">
 			<h2 class="text-center">Want to learn the basics to gym equipment? Subscribe now for a free guide.</h2>
