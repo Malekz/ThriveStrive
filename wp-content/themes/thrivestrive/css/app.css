@@ -40,7 +40,7 @@ a {
     background-color: #fefefe; }
 
 .hero {
-  padding: 5rem 0 4rem;
+  padding: 5rem 0;
   text-align: center;
   background: linear-gradient(90deg, rgba(132, 220, 198, 0.75) 10%, rgba(255, 104, 107, 0.75) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg") fixed center no-repeat;
   background-size: cover; }
@@ -74,7 +74,8 @@ a {
     color: #fefefe;
     line-height: 1.2;
     margin-top: 1rem;
-    padding-top: 1rem; }
+    padding-top: 1rem;
+    margin-bottom: 0; }
   .hero .callout {
     border-width: 5px;
     border-color: rgba(92, 209, 180, 0.4); }
@@ -194,15 +195,15 @@ footer {
   background-size: cover; }
 
 .food {
-  background: linear-gradient(90deg, rgba(132, 220, 198, 0.5) 10%, rgba(255, 104, 107, 0.5) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg") fixed center no-repeat;
+  background: linear-gradient(90deg, rgba(132, 220, 198, 0.75) 10%, rgba(255, 104, 107, 0.75) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg") fixed center no-repeat;
   background-size: cover; }
 
 .fitness {
-  background: linear-gradient(90deg, rgba(255, 104, 107, 0.5) 10%, rgba(132, 220, 198, 0.5) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/19005230/sprinter.jpg") fixed center no-repeat;
+  background: linear-gradient(90deg, rgba(255, 104, 107, 0.75) 10%, rgba(132, 220, 198, 0.75) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/19005230/sprinter.jpg") fixed center no-repeat;
   background-size: cover; }
 
 .motivation {
-  background: linear-gradient(90deg, rgba(255, 104, 107, 0.5) 10%, rgba(132, 220, 198, 0.5) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/19010046/winner.jpg") fixed center no-repeat;
+  background: linear-gradient(90deg, rgba(255, 104, 107, 0.75) 10%, rgba(132, 220, 198, 0.75) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/19010046/winner.jpg") fixed center no-repeat;
   background-size: cover; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
