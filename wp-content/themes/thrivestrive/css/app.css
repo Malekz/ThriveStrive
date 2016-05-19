@@ -67,6 +67,9 @@ a {
     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
       .hero h2 {
         font-size: 3rem; } }
+  .hero .subheader {
+    color: rgba(254, 254, 254, 0.95);
+    line-height: 1.2; }
   .hero .callout {
     border-width: 5px;
     border-color: rgba(92, 209, 180, 0.4); }

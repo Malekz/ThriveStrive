@@ -29,6 +29,10 @@
 			font-size: 3rem;
 		}
 	}
+	.subheader {
+		color: rgba($white, 0.95);
+		line-height: 1.2;
+	}
 	.callout {
 		border-width: 5px;
 		border-color: darken(rgba($green, 0.4), 10%);
