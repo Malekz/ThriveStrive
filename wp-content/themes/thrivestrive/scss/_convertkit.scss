@@ -1,0 +1,31 @@
+.ck_form {
+	margin-top: 2rem !important;
+	max-width: 35rem;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	color: $oil !important;
+	border-top-color: $red !important;
+	border-bottom-color: $green !important;
+	font-family: $body-font-sans-serif !important;
+	.ck_description p {
+		font-weight: $global-weight-normal !important;
+	}
+	.ck_label {
+		font-size: rem-calc(16);
+		font-family: $body-font-sans-serif;
+	}
+
+	.ck_control_group input {
+		border-radius: $global-radius !important;
+	}
+
+	.ck_subscribe_button {
+		background: $red !important;
+		border-radius: $global-radius !important;
+		font-weight: $global-weight-bold !important;
+	}
+
+	.ck_guarantee {
+		display: none !important;
+	}
+}
