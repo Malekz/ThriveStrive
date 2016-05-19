@@ -43,17 +43,16 @@
 		background-color: $green;
 	}
 
-	div {
+	div.image {
 		text-align: center;
-	}
-
-	img {
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 1rem;
-		padding: rem-calc(10);
-		border: 1px solid $light-gray;
-		border-radius: $global-radius;
+		img {
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 1rem;
+			padding: rem-calc(10);
+			border: 1px solid $light-gray;
+			border-radius: $global-radius;
+		}
 	}
 
 	.caption {
