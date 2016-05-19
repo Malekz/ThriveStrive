@@ -7,7 +7,7 @@ get_header();
 	$subtitle = get_field('subtitle');
 	$pinterest = get_field('pinterest');
 ?>
-<section class="hero" style="<?php if($image != '') { ?> background: linear-gradient(90deg, rgba(255,104,71, 0.5) 10%, rgba(132,220,198, 0.5) 90%), url('<?php echo $image['url']; ?>') no-repeat fixed center;background-size: cover;" <?php } ?>">
+<section class="hero" style="<?php if($image != '') { ?> background: linear-gradient(90deg, rgba(255,104,71, 0.75) 10%, rgba(132,220,198, 0.75) 90%), url('<?php echo $image['url']; ?>') no-repeat fixed center;background-size: cover;" <?php } ?>">
 	<div class="row">
 		<div class="small-12 columns">
 			<?php the_title( '<h1 class="entry-title text-center">', '</h1>' ); ?>

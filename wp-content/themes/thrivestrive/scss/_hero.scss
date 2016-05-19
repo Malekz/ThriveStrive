@@ -1,7 +1,7 @@
 .hero {
 	padding: 8rem 0;
 	text-align: center;
-	background: linear-gradient(90deg, rgba($green, 0.5) 10%, rgba($red, 0.5) 90%), url('https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg') fixed center no-repeat;
+	background: linear-gradient(90deg, rgba($green, 0.75) 10%, rgba($red, 0.75) 90%), url('https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg') fixed center no-repeat;
 	background-size: cover;
 	@include breakpoint (small only) {
 		padding: 2rem 1rem;
