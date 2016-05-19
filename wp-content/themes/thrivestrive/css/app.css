@@ -130,7 +130,8 @@ a {
         padding-left: 1rem;
         padding-right: 1rem; } }
   .article h2, .article h3 {
-    line-height: 1.2; }
+    line-height: 1.2;
+    margin-top: 2.5rem; }
   .article .article-box {
     padding-bottom: 1rem;
     margin-bottom: 2rem;
