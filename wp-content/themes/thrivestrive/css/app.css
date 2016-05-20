@@ -190,6 +190,11 @@ a {
     background: linear-gradient(90deg, rgba(132, 220, 198, 0.5) 10%, rgba(255, 104, 107, 0.5) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg") fixed center no-repeat;
     background-size: cover; }
 
+.sections.social {
+  background: #fefefe; }
+  .sections.social h2 {
+    color: #84DCC6; }
+
 footer {
   padding: 2rem 0 1rem;
   text-align: center; }
