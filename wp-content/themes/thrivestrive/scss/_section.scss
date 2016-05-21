@@ -15,6 +15,9 @@
 			&:hover {
 				color: $oil;
 			}
+			@include breakpoint (medium only) {
+				font-size: rem-calc(24);
+			}
 		}
 		margin-bottom: 1rem;
 	}
@@ -27,6 +30,6 @@
 .sections.social {
 	background: $white;
 	h2 {
-		color: $green;
+		color: $oil;
 	}
 }
