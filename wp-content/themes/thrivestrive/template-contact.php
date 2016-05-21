@@ -59,7 +59,7 @@ Template Name: Contact
 			<div class="small-12 columns end">
 				<h2 class="text-center">You can also follow each of us individually if you like, we are just regular people</h2>
 			</div>
-			<div class="small-12 medium-4 large-3 columns text-center">
+			<div class="small-12 medium-4 columns text-center">
 				<div class="callout">
 					<h3>Elisa</h3>
 						<div class="section-box">
@@ -71,7 +71,7 @@ Template Name: Contact
 				</div>
 			</div>
 
-			<div class="small-12 medium-4 large-3 columns text-center">
+			<div class="small-12 medium-4 columns text-center">
 				<div class="callout">
 					<h3>Paul</h3>
 						<div class="section-box">
@@ -83,7 +83,7 @@ Template Name: Contact
 				</div>
 			</div>
 
-			<div class="small-12 medium-4 large-3 columns text-center">
+			<div class="small-12 medium-4 columns text-center">
 				<div class="callout">
 					<h3>Stephen</h3>
 					<div class="section-box">
