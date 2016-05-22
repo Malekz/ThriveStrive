@@ -73,6 +73,14 @@
 		}
 	}
 
+	div.video {
+		text-align: center;
+		margin-bottom: 1rem;
+		embed, iframe {
+			
+		}
+	}
+
 	.caption {
 		font-style: italic;
 		font-size: rem-calc(16);

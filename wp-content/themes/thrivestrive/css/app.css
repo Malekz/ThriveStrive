@@ -172,6 +172,9 @@ h2 em {
       padding: 0.5rem;
       border: 1px solid #e6e6e6;
       border-radius: 3px; }
+  .article div.video {
+    text-align: center;
+    margin-bottom: 1rem; }
   .article .caption {
     font-style: italic;
     font-size: 0.8rem;
