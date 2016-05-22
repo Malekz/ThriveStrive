@@ -5,6 +5,7 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="icon" type="image/png" href="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/22131930/avatar.png" data-pin-nopin="true">
 		<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 		<?php endif; ?>
@@ -21,6 +22,7 @@
 		<div class="top-bar" id="thrive-menu">
 		  	<div class="top-bar-left">
 		    	<ul class="vertical medium-horizontal menu" data-responsive-menu="medium-dropdown">
+		    		<li class="logo hide-for-small-only"><a href="/"><img data-pin-nopin="true" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/22132355/logo-white-square.png"></a></li>
 			      	<li class="menu-text hide-for-small-only"><a href="/">Thrive/Strive</a></li>
 			      	<li><a href="/start">Start Here</a></li>
 			      	<li><a href="/articles">Articles</a></li>

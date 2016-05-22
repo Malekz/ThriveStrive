@@ -30,14 +30,29 @@ a {
   .top-bar li a:hover {
     color: #333333; }
 
+.top-bar li.logo a {
+  padding: 0; }
+
+.top-bar .menu-text {
+  padding-left: 0; }
+
 .top-bar .menu-text a {
   padding: 0.35rem 0.5rem 0.25rem;
   font-size: 1.6rem;
   background-color: #FF686B;
   color: #fefefe; }
   .top-bar .menu-text a:hover {
-    color: #84DCC6;
-    background-color: #fefefe; }
+    color: #fefefe;
+    background-color: #84DCC6; }
+
+.top-bar img {
+  max-width: 2.7rem;
+  max-height: 2.7rem;
+  background-color: #84DCC6;
+  padding: 0.25rem 0.5rem;
+  transition: 0.2s linear all; }
+  .top-bar img:hover {
+    background-color: #FF686B; }
 
 .hero {
   padding: 5rem 0;

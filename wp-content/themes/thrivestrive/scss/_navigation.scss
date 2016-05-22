@@ -25,14 +25,33 @@
 		}
 	}
 
+	li.logo a {
+		padding: 0;
+	}
+
+	.menu-text {
+		padding-left: 0;
+	}
+
 	.menu-text a {
 		padding: rem-calc(7) rem-calc(10) rem-calc(5);
 		font-size: rem-calc(32);
 		background-color: $red;
 		color: $white;
 		&:hover {
-			color: $green;
-			background-color: $white;
+			color: $white;
+			background-color: $green;
+		}
+	}
+
+	img {
+		max-width: rem-calc(54);
+		max-height: rem-calc(54);
+		background-color: $green;
+		padding: rem-calc(5) rem-calc(10);
+		transition: 0.2s linear all;
+		&:hover {
+			background-color: $red;
 		}
 	}
 }
