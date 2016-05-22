@@ -11,6 +11,9 @@ a {
 .button {
   font-family: "proxima-nova", sans-serif; }
 
+h2 em {
+  font-family: "adelle", serif; }
+
 .no-js .top-bar {
   display: none; }
 

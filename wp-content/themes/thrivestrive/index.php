@@ -19,7 +19,7 @@ get_header();
 <section class="profiles">
 	<div class="row">
 		<div class="small-12 columns">
-			<h2 class="text-center">The Thrive/Strive Crew</h2>
+			<h2 class="text-center"><em>The Thrive/Strive Crew</em></h2>
 		</div>
 		<div class="small-12 large-4 columns">
 			<div class="profile">
@@ -55,7 +55,7 @@ get_header();
 <section class="sections">
 	<div class="row">
 		<div class="small-12 columns">
-			<h2 class="text-center">What We Talk About</h2>
+			<h2 class="text-center"><em>What We Talk About</em></h2>
 		</div>
 		<div class="small-12 large-6 columns">
 			<div class="section-box">
