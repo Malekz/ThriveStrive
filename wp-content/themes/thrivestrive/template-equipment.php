@@ -8,14 +8,14 @@ Template Name: E-book Equipment
 	<section class="hero">
 		<div class="row">
 			<div class="small-12 columns">
-				<h2>Guide to Gym Equipment</h2>
+				<h1>Guide to Gym Equipment</h1>
 			</div>
 		</div>
 	</section>
 
 	<section class="article">
 		<div class="row">
-			<div class="small-12 large-centered columns">
+			<div class="image small-12 large-centered columns">
 				<img src="">Photo of book cover
 			</div>
 		</div>
@@ -29,6 +29,7 @@ Template Name: E-book Equipment
 				<p>Do you need to learn how to use everything you may see in the gym?</p>
 				<p>Do you even know what you should expect to see when you walk in the gym?</p>
 				<p>Do you know how to properly use each piece of gym equipment?</p>
+				<p>This e-book will explain how to use the most common gym equipment you will run into. It will also explain some exercises that you can use while you are at the gym with specific details on proper technique.</p>
 			</div>
 
 			<div class="small-12 large-6 columns text-center">
@@ -38,7 +39,7 @@ Template Name: E-book Equipment
 						<p>We are normal people here at ThriveStrive and can relate to you!</p>
 						<input class="text-center" type="text" name="email" value="Email Address"></input>	
 					</label>
-						<button class="large button" type="submit">Subscribe</button>
+						<button class="expanded button" type="submit">Subscribe</button>
 				</form>
 	</section>
 
