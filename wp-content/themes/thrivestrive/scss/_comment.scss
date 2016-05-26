@@ -1,0 +1,14 @@
+.comments {
+	padding: 2rem 1rem;
+	background-color: $red;
+	color: $white;
+	h2 {
+		color: $yellow;
+		font-style: italic;
+		font-family: $body-font-family;
+	}
+	.comment-box {
+		padding: 2rem;
+		background-color: $white;
+	}
+}

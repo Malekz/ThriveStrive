@@ -8,7 +8,9 @@ Template Name: Contact
 	<section class="hero">
 		<div class="row">
 			<div class="small-12 columns">
-				<h1>Contact Us</h1>
+				<div class="title-box">
+					<h1>Contact Us</h1>
+				</div>
 			</div>
 		</div>
 	</section>

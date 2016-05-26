@@ -9,7 +9,9 @@ Template Name: Articles
 <section class="hero">
 	<div class="row">
 		<div class="small-12 columns">
-			<h1>Articles</h1>
+			<div class="title-box">
+				<h1>Never Stop Improving</h1>
+			</div>
 		</div>
 	</div>
 </section>
@@ -26,7 +28,9 @@ Template Name: Articles
 
 				<!-- the loop -->
 				<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-					<li><a href="<?php the_permalink(); ?>"><span><?php the_title(); ?></span></a><br><?php the_excerpt();?></li>
+					<?php $pinterest = get_field('pinterest'); ?>
+					
+					<li><a href="<?php the_permalink(); ?>"><img title="<?php the_title(); ?>" alt="<?php the_title();?>" src="<?php echo $pinterest; ?>"></a></li>
 				<?php endwhile; ?>
 				<!-- end of the loop -->
 

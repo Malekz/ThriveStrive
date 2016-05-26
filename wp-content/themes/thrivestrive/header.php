@@ -12,9 +12,15 @@
 		<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 		<?php wp_head(); ?>
 		<script src="https://use.typekit.net/hbz7aio.js"></script>
-		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<script>try{Typekit.load();}catch(e){}</script>
+		<script src="https://use.fontawesome.com/d0cd269dfc.js"></script>
 	</head>
 	<body>
+		<script
+		    type="text/javascript"
+		    async defer
+		    src="//assets.pinterest.com/js/pinit.js"
+		></script>
 		<div class="title-bar" data-responsive-toggle="thrive-menu" data-hide-for="medium">
 			<button class="menu-icon" type="button" data-toggle></button>
 			<div class="title-bar-title">Thrive/Strive</div>
@@ -25,7 +31,7 @@
 		    		<li class="logo hide-for-small-only"><a href="/"><img data-pin-nopin="true" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/22132355/logo-white-square.png"></a></li>
 			      	<li class="menu-text hide-for-small-only"><a href="/">Thrive/Strive</a></li>
 			      	<li><a href="/start">Start Here</a></li>
-			      	<li><a href="/articles">Articles</a></li>
+			      	<li><a href="/library">Library</a></li>
 			      	<li><a href="/about">About</a></li>
 			      	<li><a href="/resources">Resources</a></li>
 		    	</ul>

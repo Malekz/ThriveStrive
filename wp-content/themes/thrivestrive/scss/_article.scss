@@ -49,12 +49,17 @@
 	}
 
 	.articles-list {
+		max-width: 100%;
 		li {
+			float: left;
 			margin-bottom: 2rem;
-			padding-bottom: 2rem;
-			border-bottom: 1px solid $light-gray;
-			&:last-child {
-				border-bottom: none;
+			@include breakpoint(large) {
+				width: 19%;
+				margin-right: 1%;
+			}
+			img {
+				padding: rem-calc(10);
+				border: 1px solid $light-gray;
 			}
 		}
 		a span {

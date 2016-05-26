@@ -6,14 +6,16 @@
 	@include breakpoint (small only) {
 		padding: 2rem 1rem;
 	}
+	div.title-box {
+		border: 3px double $white;
+		padding: 3rem 1rem;
+	}
 	h1 {
 		color: $white;
 		line-height: 1;
 		margin-bottom: 0;
 		font-size: 2rem;
-		border: 3px solid $white;
 		font-weight: 100;
-		padding: 3rem 1rem;
 		@include breakpoint (large) {
 			font-size: 4rem;
 		}
@@ -35,9 +37,8 @@
 	.subheader {
 		color: rgba($white, 1);
 		line-height: 1.2;
-		margin-top: 1rem;
-		padding-top: 1rem;
-		margin-bottom: 0;
+		font-family: $body-font-family;
+		font-style: italic;
 	}
 	.callout {
 		border-width: 5px;
