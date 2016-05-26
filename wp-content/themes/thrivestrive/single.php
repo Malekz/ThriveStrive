@@ -12,7 +12,7 @@ get_header();
 	$title = get_the_title();
 
 ?>
-<section class="hero" style="<?php if($image != '') { ?> background: linear-gradient(90deg, rgba(51,51,51, 0.75) 10%, rgba(51,51,51, 0.75) 90%), url('<?php echo $image['url']; ?>') no-repeat fixed center;background-size: cover;" <?php } ?>">
+<section class="hero" style="<?php if($image != '') { ?> background: linear-gradient(90deg, rgba(255,104,107, 0.75) 10%, rgba(132,220,198, 0.75) 90%), url('<?php echo $image['url']; ?>') no-repeat fixed center;background-size: cover;" <?php } ?>">
 	<div class="row">
 		<div class="small-12 columns">
 			<div class="title-box">
