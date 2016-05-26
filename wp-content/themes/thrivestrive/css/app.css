@@ -198,6 +198,9 @@ h2 em {
     margin-bottom: 1.5rem;
     font-style: italic;
     padding-bottom: 1px; }
+  .article .pull-quote {
+    border: 3px double #e6e6e6;
+    padding: 1rem 1rem 0; }
   .article .pull-quote p {
     font-size: 1.2rem;
     text-align: center; }
