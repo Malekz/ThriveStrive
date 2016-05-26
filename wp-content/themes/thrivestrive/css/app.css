@@ -191,11 +191,15 @@ h2 em {
     margin-top: 0;
     text-align: center; }
   .article blockquote {
+    max-width: 35rem;
+    border-width: 3px;
     margin-left: auto;
     margin-right: auto;
-    font-style: italic; }
-    .article blockquote p {
-      max-width: 32rem; }
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    padding-bottom: 1px; }
+  .article .pull-quote p {
+    font-size: 1.2rem; }
   .article iframe {
     margin-bottom: 1rem;
     margin-left: auto !important;

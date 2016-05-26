@@ -101,12 +101,17 @@
 	}
 
 	blockquote {
+		max-width: 35rem;
+		border-width: 3px;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 1.5rem;
 		font-style: italic;
-		p {
-			max-width: 32rem;
-		}
+		padding-bottom: 1px;
+	}
+
+	.pull-quote p {
+		font-size: rem-calc(24);
 	}
 
 	iframe {
