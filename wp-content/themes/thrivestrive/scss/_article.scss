@@ -7,6 +7,12 @@
 		}
 	}
 
+	h2 {
+		@include breakpoint (large) {
+			font-size: 3rem;
+		}
+	}
+
 	p, li {
 		@include breakpoint (medium only) {
 			font-size: rem-calc(18);
