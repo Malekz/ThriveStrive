@@ -3,7 +3,9 @@
 <section class="hero <?php printf( strtolower(single_cat_title( '', false ) )); ?>">
 	<div class="row">
 		<div class="small-12 columns">
-			<h1><?php printf( single_cat_title( '', false ) ); ?></h1>
+			<div class="title-box">
+				<h1><?php printf( single_cat_title( '', false ) ); ?></h1>
+			</div>
 		</div>
 	</div>
 </section>
