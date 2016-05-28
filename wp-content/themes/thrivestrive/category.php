@@ -10,12 +10,15 @@
 <section class="article">
 	<div class="row">
 		<div class="small-12 columns">
+			<ul class="articles-list no-bullet">
 			<?php while ( have_posts() ) : the_post(); ?>
-				<div class="article-box">
-					<h2 class="text-center"><a href="<?php echo the_permalink();?>"><?php echo the_title(); ?></a></h2>
-					<?php the_excerpt(); ?>
-				</div>
+					<?php $pinterest = get_field('pinterest'); ?>
+					
+					<li><a href="<?php the_permalink(); ?>"><img title="<?php the_title(); ?>" alt="<?php the_title();?>" src="<?php echo $pinterest; ?>"></a></li>
+				<!-- end of the loop -->
+
 			<?php endwhile; ?>
+			</ul>
 		</div>
 	</div>
 </section>
