@@ -1,11 +1,12 @@
 .sections {
 	padding: 2rem 0 1rem;
 	border-top: 1px solid $light-gray;
+	background-color: $smoke;
 	h2 {
-		color: $white;
+		color: $slate;
 	}
 	.section-box {
-		background-color: $green;		
+		background-color: $blue;		
 		border: 5px solid $white;
 		a {
 			display: block;

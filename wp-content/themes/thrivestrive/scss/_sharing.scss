@@ -1,12 +1,14 @@
 .sharing {
-	background-color: $blue;
-	color: $white;
+	background-color: $smoke;
+	color: $slate;
 	padding: 2rem 0;
 	h2 {
 		line-height: 1.2;
 		margin-bottom: 2rem;
 		border: 3px double $white;
 		padding: 2rem;
+		background-color: $blue;
+		color: $white;
 	}
 	img {
 		padding: rem-calc(10);
@@ -16,7 +18,8 @@
 
 	a.button {
 		background-color: $white;
-		color: $red;
+		border: 3px double $blue;
+		color: $blue;
 		margin-bottom: 0;
 		&:hover {
 			color: $oil;

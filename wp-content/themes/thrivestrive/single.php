@@ -59,7 +59,7 @@ get_header();
 		<div class="small-12 columns">
 			<h2 class="text-center"><?php if($question == '') { echo 'Join the Discussion'; } else { echo $question; }?></h2>
 		</div>
-		<div class="small-12 large-8 large-offset-2 columns end">
+		<div class="small-12  columns end">
 			<div class="comment-box">
 				<div id="disqus_thread"></div>
 				<script>

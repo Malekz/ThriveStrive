@@ -70,6 +70,7 @@ $mint: #88D3AB;
 $blue: #7ACED6;
 $pink: #FF3D7F;
 $yellow: #FFF464;
+$orange: #FF8800;
 
 $ghost: #FAFAFA;
 
@@ -155,7 +156,7 @@ $code-font-weight: $global-weight-normal;
 $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
-$anchor-color: $red;
+$anchor-color: $pink;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;

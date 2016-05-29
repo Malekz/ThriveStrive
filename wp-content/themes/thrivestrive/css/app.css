@@ -67,8 +67,8 @@ body {
     background-color: #DD1F26; }
 
 .hero {
-  padding: 4rem 0 5rem;
-  background-color: #7ACED6;
+  padding: 5rem 0 5rem;
+  background: #7ACED6 url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/29194142/background.jpg") repeat;
   text-align: center; }
   @media screen and (max-width: 39.9375em) {
     .hero {
@@ -109,7 +109,7 @@ body {
 
 .profiles {
   padding: 2rem 0;
-  background-color: #84DCC6; }
+  background: #7ACED6 url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/29194142/background.jpg") repeat; }
   .profiles h2 {
     color: #fefefe; }
   .profiles .profile {
@@ -121,17 +121,23 @@ body {
         margin-bottom: 2rem; }
         .profiles .profile h3 {
           font-size: 1.5rem; } }
+    .profiles .profile a {
+      color: #FF8800; }
     .profiles .profile .profile-hero {
       margin-bottom: 1rem; }
     .profiles .profile p {
       font-size: 0.8rem; }
   .profiles .callout {
     border-width: 5px;
-    border-color: #5cd1b4; }
+    border-color: #53c0ca; }
 
 .article {
   padding: 2rem 0;
   background-color: #fefefe; }
+  .article a {
+    border-bottom: 1px solid #FF3D7F; }
+    .article a:hover {
+      border-color: #fefefe; }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .article h1 {
       font-size: 3rem; } }
@@ -166,7 +172,7 @@ body {
     margin-bottom: 2rem;
     border-bottom: 1px solid #e6e6e6; }
   .article strong {
-    background-color: #DD1F26;
+    background-color: #434B4F;
     color: #fefefe;
     padding-left: 0.25rem;
     padding-right: 0.25rem; }
@@ -179,9 +185,6 @@ body {
         .article .articles-list li {
           width: 19%;
           margin-right: 1%; } }
-      .article .articles-list li img {
-        padding: 0.5rem;
-        border: 1px solid #e6e6e6; }
     .article .articles-list a span {
       font-size: 1.2rem;
       font-weight: 900; }
@@ -221,11 +224,12 @@ body {
 
 .sections {
   padding: 2rem 0 1rem;
-  border-top: 1px solid #e6e6e6; }
+  border-top: 1px solid #e6e6e6;
+  background-color: #eeeeee; }
   .sections h2 {
-    color: #fefefe; }
+    color: #434B4F; }
   .sections .section-box {
-    background-color: #84DCC6;
+    background-color: #7ACED6;
     border: 5px solid #fefefe;
     margin-bottom: 1rem; }
     .sections .section-box a {
@@ -278,21 +282,24 @@ footer {
 	background-size: cover;
 }*/
 .sharing {
-  background-color: #7ACED6;
-  color: #fefefe;
+  background-color: #eeeeee;
+  color: #434B4F;
   padding: 2rem 0; }
   .sharing h2 {
     line-height: 1.2;
     margin-bottom: 2rem;
     border: 3px double #fefefe;
-    padding: 2rem; }
+    padding: 2rem;
+    background-color: #7ACED6;
+    color: #fefefe; }
   .sharing img {
     padding: 0.5rem;
     background-color: #fefefe;
     margin-bottom: 2rem; }
   .sharing a.button {
     background-color: #fefefe;
-    color: #DD1F26;
+    border: 3px double #7ACED6;
+    color: #7ACED6;
     margin-bottom: 0; }
     .sharing a.button:hover {
       color: #333333; }
@@ -1590,12 +1597,12 @@ h6 {
     font-size: 0.8rem; } }
 
 a {
-  color: #DD1F26;
+  color: #FF3D7F;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #be1b21; }
+    color: #ff1162; }
   a img {
     border: 0; }
 
@@ -2591,7 +2598,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: #DD1F26 transparent transparent;
+  border-color: #FF3D7F transparent transparent;
   border-top-style: solid;
   border-bottom-width: 0;
   right: 5px;
@@ -2624,7 +2631,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent #DD1F26 transparent transparent;
+  border-color: transparent #FF3D7F transparent transparent;
   border-right-style: solid;
   border-left-width: 0; }
 
@@ -2634,7 +2641,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent #DD1F26;
+  border-color: transparent transparent transparent #FF3D7F;
   border-left-style: solid;
   border-right-width: 0; }
 
@@ -2656,7 +2663,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #DD1F26 transparent transparent;
+    border-color: #FF3D7F transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -2678,7 +2685,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #DD1F26 transparent transparent;
+    border-color: transparent #FF3D7F transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .dropdown.menu.medium-vertical > li.opens-right > a::after {
@@ -2687,7 +2694,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #DD1F26;
+    border-color: transparent transparent transparent #FF3D7F;
     border-left-style: solid;
     border-right-width: 0; } }
 
@@ -2709,7 +2716,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #DD1F26 transparent transparent;
+    border-color: #FF3D7F transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -2731,7 +2738,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #DD1F26 transparent transparent;
+    border-color: transparent #FF3D7F transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .dropdown.menu.large-vertical > li.opens-right > a::after {
@@ -2740,7 +2747,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #DD1F26;
+    border-color: transparent transparent transparent #FF3D7F;
     border-left-style: solid;
     border-right-width: 0; } }
 
@@ -2785,7 +2792,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #DD1F26 transparent transparent;
+    border-color: transparent #FF3D7F transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
@@ -2794,7 +2801,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #DD1F26;
+    border-color: transparent transparent transparent #FF3D7F;
     border-left-style: solid;
     border-right-width: 0; }
   .is-dropdown-submenu .is-dropdown-submenu {
