@@ -28,7 +28,6 @@
 		<div class="top-bar" id="thrive-menu">
 		  	<div class="top-bar-left">
 		    	<ul class="vertical medium-horizontal menu" data-responsive-menu="medium-dropdown">
-		    		<li class="logo hide-for-small-only"><a href="/"><img data-pin-nopin="true" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/22132355/logo-white-square.png"></a></li>
 			      	<li class="menu-text hide-for-small-only"><a href="/">Thrive/Strive</a></li>
 			      	<li><a href="/start">Start Here</a></li>
 			      	<li><a href="/library">Library</a></li>

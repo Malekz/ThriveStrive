@@ -55,24 +55,26 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #ec5840,
 );
+$smoke: #F1EFEE;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$slate: #5D737E;
+$slate: #434B4F;
 $black: #0a0a0a;
 $oil: #333333;
 $white: #fefefe;
 $smoke: #eeeeee;
-$red: #FF686B;
+$red: #DD1F26;
 $green: #84DCC6;
 $mint: #88D3AB;
-$blue: #02779E;
+$blue: #7ACED6;
+$pink: #FF3D7F;
 $yellow: #FFF464;
 
 $ghost: #FAFAFA;
 
 
-$body-background: $white;
+$body-background: oil;
 $body-font-color: $oil;
 $body-font-family: 'adelle', serif;
 $body-font-sans-serif: 'proxima-nova', sans-serif;
@@ -573,7 +575,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 1rem 0.5rem;
-$topbar-background: $white;
+$topbar-background: $smoke;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;

@@ -1,5 +1,6 @@
 .article {
 	padding: 2rem 0;
+	background-color: $white;
 
 	h1 {
 		@include breakpoint (medium only) {
@@ -46,7 +47,10 @@
 	}
 
 	strong {
-		background-color: $green;
+		background-color: $red;
+		color: $white;
+		padding-left: rem-calc(5);
+		padding-right: rem-calc(5);
 	}
 
 	.articles-list {

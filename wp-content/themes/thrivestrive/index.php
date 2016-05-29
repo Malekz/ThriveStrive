@@ -4,9 +4,7 @@ get_header();
 <section class="hero fitness">
 	<div class="row">
 		<div class="small-12 columns">
-			<div class="title-box">
-				<h1>We aren&rsquo;t Instagram fitness heroes. We are just normals trying to get better. Together.</h1>
-			</div>
+			<h1>We aren&rsquo;t Instagram fitness heroes. We are just normals trying to get better. Together.</h1>
 		</div>
 	</div>
 </section>
