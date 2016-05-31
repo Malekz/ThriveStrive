@@ -52,10 +52,11 @@ body {
   padding: 0.35rem 0.5rem 0.25rem;
   font-size: 1.6rem;
   border: 3px double #7ACED6;
-  color: #7ACED6; }
+  color: #7ACED6;
+  background-color: #fefefe; }
   .top-bar .menu-text a:hover {
     color: #7ACED6;
-    background-color: #fefefe; }
+    background-color: #eeeeee; }
 
 .top-bar img {
   max-width: 2.7rem;

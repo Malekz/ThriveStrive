@@ -44,9 +44,10 @@
 		font-size: rem-calc(32);
 		border: 3px double $blue;
 		color: $blue;
+		background-color: $white;
 		&:hover {
 			color: $blue;
-			background-color: $white;
+			background-color: $smoke;
 		}
 	}
 
