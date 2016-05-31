@@ -60,4 +60,14 @@
 			background-color: $red;
 		}
 	}
+	.top-bar-right {
+		margin-top: 10px;
+	}
+	form .input-group {
+		margin-bottom: 0;
+	}
+	form input.button {
+		height: 40px;
+		padding: rem-calc(10);
+	}
 }

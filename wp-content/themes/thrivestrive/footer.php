@@ -1,7 +1,7 @@
 		<footer>
 			<div class="row">
 				<div class="small-12 columns">
-					<p>&copy;<?php echo date('Y');?> <a href="https://theprinciple.co">The Principle Co.</a> | Custom WordPress Theme Development by <a href="https://sproutkit.com?ref=thrivestrive">SproutKit</a></p>
+					<p>&copy;<?php echo date('Y');?> <a href="https://theprinciple.co">The Principle Co.</a> | <a href="https://sproutkit.com?ref=thrivestrive">Custom WordPress Theme Development</a> by SproutKit</p>
 				</div>
 			</div>
 		</footer>

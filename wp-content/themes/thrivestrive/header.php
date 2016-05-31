@@ -21,18 +21,32 @@
 		    async defer
 		    src="//assets.pinterest.com/js/pinit.js"
 		></script>
-		<div class="title-bar" data-responsive-toggle="thrive-menu" data-hide-for="medium">
+		<div class="title-bar" data-responsive-toggle="thrive-menu" data-hide-for="large">
 			<button class="menu-icon" type="button" data-toggle></button>
 			<div class="title-bar-title">Thrive/Strive</div>
 		</div>
 		<div class="top-bar" id="thrive-menu">
 		  	<div class="top-bar-left">
-		    	<ul class="vertical medium-horizontal menu" data-responsive-menu="medium-dropdown">
-			      	<li class="menu-text hide-for-small-only"><a href="/">Thrive/Strive</a></li>
+		    	<ul class="vertical large-horizontal menu" data-responsive-menu="large-dropdown">
+			      	<li class="menu-text hide-for-small-only hide-for-medium-only"><a href="/">Thrive/Strive</a></li>
 			      	<li><a href="/start">Start Here</a></li>
 			      	<li><a href="/library">Library</a></li>
 			      	<li><a href="/about">About</a></li>
 			      	<li><a href="/resources">Resources</a></li>
 		    	</ul>
 		 	 </div>
+		 	<div class="top-bar-right">
+		 		<ul class="menu">
+		 			<li>
+				 		<form role="search" method="get" id="searchform" class="searchform" action="/">
+				 			<div class="input-group">
+				 			  	<input class="input-group-field" type="text" name="s" id="s">
+				 			  	<div class="input-group-button">
+				 			    	<input type="submit" class="button" value="Search">
+				 			  	</div>
+				 			</div>
+				 		</form>
+				 	</li>
+				</ul>
+		 	</div>
 		</div>	
