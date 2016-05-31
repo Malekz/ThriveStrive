@@ -48,11 +48,33 @@ get_header();
 		</div>
 	</div>
 </section>
-<section class="article">
+<section class="article slate">
 	<div class="row">
 		<div class="small-12 columns">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, officiis, aliquam! Quasi beatae natus, deserunt maxime. Odio dicta impedit incidunt, aliquid enim aperiam quia quod ipsum voluptatem sed, totam recusandae.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto commodi itaque deserunt obcaecati iusto, eaque saepe placeat molestias dignissimos neque voluptatum totam ea facere quidem consectetur et officia nobis.</p>
+			<h2 class="text-center">Ready to Dive In?</h2>
+			<?php 
+			// the query
+			$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
+
+			<?php if ( $wpb_all_query->have_posts() ) : ?>
+
+			<ul class="articles-list no-bullet">
+
+				<!-- the loop -->
+				<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+					<?php $pinterest = get_field('pinterest'); ?>
+					
+					<li><a href="<?php the_permalink(); ?>"><img title="<?php the_title(); ?>" alt="<?php the_title();?>" src="<?php echo $pinterest; ?>"></a></li>
+				<?php endwhile; ?>
+				<!-- end of the loop -->
+
+			</ul>
+
+				<?php wp_reset_postdata(); ?>
+
+			<?php else : ?>
+				<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+			<?php endif; ?>
 		</div>
 	</div>
 </section>
