@@ -76,7 +76,7 @@ get_header();
 			    $cat_posts = get_posts($args);
 			    $out='';
 			    foreach($cat_posts as $cat_post) {
-			      	$pinterest = get_post_meta($cat_post->ID, 'pinterest', true);
+			      	$pinterest = get_field('pinterest', $cat_post->ID);
 			        $out .= '<li>';
 			        $out .=  '<a href="'.get_permalink($cat_post->ID).'" title="'.wptexturize($cat_post->post_title).'"><img title="'.$cat_post->post_title.'" alt="'.$cat_post->post_title.'" src="'.$pinterest.'"></a></li>';
 			    }
