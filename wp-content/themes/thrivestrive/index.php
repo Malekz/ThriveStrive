@@ -27,21 +27,21 @@ get_header();
 		</div>
 		<div class="small-12 large-4 columns">
 			<div class="profile">
-				<div class="profile-hero"><img src="http://placehold.it/400x600"></div>
+				<div class="profile-hero"><a href="/elisa"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/31174041/elisa1.jpg"></a></div>
 				<h3 class="text-center"><a href="/elisa">Elisa</a></h3>
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aliquam, alias repellat ipsam dolorem, sed voluptatum magnam, voluptates incidunt libero officia tempore suscipit impedit natus a quae laborum architecto. Quo!</p>
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
 			<div class="profile">
-				<div class="profile-hero"><img src="http://placehold.it/400x600"></div>
+				<div class="profile-hero"><a href="/paul"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/31174046/paul1.jpg"></a></div>
 				<h3 class="text-center"><a href="/paul">Paul</a></h3>
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aliquam, alias repellat ipsam dolorem, sed voluptatum magnam, voluptates incidunt libero officia tempore suscipit impedit natus a quae laborum architecto. Quo!</p>
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
 			<div class="profile">
-				<div class="profile-hero"><img src="http://placehold.it/400x600"></div>
+				<div class="profile-hero"><a href="stephen"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/31174051/stephen1.jpg"></a></div>
 				<h3 class="text-center"><a href="/stephen">Stephen</a></h3>
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aliquam, alias repellat ipsam dolorem, sed voluptatum magnam, voluptates incidunt libero officia tempore suscipit impedit natus a quae laborum architecto. Quo!</p>
 			</div>
