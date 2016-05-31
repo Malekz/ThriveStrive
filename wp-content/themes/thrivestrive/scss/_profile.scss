@@ -9,6 +9,13 @@
 		border: 1px solid $light-gray;
 		padding: 10px;
 		background-color: $white;
+		h3 {
+			margin-bottom: 0;
+		}
+		h4 {
+			margin: 0 0 1rem;
+			font-family: $body-font-family;
+		}
 		@include breakpoint(medium down) {
 			margin-bottom: 2rem;
 			h3 {

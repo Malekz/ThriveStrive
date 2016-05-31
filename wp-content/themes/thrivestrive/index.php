@@ -27,22 +27,25 @@ get_header();
 		</div>
 		<div class="small-12 large-4 columns">
 			<div class="profile">
-				<div class="profile-hero"><a href="/elisa"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/31174041/elisa1.jpg"></a></div>
+				<div class="profile-hero"><a href="/elisa"><img data-pin-nopin="true" alt="Elisa Scrivens" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/31191014/elisa2.jpg"></a></div>
 				<h3 class="text-center"><a href="/elisa">Elisa</a></h3>
+				<h4 class="text-center subheader"><em>The Wife</em></h4>
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aliquam, alias repellat ipsam dolorem, sed voluptatum magnam, voluptates incidunt libero officia tempore suscipit impedit natus a quae laborum architecto. Quo!</p>
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
 			<div class="profile">
-				<div class="profile-hero"><a href="/paul"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/31174046/paul1.jpg"></a></div>
+				<div class="profile-hero"><a href="/paul"><img data-pin-nopin="true" alt="Paul Scrivens" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/31191022/paul2.jpg"></a></div>
 				<h3 class="text-center"><a href="/paul">Paul</a></h3>
+				<h4 class="text-center subheader"><em>The Husband</em></h4>
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aliquam, alias repellat ipsam dolorem, sed voluptatum magnam, voluptates incidunt libero officia tempore suscipit impedit natus a quae laborum architecto. Quo!</p>
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
 			<div class="profile">
-				<div class="profile-hero"><a href="stephen"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/31174051/stephen1.jpg"></a></div>
+				<div class="profile-hero"><a href="stephen"><img data-pin-nopin="true" alt="Stephen Scrivens" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/31191018/stephen2.jpg"></a></div>
 				<h3 class="text-center"><a href="/stephen">Stephen</a></h3>
+				<h4 class="text-center subheader"><em>The Little Brother</em></h4>
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aliquam, alias repellat ipsam dolorem, sed voluptatum magnam, voluptates incidunt libero officia tempore suscipit impedit natus a quae laborum architecto. Quo!</p>
 			</div>
 		</div>
@@ -64,7 +67,7 @@ get_header();
 				<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
 					<?php $pinterest = get_field('pinterest'); ?>
 					
-					<li><a href="<?php the_permalink(); ?>"><img title="<?php the_title(); ?>" alt="<?php the_title();?>" src="<?php echo $pinterest; ?>"></a></li>
+					<li><a href="<?php the_permalink(); ?>"><img data-pin-nopin="true" title="<?php the_title(); ?>" alt="<?php the_title();?>" src="<?php echo $pinterest; ?>"></a></li>
 				<?php endwhile; ?>
 				<!-- end of the loop -->
 

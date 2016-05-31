@@ -31,7 +31,7 @@ Template Name: Articles
 				<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
 					<?php $pinterest = get_field('pinterest'); ?>
 					
-					<li><a href="<?php the_permalink(); ?>"><img title="<?php the_title(); ?>" alt="<?php the_title();?>" src="<?php echo $pinterest; ?>"></a></li>
+					<li><a href="<?php the_permalink(); ?>"><img data-pin-nopin="true" title="<?php the_title(); ?>" alt="<?php the_title();?>" src="<?php echo $pinterest; ?>"></a></li>
 				<?php endwhile; ?>
 				<!-- end of the loop -->
 
