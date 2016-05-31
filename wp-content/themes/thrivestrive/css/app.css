@@ -222,6 +222,18 @@ body {
     margin-left: auto !important;
     margin-right: auto !important; }
 
+.slate {
+  background-color: #434B4F;
+  padding: 1rem 0 2rem; }
+  .slate h2 {
+    color: #fefefe;
+    font-style: italic;
+    font-family: "adelle", serif; }
+  .slate .articles-list a {
+    border: none; }
+  .slate .articles-list img {
+    border: 5px solid #fefefe; }
+
 .sections {
   padding: 2rem 0 1rem;
   border-top: 1px solid #e6e6e6;

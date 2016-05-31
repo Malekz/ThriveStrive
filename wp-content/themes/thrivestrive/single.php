@@ -54,7 +54,7 @@ get_header();
 		</div>
 	</div>
 </section>
-<section class="article">
+<section class="article slate">
 	<div class="row">
 		<div class="small-12 columns">
 			<h2 class="text-center">More Great Content on Thrive/Strive</h2>
