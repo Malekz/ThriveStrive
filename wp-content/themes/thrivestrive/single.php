@@ -58,6 +58,31 @@ get_header();
 	<div class="row">
 		<div class="small-12 columns">
 			<h2 class="text-center">More Great Content on Thrive/Strive</h2>
+			<?php
+			global $post;
+			$cat_ID=array();
+			$categories = get_the_category(); //get all categories for this post
+			  foreach($categories as $category) {
+			    array_push($cat_ID,$category->cat_ID);
+			  }
+			  $args = array(
+			  'orderby' => 'date',
+			  'order' => 'DESC',
+				'post_type' => 'post',
+				'numberposts' => 8,
+				'post__not_in' => array($post->ID),
+				'category__in' => $cat_ID
+			  ); // post__not_in will exclude the post we are displaying
+			    $cat_posts = get_posts($args);
+			    $out='';
+			      foreach($cat_posts as $cat_post) {
+			      		$pinterest = get_field('pinterest');
+			          $out .= '<li>';
+			          $out .=  '<a href="'.get_permalink($cat_post->ID).'" title="'.wptexturize($cat_post->post_title).'"><img title="'.$cat_post->post_title.'" alt="'.$cat_post->post_title.'" src="'.$pinterest.'"></a></li>';
+			      }
+			    $out = '<ul class="articles-list no-bullet">' . $out . '</ul>';
+			    echo $out;
+			?>
 		</div>
 	</div>
 </section>
