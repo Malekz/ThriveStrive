@@ -4,8 +4,8 @@
 	margin-left: auto !important;
 	margin-right: auto !important;
 	color: $oil !important;
-	border-top-color: $red !important;
-	border-bottom-color: $green !important;
+	border-top-color: $blue !important;
+	border-bottom-color: $blue !important;
 	font-family: $body-font-sans-serif !important;
 	.ck_description p {
 		font-weight: $global-weight-normal !important;
@@ -20,7 +20,7 @@
 	}
 
 	.ck_subscribe_button {
-		background: $red !important;
+		background: $orange !important;
 		border-radius: $global-radius !important;
 		font-weight: $global-weight-bold !important;
 	}

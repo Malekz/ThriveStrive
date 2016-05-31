@@ -12,7 +12,7 @@ get_header();
 	$title = get_the_title();
 
 ?>
-<section class="hero" style="<?php if($image != '') { ?> background: linear-gradient(90deg, rgba(255,104,107, 0.75) 10%, rgba(132,220,198, 0.75) 90%), url('<?php echo $image['url']; ?>') no-repeat fixed center;background-size: cover;" <?php } ?>">
+<section class="hero">
 	<div class="row">
 		<div class="small-12 columns">
 			<div class="title-box">
@@ -32,7 +32,7 @@ get_header();
 <section class="sharing">
 	<div class="row">
 		<div class="small-12 columns">
-			<h2 class="text-center">You don&rsquo;t get what you don&rsquo;t ask for so I&rsquo;m asking you to take a second to share <em><?php the_title(); ?></em> with your audience.</h2>
+			<h2 class="text-center">Enjoyed <em><?php the_title(); ?></em>? Share it with your friends so they to can follow the Thrive/Strive journey.</h2>
 		</div>
 		<div class="small-12 large-6 <?php if($pinterest == '') echo 'large-offset-3 end'; ?> columns">
 			<h3><a data-url="<?php the_permalink();?>" data-via="thrivesite" href="https://twitter.com/intent/tweet?text=<?php echo urlencode($title); ?>&url=<?php the_permalink();?>&via=thrivesite" class="button"><i class="fa fa-twitter"></i> Share on Twitter</a></h3>
@@ -50,7 +50,14 @@ get_header();
 			</div>
 		<?php endif;?>
 		<div class="small-12 columns">
-			<h2 class="text-center">Shared <em><?php the_title(); ?></em> with your posse? Awesome! Thanks so much. Now why don&rsquo;t you join the discussion below?<br><i class="fa fa-arrow-down"></i></h2>
+			<h2 class="text-center">Shared <em><?php the_title(); ?></em> with every single person you know? Awesome! We love you even more. Now, why don&rsquo;t you join the discussion below?<br><i class="fa fa-arrow-down"></i></h2>
+		</div>
+	</div>
+</section>
+<section class="article">
+	<div class="row">
+		<div class="small-12 columns">
+			<h2 class="text-center">More Great Content on Thrive/Strive</h2>
 		</div>
 	</div>
 </section>

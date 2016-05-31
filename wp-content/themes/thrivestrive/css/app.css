@@ -314,8 +314,8 @@ footer {
   margin-left: auto !important;
   margin-right: auto !important;
   color: #333333 !important;
-  border-top-color: #DD1F26 !important;
-  border-bottom-color: #84DCC6 !important;
+  border-top-color: #7ACED6 !important;
+  border-bottom-color: #7ACED6 !important;
   font-family: "proxima-nova", sans-serif !important; }
   .ck_form .ck_description p {
     font-weight: 400 !important; }
@@ -325,7 +325,7 @@ footer {
   .ck_form .ck_control_group input {
     border-radius: 3px !important; }
   .ck_form .ck_subscribe_button {
-    background: #DD1F26 !important;
+    background: #FF8800 !important;
     border-radius: 3px !important;
     font-weight: 900 !important; }
   .ck_form .ck_guarantee {
