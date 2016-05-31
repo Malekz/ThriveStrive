@@ -11,6 +11,7 @@ Template Name: Articles
 		<div class="small-12 columns">
 			<div class="title-box">
 				<h1>Never Stop Improving</h1>
+				<h2 class="subheader">The Full Thrive/Strive Collection</h2>
 			</div>
 		</div>
 	</div>
