@@ -10,6 +10,7 @@ Template Name: Profile
 	<div class="row">
 		<div class="small-12 columns">
 			<div class="title-box">
+				<h2 class="subheader">The Story of</h2>
 				<?php the_title( '<h1 class="entry-title text-center">', '</h1>' ); ?>
 			</div>
 		</div>
