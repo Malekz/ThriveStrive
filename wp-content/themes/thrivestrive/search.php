@@ -19,7 +19,7 @@ get_header(); ?>
 				 */
 				$pinterest = get_field('pinterest');
 				?>
-				<li><a href="<?php the_permalink(); ?>"><img title="" alt="" src="<?php echo $pinterest; ?>"></a></li>
+				<li><a href="<?php the_permalink(); ?>"><img  data-pin-nopin="true" title="" alt="" src="<?php echo $pinterest; ?>"></a></li>
 				<?php
 			// End the loop.
 			endwhile;

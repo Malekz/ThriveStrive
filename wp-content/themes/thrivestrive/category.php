@@ -16,7 +16,7 @@
 			<?php while ( have_posts() ) : the_post(); ?>
 					<?php $pinterest = get_field('pinterest'); ?>
 					
-					<li><a href="<?php the_permalink(); ?>"><img title="<?php the_title(); ?>" alt="<?php the_title();?>" src="<?php echo $pinterest; ?>"></a></li>
+					<li><a href="<?php the_permalink(); ?>"><img  data-pin-nopin="true" title="<?php the_title(); ?>" alt="<?php the_title();?>" src="<?php echo $pinterest; ?>"></a></li>
 				<!-- end of the loop -->
 
 			<?php endwhile; ?>
