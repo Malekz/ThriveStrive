@@ -234,6 +234,8 @@ body {
     margin-bottom: 1rem;
     margin-left: auto !important;
     margin-right: auto !important; }
+  .article .guerrillawrap .guerrillatext p {
+    max-width: 35rem; }
 
 .slate {
   background-color: #434B4F;
