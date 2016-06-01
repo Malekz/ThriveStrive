@@ -35,22 +35,22 @@ Template Name: Contact
 		<div class="row">
 			<div class="small-12 large-6 columns">
 				<div class="section-box">
-					<h3 class="text-center"><a href="https://twitter.com/thrivesite">Twitter</a></h3>
+					<h3 class="text-center"><a href="https://twitter.com/thrivesite"><i class="fa fa-twitter"></i> Twitter</a></h3>
 				</div>
 			</div>
 			<div class="small-12 large-6 columns">
 				<div class="section-box">
-					<h3 class="text-center"><a href="http://www.facebook.com/ThriveStrive">Facebook</a></h3>
+					<h3 class="text-center"><a href="http://www.facebook.com/ThriveStrive"><i class="fa fa-facebook"></i> Facebook</a></h3>
 				</div>
 			</div>
 			<div class="small-12 large-6 columns">
 				<div class="section-box">
-					<h3 class="text-center"><a href="https://www.pinterest.com/thrivestrive/">Pinterest</a></h3>
+					<h3 class="text-center"><a href="https://www.pinterest.com/thrivestrive/"><i class="fa fa-pinterest"></i> Pinterest</a></h3>
 				</div>
 			</div>
 			<div class="small-12 large-6 columns">
 				<div class="section-box">
-					<h3 class="text-center"><a href="https://www.instagram.com/thrivestrive/">Instagram</a></h3>
+					<h3 class="text-center"><a href="https://www.instagram.com/thrivestrive/"><i class="fa fa-instagram"></i> Instagram</a></h3>
 				</div>
 			</div>
 		</div>
