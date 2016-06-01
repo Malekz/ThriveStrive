@@ -15,8 +15,11 @@ get_header();
 <section class="article">
 	<div class="row">
 		<div class="small-12 columns">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, officiis, aliquam! Quasi beatae natus, deserunt maxime. Odio dicta impedit incidunt, aliquid enim aperiam quia quod ipsum voluptatem sed, totam recusandae.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto commodi itaque deserunt obcaecati iusto, eaque saepe placeat molestias dignissimos neque voluptatum totam ea facere quidem consectetur et officia nobis.</p>
+			<p>Each of us try to get better every single day. We try to eat better. We try to workout better. We try to live a healthier lifestyle.</p>
+			<p>It&rsquo;s hard though because doing it alone means you have to fight a lot of battles without any support.</p>
+			<p>That is why we are going to do this together.</p>
+			<p>We aren&rsquo;t trying to compete in Bikini contests or get a record Instagram modeling deal. We just want to be better for us and we are going to do that by pushing each other and making sure nobody falls behind.</p>
+			<p>Welcome to Thrive/Strive.</p>
 		</div>
 	</div>
 </section>
@@ -30,7 +33,7 @@ get_header();
 				<div class="profile-hero"><a href="/elisa"><img data-pin-nopin="true" alt="Elisa Scrivens" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/31191014/elisa2.jpg"></a></div>
 				<h3 class="text-center"><a href="/elisa">Elisa</a></h3>
 				<h4 class="text-center subheader"><em>The Wife</em></h4>
-				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aliquam, alias repellat ipsam dolorem, sed voluptatum magnam, voluptates incidunt libero officia tempore suscipit impedit natus a quae laborum architecto. Quo!</p>
+				<p class="text-center">Feisty. Beautiful. Tough. Stubborn.</p>
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
@@ -38,7 +41,7 @@ get_header();
 				<div class="profile-hero"><a href="/paul"><img data-pin-nopin="true" alt="Paul Scrivens" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/31191022/paul2.jpg"></a></div>
 				<h3 class="text-center"><a href="/paul">Paul</a></h3>
 				<h4 class="text-center subheader"><em>The Husband</em></h4>
-				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aliquam, alias repellat ipsam dolorem, sed voluptatum magnam, voluptates incidunt libero officia tempore suscipit impedit natus a quae laborum architecto. Quo!</p>
+				<p class="text-center">Shiny head. Skinny fat. Cocky. Hilarious.</p>
 			</div>
 		</div>
 		<div class="small-12 large-4 columns">
@@ -46,7 +49,7 @@ get_header();
 				<div class="profile-hero"><a href="stephen"><img data-pin-nopin="true" alt="Stephen Scrivens" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/31191018/stephen2.jpg"></a></div>
 				<h3 class="text-center"><a href="/stephen">Stephen</a></h3>
 				<h4 class="text-center subheader"><em>The Little Brother</em></h4>
-				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aliquam, alias repellat ipsam dolorem, sed voluptatum magnam, voluptates incidunt libero officia tempore suscipit impedit natus a quae laborum architecto. Quo!</p>
+				<p class="text-center">Kind. Strong. Lovable. Golden God.</p>
 			</div>
 		</div>
 	</div>
