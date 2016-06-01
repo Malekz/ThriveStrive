@@ -69,9 +69,9 @@ get_header();
 			  'orderby' => 'date',
 			  'order' => 'DESC',
 				'post_type' => 'post',
-				'numberposts' => 8,
-				'post__not_in' => array($post->ID),
-				'category__in' => $cat_ID
+				'numberposts' => 20,
+				'post__not_in' => array($post->ID)
+				//'category__in' => $cat_ID
 			  ); // post__not_in will exclude the post we are displaying
 			    $cat_posts = get_posts($args);
 			    $out='';
