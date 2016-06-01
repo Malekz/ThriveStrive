@@ -128,6 +128,9 @@
 		color: $white;
 		font-style: italic;
 		font-family: $body-font-family;
+		em {
+			color: $yellow;
+		}
 	}
 	.articles-list a {
 		border: none;
