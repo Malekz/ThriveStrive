@@ -29,10 +29,10 @@
 		  	<div class="top-bar-left">
 		    	<ul class="vertical large-horizontal menu" data-responsive-menu="large-dropdown">
 			      	<li class="menu-text hide-for-small-only hide-for-medium-only"><a href="/">Thrive/Strive</a></li>
-			      	<li><a href="/start">Start Here</a></li>
+			      	<!--<li><a href="/start">Start Here</a></li>-->
 			      	<li><a href="/library">Library</a></li>
 			      	<li><a href="/about">About</a></li>
-			      	<li><a href="/resources">Resources</a></li>
+			      	<!--<li><a href="/resources">Resources</a></li>-->
 		    	</ul>
 		 	 </div>
 		 	<div class="top-bar-right">
