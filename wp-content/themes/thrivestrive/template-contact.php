@@ -45,12 +45,12 @@ Template Name: Contact
 			</div>
 			<div class="small-12 large-6 columns">
 				<div class="section-box">
-					<h3 class="text-center"><a href="">Pinterest</a></h3>
+					<h3 class="text-center"><a href="https://www.pinterest.com/thrivestrive/">Pinterest</a></h3>
 				</div>
 			</div>
 			<div class="small-12 large-6 columns">
 				<div class="section-box">
-					<h3 class="text-center"><a href="">Instagram</a></h3>
+					<h3 class="text-center"><a href="https://www.instagram.com/thrivestrive/">Instagram</a></h3>
 				</div>
 			</div>
 		</div>
@@ -65,10 +65,10 @@ Template Name: Contact
 				<div class="callout">
 					<h3>Elisa</h3>
 						<div class="section-box">
-							<h3 class="text-center"><a href="">Instagram</a></h3>
+							<h3 class="text-center"><a href="http://instagram.com/ladyscrivs"><i class="fa fa-instagram"></i> Instagram</a></h3>
 						</div>
 						<div class="section-box">
-							<h3 class="text-center"><a href="">Pinterest</a></h3>
+							<h3 class="text-center"><a href="https://www.pinterest.com/lsalu/"><i class="fa fa-pinterest"></i> Pinterest</a></h3>
 						</div>
 				</div>
 			</div>
@@ -77,10 +77,13 @@ Template Name: Contact
 				<div class="callout">
 					<h3>Paul</h3>
 						<div class="section-box">
-							<h3 class="text-center"><a href="">Twitter</a></h3>
+							<h3 class="text-center"><a href="http://twitter.com/scrivs"><i class="fa fa-twitter"></i> Twitter</a></h3>
 						</div>
 						<div class="section-box">
-							<h3 class="text-center"><a href="">Instagram</a></h3>
+							<h3 class="text-center"><a href="http://instagram.com/scrivs"><i class="fa fa-instagram"></i> Instagram</a></h3>
+						</div>
+						<div class="section-box">
+							<h3 class="text-center"><a href="https://www.pinterest.com/scrivs/"><i class="fa fa-pinterest"></i> Pinterest</a></h3>
 						</div>
 				</div>
 			</div>
@@ -89,10 +92,10 @@ Template Name: Contact
 				<div class="callout">
 					<h3>Stephen</h3>
 					<div class="section-box">
-						<h3 class="text-center"><a href="">Instagram</a></h3>
+						<h3 class="text-center"><a href="http://instagram.com/lilscrivs"><i class="fa fa-instagram"></i> Instagram</a></h3>
 					</div>
 					<div class="section-box">
-						<h3 class="text-center"><a href="">Twitter</a></h3>
+						<h3 class="text-center"><a href="http://twitter.com/lil_scrivs"><i class="fa fa-twitter"></i>Twitter</a></h3>
 					</div>
 				</div>
 			</div>
