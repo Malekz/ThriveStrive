@@ -134,5 +134,8 @@
 	}
 	.articles-list img {
 		border: 5px solid $white;
+		&:hover {
+			border-color: $yellow;
+		}
 	}
 }
