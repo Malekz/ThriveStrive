@@ -117,6 +117,7 @@ get_header();
 		</div>
 	</div>
 </section>
+<!--
 <section class="cta slate">
 	<div class="row">
 		<div class="small-12 columns">
@@ -157,7 +158,7 @@ get_header();
 			</div>
 		</div>
 	</div>
-</section>
+</section>-->
 <?php endwhile;endif; ?>
 <?php
 get_footer();
