@@ -16,12 +16,17 @@
 	font-family: $body-font-sans-serif;
 }
 .top-bar {
+	ul {
+		background-color: transparent;
+	}
 	li a {
 		font-family: $body-font-sans-serif;
 		font-weight: $global-weight-bold;
-		color: $red;
+		color: $slate;
+		text-transform: uppercase;
+		font-size: rem-calc(16);
 		&:hover {
-			color: $oil;
+			color: $pink;
 		}
 	}
 
@@ -34,24 +39,36 @@
 	}
 
 	.menu-text a {
+		text-transform: none;
 		padding: rem-calc(7) rem-calc(10) rem-calc(5);
 		font-size: rem-calc(32);
-		background-color: $red;
-		color: $white;
+		border: 3px double $blue;
+		color: $blue;
+		background-color: $white;
 		&:hover {
-			color: $white;
-			background-color: $green;
+			color: $blue;
+			background-color: $smoke;
 		}
 	}
 
 	img {
 		max-width: rem-calc(54);
 		max-height: rem-calc(54);
-		background-color: $green;
+		background-color: $blue;
 		padding: rem-calc(5) rem-calc(10);
 		transition: 0.2s linear all;
 		&:hover {
 			background-color: $red;
 		}
+	}
+	.top-bar-right {
+		margin-top: 10px;
+	}
+	form .input-group {
+		margin-bottom: 0;
+	}
+	form input.button {
+		height: 40px;
+		padding: rem-calc(10);
 	}
 }

@@ -1,8 +1,10 @@
 footer {
 	padding: 2rem 0 1rem;
+	background-color: $smoke;
+	color: $slate;
 	a {
-		color: $red;
-		border-bottom: 1px solid $red;
+		color: $pink;
+		border-bottom: 1px solid $pink;
 		font-weight: $global-weight-bold;
 		&:hover {
 			color: $oil;

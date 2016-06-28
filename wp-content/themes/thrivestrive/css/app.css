@@ -14,6 +14,9 @@ a {
 h2 em {
   font-family: "adelle", serif; }
 
+body {
+  background-size: cover !important; }
+
 .no-js .top-bar {
   display: none; }
 
@@ -26,12 +29,17 @@ h2 em {
 .title-bar {
   font-family: "proxima-nova", sans-serif; }
 
+.top-bar ul {
+  background-color: transparent; }
+
 .top-bar li a {
   font-family: "proxima-nova", sans-serif;
   font-weight: 900;
-  color: #FF686B; }
+  color: #434B4F;
+  text-transform: uppercase;
+  font-size: 0.8rem; }
   .top-bar li a:hover {
-    color: #333333; }
+    color: #FF3D7F; }
 
 .top-bar li.logo a {
   padding: 0; }
@@ -40,39 +48,52 @@ h2 em {
   padding-left: 0; }
 
 .top-bar .menu-text a {
+  text-transform: none;
   padding: 0.35rem 0.5rem 0.25rem;
   font-size: 1.6rem;
-  background-color: #FF686B;
-  color: #fefefe; }
+  border: 3px double #7ACED6;
+  color: #7ACED6;
+  background-color: #fefefe; }
   .top-bar .menu-text a:hover {
-    color: #fefefe;
-    background-color: #84DCC6; }
+    color: #7ACED6;
+    background-color: #eeeeee; }
 
 .top-bar img {
   max-width: 2.7rem;
   max-height: 2.7rem;
-  background-color: #84DCC6;
+  background-color: #7ACED6;
   padding: 0.25rem 0.5rem;
   transition: 0.2s linear all; }
   .top-bar img:hover {
-    background-color: #FF686B; }
+    background-color: #DD1F26; }
+
+.top-bar .top-bar-right {
+  margin-top: 10px; }
+
+.top-bar form .input-group {
+  margin-bottom: 0; }
+
+.top-bar form input.button {
+  height: 40px;
+  padding: 0.5rem; }
 
 .hero {
-  padding: 5rem 0;
-  text-align: center;
-  background: linear-gradient(90deg, rgba(132, 220, 198, 0.75) 10%, rgba(255, 104, 107, 0.75) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg") fixed center no-repeat;
-  background-size: cover; }
+  padding: 5rem 0 5rem;
+  background: #7ACED6 url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/29194142/background.jpg") repeat;
+  text-align: center; }
   @media screen and (max-width: 39.9375em) {
     .hero {
       padding: 2rem 1rem; } }
+  .hero div.title-box {
+    border: 3px double #fefefe;
+    padding: 3rem 1rem; }
   .hero h1 {
     color: #fefefe;
     line-height: 1;
     margin-bottom: 0;
     font-size: 2rem;
-    border: 3px solid #fefefe;
-    font-weight: 100;
-    padding: 3rem 1rem; }
+    font-weight: 900;
+    text-transform: uppercase; }
     @media screen and (min-width: 64em) {
       .hero h1 {
         font-size: 4rem; } }
@@ -91,37 +112,48 @@ h2 em {
   .hero .subheader {
     color: #fefefe;
     line-height: 1.2;
-    margin-top: 1rem;
-    padding-top: 1rem;
-    margin-bottom: 0; }
+    font-family: "adelle", serif;
+    font-style: italic; }
   .hero .callout {
     border-width: 5px;
     border-color: rgba(92, 209, 180, 0.4); }
 
 .profiles {
-  padding: 2rem 0;
-  background-color: #84DCC6; }
+  padding: 4rem 0;
+  background: #7ACED6 url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/29194142/background.jpg") repeat; }
   .profiles h2 {
     color: #fefefe; }
   .profiles .profile {
     border: 1px solid #e6e6e6;
     padding: 10px;
     background-color: #fefefe; }
+    .profiles .profile h3 {
+      margin-bottom: 0; }
+    .profiles .profile h4 {
+      margin: 0 0 1rem;
+      font-family: "adelle", serif; }
     @media screen and (max-width: 63.9375em) {
       .profiles .profile {
         margin-bottom: 2rem; }
         .profiles .profile h3 {
           font-size: 1.5rem; } }
+    .profiles .profile a {
+      color: #FF8800; }
     .profiles .profile .profile-hero {
       margin-bottom: 1rem; }
     .profiles .profile p {
       font-size: 0.8rem; }
   .profiles .callout {
     border-width: 5px;
-    border-color: #5cd1b4; }
+    border-color: #53c0ca; }
 
 .article {
-  padding: 2rem 0; }
+  padding: 2rem 0;
+  background-color: #fefefe; }
+  .article a {
+    border-bottom: 1px solid #FF3D7F; }
+    .article a:hover {
+      border-color: #fefefe; }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .article h1 {
       font-size: 3rem; } }
@@ -149,22 +181,26 @@ h2 em {
         padding-right: 1rem; } }
   .article h2, .article h3 {
     line-height: 1.2;
-    margin-top: 2.5rem; }
+    margin-top: 2.5rem;
+    text-align: center; }
   .article .article-box {
     padding-bottom: 1rem;
     margin-bottom: 2rem;
     border-bottom: 1px solid #e6e6e6; }
   .article strong {
-    background-color: #84DCC6; }
-  .article .articles-list li {
-    margin-bottom: 2rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #e6e6e6; }
-    .article .articles-list li:last-child {
-      border-bottom: none; }
-  .article .articles-list a span {
-    font-size: 1.2rem;
-    font-weight: 900; }
+    background-color: #FFF464; }
+  .article .articles-list {
+    max-width: 100%; }
+    .article .articles-list li {
+      float: left;
+      margin-bottom: 2rem; }
+      @media screen and (min-width: 64em) {
+        .article .articles-list li {
+          width: 19%;
+          margin-right: 1%; } }
+    .article .articles-list a span {
+      font-size: 1.2rem;
+      font-weight: 900; }
   .article div.image {
     text-align: center;
     margin-bottom: 1rem; }
@@ -181,24 +217,50 @@ h2 em {
     margin-top: 0;
     text-align: center; }
   .article blockquote {
+    max-width: 35rem;
+    border-width: 3px;
     margin-left: auto;
     margin-right: auto;
-    font-style: italic; }
-    .article blockquote p {
-      max-width: 32rem; }
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    padding-bottom: 1px; }
+  .article .pull-quote {
+    border: 3px double #e6e6e6;
+    padding: 1rem 1rem 0; }
+  .article .pull-quote p {
+    font-size: 1.2rem;
+    text-align: center; }
   .article iframe {
     margin-bottom: 1rem;
     margin-left: auto !important;
     margin-right: auto !important; }
+  .article .guerrillawrap .guerrillatext p {
+    max-width: 35rem; }
+
+.slate {
+  background-color: #434B4F;
+  padding: 1rem 0 2rem; }
+  .slate h2 {
+    color: #fefefe;
+    font-style: italic;
+    font-family: "adelle", serif; }
+    .slate h2 em {
+      color: #FFF464; }
+  .slate .articles-list a {
+    border: none; }
+  .slate .articles-list img {
+    border: 5px solid #fefefe; }
+    .slate .articles-list img:hover {
+      border-color: #FFF464; }
 
 .sections {
   padding: 2rem 0 1rem;
-  background: linear-gradient(90deg, rgba(132, 220, 198, 0.5) 10%, rgba(255, 104, 107, 0.5) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg") fixed center no-repeat;
-  background-size: cover; }
+  border-top: 1px solid #e6e6e6;
+  background-color: #eeeeee; }
   .sections h2 {
-    color: #fefefe; }
+    color: #434B4F; }
   .sections .section-box {
-    background-color: #84DCC6;
+    background-color: #7ACED6;
     border: 5px solid #fefefe;
     margin-bottom: 1rem; }
     .sections .section-box a {
@@ -211,7 +273,7 @@ h2 em {
         .sections .section-box a {
           font-size: 1.2rem; } }
   .sections .food {
-    background: linear-gradient(90deg, rgba(132, 220, 198, 0.5) 10%, rgba(255, 104, 107, 0.5) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg") fixed center no-repeat;
+    background: linear-gradient(90deg, rgba(132, 220, 198, 0.5) 10%, rgba(221, 31, 38, 0.5) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg") fixed center no-repeat;
     background-size: cover; }
 
 .sections.social {
@@ -221,52 +283,152 @@ h2 em {
 
 footer {
   padding: 2rem 0 1rem;
+  background-color: #eeeeee;
+  color: #434B4F;
   text-align: center; }
   footer a {
-    color: #FF686B;
-    border-bottom: 1px solid #FF686B;
+    color: #FF3D7F;
+    border-bottom: 1px solid #FF3D7F;
     font-weight: 900; }
     footer a:hover {
       color: #333333;
       border-color: #333333; }
 
-.background {
-  background-size: cover; }
+/*.background {
+	background-size: cover;
+}
 
 .food {
-  background: linear-gradient(90deg, rgba(132, 220, 198, 0.75) 10%, rgba(255, 104, 107, 0.75) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg") fixed center no-repeat;
-  background-size: cover; }
+	background: linear-gradient(90deg, rgba($green, 0.75) 10%, rgba($red, 0.75) 90%), url('https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg') fixed center no-repeat;
+	background-size: cover;
+}
 
 .fitness {
-  background: linear-gradient(90deg, rgba(255, 104, 107, 0.75) 10%, rgba(132, 220, 198, 0.75) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/19005230/sprinter.jpg") fixed center no-repeat;
-  background-size: cover; }
+	background: linear-gradient(90deg, rgba($red, 0.75) 10%, rgba($green, 0.75) 90%), url('https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/19005230/sprinter.jpg') fixed center no-repeat;
+	background-size: cover;
+}
 
 .motivation {
-  background: linear-gradient(90deg, rgba(255, 104, 107, 0.75) 10%, rgba(132, 220, 198, 0.75) 90%), url("https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/19010046/winner.jpg") fixed center no-repeat;
-  background-size: cover; }
+	background: linear-gradient(90deg, rgba($red, 0.75) 10%, rgba($green, 0.75) 90%), url('https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/19010046/winner.jpg') fixed center no-repeat;
+	background-size: cover;
+}*/
+.sharing {
+  background-color: #eeeeee;
+  color: #434B4F;
+  padding: 2rem 0; }
+  .sharing h2 {
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    border: 3px double #fefefe;
+    padding: 2rem;
+    background-color: #7ACED6;
+    color: #fefefe; }
+  .sharing img {
+    padding: 0.5rem;
+    background-color: #fefefe;
+    margin-bottom: 2rem; }
+  .sharing a.button {
+    background-color: #fefefe;
+    border: 3px double #7ACED6;
+    color: #7ACED6;
+    margin-bottom: 0; }
+    .sharing a.button:hover {
+      color: #333333; }
+  .sharing p {
+    margin-bottom: 2rem; }
+  .sharing em {
+    color: #FFF464; }
 
 .ck_form {
   margin-top: 2rem !important;
   max-width: 35rem;
   margin-left: auto !important;
   margin-right: auto !important;
-  color: #333333 !important;
-  border-top-color: #FF686B !important;
-  border-bottom-color: #84DCC6 !important;
+  background-color: #434B4F !important;
+  color: #fefefe !important;
+  border: 1px solid #434B4F !important;
+  padding: 0.25rem !important;
+  box-shadow: none !important;
   font-family: "proxima-nova", sans-serif !important; }
+  .ck_form .ck_form_content h3.ck_form_title, .ck_form h3.ck_form_title {
+    color: #FFF464 !important; }
   .ck_form .ck_description p {
-    font-weight: 400 !important; }
+    font-weight: 900 !important; }
+  .ck_form .ck_image {
+    margin-right: 10px; }
   .ck_form .ck_label {
     font-size: 0.8rem;
-    font-family: "proxima-nova", sans-serif; }
+    font-family: "proxima-nova", sans-serif;
+    color: #fefefe !important; }
   .ck_form .ck_control_group input {
     border-radius: 3px !important; }
   .ck_form .ck_subscribe_button {
-    background: #FF686B !important;
+    background: #7ACED6 !important;
     border-radius: 3px !important;
     font-weight: 900 !important; }
   .ck_form .ck_guarantee {
     display: none !important; }
+
+.comments {
+  padding: 2rem 1rem;
+  background-color: #eeeeee;
+  color: #fefefe; }
+  .comments h2 {
+    color: #434B4F;
+    font-style: italic;
+    font-family: "adelle", serif; }
+  .comments .comment-box {
+    padding: 2rem;
+    background-color: #fefefe; }
+
+.search {
+  background-color: #eeeeee;
+  padding: 1rem 0; }
+  .search form .input-group {
+    margin-bottom: 0; }
+  .search form .button {
+    height: 40px;
+    padding: 0.5rem; }
+  .search form [type='text'] {
+    margin-bottom: 0; }
+
+.content {
+  padding: 1rem 0; }
+  .content .articles-list {
+    max-width: 100%; }
+    .content .articles-list li {
+      float: left;
+      margin-bottom: 2rem; }
+      @media screen and (min-width: 64em) {
+        .content .articles-list li {
+          width: 19%;
+          margin-right: 1%; } }
+    .content .articles-list a span {
+      font-size: 1.2rem;
+      font-weight: 900; }
+
+.cta {
+  padding: 2rem 0;
+  background: #434B4F;
+  background-size: cover;
+  color: #fefefe; }
+  .cta h2 {
+    line-height: 1.2;
+    font-family: "adelle", serif; }
+  .cta h3.subheader {
+    color: #fefefe; }
+  .cta em {
+    font-family: "adelle", serif;
+    color: #FFF464;
+    font-size: 2.5rem; }
+    @media screen and (max-width: 39.9375em) {
+      .cta em {
+        font-size: 1rem; } }
+  .cta .callout {
+    margin-bottom: 0;
+    border: none; }
+    .cta .callout .button {
+      background-color: #7ACED6 !important; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -643,7 +805,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #333333;
-  background: #fefefe;
+  background: #333333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -1475,7 +1637,7 @@ h6 {
   font-family: "proxima-nova", sans-serif;
   font-weight: 900;
   font-style: normal;
-  color: inherit;
+  color: #434B4F;
   text-rendering: optimizeLegibility;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -1522,12 +1684,12 @@ h6 {
     font-size: 0.8rem; } }
 
 a {
-  color: #FF686B;
+  color: #FF3D7F;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #ff363a; }
+    color: #ff1162; }
   a img {
     border: 0; }
 
@@ -1728,12 +1890,12 @@ kbd {
   padding: 0.85em 1em;
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
-  background-color: #FF686B;
+  background-color: #FF8800;
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #ff3236;
+    background-color: #d97400;
     color: #fefefe; }
   .button.tiny {
     font-size: 0.6rem; }
@@ -1998,7 +2160,7 @@ legend {
   padding: 1rem;
   margin: 0.9rem 0; }
   .fieldset legend {
-    background: #fefefe;
+    background: #333333;
     padding: 0 0.15rem;
     margin: 0;
     margin-left: -0.15rem; }
@@ -2233,7 +2395,7 @@ select {
     width: 100%;
     border-right: 1px solid transparent; }
     .button-group.stacked .button:not(:last-child), .button-group.stacked-for-small .button:not(:last-child), .button-group.stacked-for-medium .button:not(:last-child) {
-      border-bottom: 1px solid #fefefe; }
+      border-bottom: 1px solid #333333; }
   @media screen and (min-width: 40em) {
     .button-group.stacked-for-small .button {
       width: auto; }
@@ -2481,7 +2643,7 @@ select {
   margin-right: 0.75rem; }
 
 .dropdown-pane {
-  background-color: #fefefe;
+  background-color: #333333;
   border: 1px solid #cacaca;
   border-radius: 3px;
   display: block;
@@ -2523,7 +2685,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: #FF686B transparent transparent;
+  border-color: #FF3D7F transparent transparent;
   border-top-style: solid;
   border-bottom-width: 0;
   right: 5px;
@@ -2556,7 +2718,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent #FF686B transparent transparent;
+  border-color: transparent #FF3D7F transparent transparent;
   border-right-style: solid;
   border-left-width: 0; }
 
@@ -2566,7 +2728,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent #FF686B;
+  border-color: transparent transparent transparent #FF3D7F;
   border-left-style: solid;
   border-right-width: 0; }
 
@@ -2588,7 +2750,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #FF686B transparent transparent;
+    border-color: #FF3D7F transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -2610,7 +2772,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #FF686B transparent transparent;
+    border-color: transparent #FF3D7F transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .dropdown.menu.medium-vertical > li.opens-right > a::after {
@@ -2619,7 +2781,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #FF686B;
+    border-color: transparent transparent transparent #FF3D7F;
     border-left-style: solid;
     border-right-width: 0; } }
 
@@ -2641,7 +2803,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #FF686B transparent transparent;
+    border-color: #FF3D7F transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -2663,7 +2825,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #FF686B transparent transparent;
+    border-color: transparent #FF3D7F transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .dropdown.menu.large-vertical > li.opens-right > a::after {
@@ -2672,7 +2834,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #FF686B;
+    border-color: transparent transparent transparent #FF3D7F;
     border-left-style: solid;
     border-right-width: 0; } }
 
@@ -2717,7 +2879,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #FF686B transparent transparent;
+    border-color: transparent #FF3D7F transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
@@ -2726,7 +2888,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #FF686B;
+    border-color: transparent transparent transparent #FF3D7F;
     border-left-style: solid;
     border-right-width: 0; }
   .is-dropdown-submenu .is-dropdown-submenu {
@@ -2828,7 +2990,7 @@ body {
 .off-canvas-content,
 .off-canvas-content {
   min-height: 100%;
-  background: #fefefe;
+  background: #333333;
   transition: transform 0.5s ease;
   backface-visibility: hidden;
   z-index: 1;
@@ -3475,7 +3637,7 @@ table.hover tr:nth-of-type(even):hover {
     box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5); }
 
 .title-bar {
-  background: #84DCC6;
+  background: #434B4F;
   color: #fefefe;
   padding: 0.5rem; }
   .title-bar::before, .title-bar::after {
@@ -3601,7 +3763,7 @@ table.hover tr:nth-of-type(even):hover {
     clear: both; }
   .top-bar,
   .top-bar ul {
-    background-color: #fefefe; }
+    background-color: #eeeeee; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }

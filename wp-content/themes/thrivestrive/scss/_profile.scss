@@ -1,6 +1,6 @@
 .profiles {
-	padding: 2rem 0;
-	background-color: $green;
+	padding: 4rem 0;
+	background: $blue url('https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/29194142/background.jpg') repeat;
 	h2 {
 		color: $white;
 	}
@@ -9,11 +9,21 @@
 		border: 1px solid $light-gray;
 		padding: 10px;
 		background-color: $white;
+		h3 {
+			margin-bottom: 0;
+		}
+		h4 {
+			margin: 0 0 1rem;
+			font-family: $body-font-family;
+		}
 		@include breakpoint(medium down) {
 			margin-bottom: 2rem;
 			h3 {
 				font-size: 1.5rem;
 			}
+		}
+		a { 
+			color: $orange;
 		}
 		.profile-hero {
 			margin-bottom: 1rem;
@@ -24,6 +34,6 @@
 	}
 	.callout {
 		border-width: 5px;
-		border-color: darken($green, 10%);
+		border-color: darken($blue, 10%);
 	}
 }

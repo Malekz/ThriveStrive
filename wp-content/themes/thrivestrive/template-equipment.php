@@ -8,7 +8,9 @@ Template Name: E-book Equipment
 	<section class="hero">
 		<div class="row">
 			<div class="small-12 columns">
-				<h1>Guide to Gym Equipment</h1>
+				<div class="title-box">
+					<h1>Guide to Gym Equipment</h1>
+				</div>
 			</div>
 		</div>
 	</section>

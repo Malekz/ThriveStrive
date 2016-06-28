@@ -55,21 +55,27 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #ec5840,
 );
+$smoke: #F1EFEE;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$slate: #5D737E;
+$slate: #434B4F;
 $black: #0a0a0a;
 $oil: #333333;
 $white: #fefefe;
 $smoke: #eeeeee;
-$red: #FF686B;
+$red: #DD1F26;
 $green: #84DCC6;
 $mint: #88D3AB;
-$blue: #02779E;
+$blue: #7ACED6;
+$pink: #FF3D7F;
+$yellow: #FFF464;
+$orange: #FF8800;
+
+$ghost: #FAFAFA;
 
 
-$body-background: $white;
+$body-background: $oil;
 $body-font-color: $oil;
 $body-font-family: 'adelle', serif;
 $body-font-sans-serif: 'proxima-nova', sans-serif;
@@ -135,7 +141,7 @@ $header-sizes: (
     'h6': 16,
   ),
 );
-$header-color: inherit;
+$header-color: $slate;
 $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-text-rendering: optimizeLegibility;
@@ -150,7 +156,7 @@ $code-font-weight: $global-weight-normal;
 $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
-$anchor-color: $red;
+$anchor-color: $pink;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
@@ -247,7 +253,7 @@ $breadcrumbs-item-slash: true;
 $button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
-$button-background: $red;
+$button-background: $orange;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $white;
 $button-color-alt: $black;
@@ -545,7 +551,7 @@ $thumbnail-radius: $global-radius;
 // 34. Title Bar
 // -------------
 
-$titlebar-background: $green;
+$titlebar-background: $slate;
 $titlebar-color: $white;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
@@ -570,7 +576,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 1rem 0.5rem;
-$topbar-background: $white;
+$topbar-background: $smoke;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;
