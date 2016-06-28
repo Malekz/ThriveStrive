@@ -430,6 +430,81 @@ footer {
     .cta .callout .button {
       background-color: #7ACED6 !important; }
 
+.title {
+  padding: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #fefefe; }
+
+.muscles h3 {
+  color: #434B4F; }
+
+.muscles .chest {
+  padding: 1rem;
+  margin: 2rem;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #FF3D7F;
+  background-color: #fefefe; }
+
+.muscles .shoulders {
+  padding: 1rem;
+  margin: 2rem;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #FF3D7F;
+  background-color: #fefefe; }
+
+.muscles .biceps {
+  padding: 1rem;
+  margin: 2rem;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #FF3D7F;
+  background-color: #fefefe; }
+
+.muscles .triceps {
+  padding: 1rem;
+  margin: 2rem;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #FF3D7F;
+  background-color: #fefefe; }
+
+.muscles .legs {
+  padding: 1rem;
+  margin: 2rem;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #FF3D7F;
+  background-color: #fefefe; }
+
+.muscles .abs {
+  padding: 1rem;
+  margin: 2rem;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #FF3D7F;
+  background-color: #fefefe; }
+
+.muscles .back {
+  padding: 1rem;
+  margin: 2rem;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #FF3D7F;
+  background-color: #fefefe; }
+
+.muscles .arms {
+  padding: 1rem;
+  margin: 2rem;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #FF3D7F;
+  background-color: #fefefe; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
    * 1. Set default font family to sans-serif.
