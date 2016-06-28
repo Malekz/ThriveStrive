@@ -82,14 +82,14 @@ Template Name: Muscles
 		<div class="small-12 large-4 columns text-center">
 			<div class="biceps">
 				<h3>Biceps</h3>
-				<p><a href="">Entire Bicep</a></p>
+				<p><a href="">Full Bicep</a></p>
 			</div>
 		</div>
 
 		<div class="small-12 large-4 columns text-center">
 			<div class="triceps">
 				<h3>Triceps</h3>
-				<p><a href="">Entire Tricep</a></p>
+				<p><a href="">Full Tricep</a></p>
 			</div>
 		</div>
 	</div>
