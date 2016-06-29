@@ -9,8 +9,8 @@ Template Name: Muscles
 <section class="hero">
 	<div class="row">
 		<div class="title small-12 columns">
-			<h1>Muscles</h1>
-				<h2 class="subheader">Find an exercise for every muscle you want to work</h2>
+			<h1>Muscles Specific Exercises</h1>
+			<h2 class="subheader">Find an exercise for every muscle you want to work</h2>
 		</div>
 	</div>
 </section>
