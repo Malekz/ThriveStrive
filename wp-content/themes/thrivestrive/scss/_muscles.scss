@@ -10,13 +10,16 @@
 	h3 {
 		color: $slate;
 	}
-	.chest {
+	.group {
 		padding: 1rem;
 		margin: 2rem;
 		border-width: 3px;
 		border-style: solid;
 		border-color: $pink;
 		background-color: $white;
+	}
+	.chest {
+		@extend .group;
 	}
 	.shoulders {
 		padding: 1rem;

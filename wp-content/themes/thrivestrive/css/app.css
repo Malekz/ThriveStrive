@@ -236,6 +236,13 @@ body {
     margin-right: auto !important; }
   .article .guerrillawrap .guerrillatext p {
     max-width: 35rem; }
+  .article .sidebar {
+    background-color: #e6e6e6; }
+    .article .sidebar h3 {
+      color: #434B4F;
+      text-align: left;
+      margin: 1rem 0;
+      padding: 0; }
 
 .slate {
   background-color: #434B4F;
@@ -441,7 +448,7 @@ footer {
 .muscles h3 {
   color: #434B4F; }
 
-.muscles .chest {
+.muscles .group, .muscles .chest {
   padding: 1rem;
   margin: 2rem;
   border-width: 3px;
@@ -505,7 +512,7 @@ footer {
   border-color: #FF3D7F;
   background-color: #fefefe; }
 
-section h2 {
+section.exercises h2 {
   color: #fefefe;
   padding: 1rem;
   margin: 2rem;
@@ -513,12 +520,12 @@ section h2 {
   border-style: solid;
   border-color: #FF3D7F; }
 
-section h3 {
+section.exercises h3 {
   color: #fefefe;
   padding: 1rem;
   margin: 2rem; }
 
-section .video {
+section.exercises .video {
   padding-bottom: 2rem; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
