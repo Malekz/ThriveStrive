@@ -62,7 +62,7 @@ Template Name: Muscles
 		<div class="small-12 large-4 columns text-center">
 			<div class="abs">
 				<h3>Abs</h3>
-				<p><a href="">Upper Abs</a></p>
+				<p><a href="/abs/#upper-abs">Upper Abs</a></p>
 				<p><a href="">Lower Abs</a></p>
 				<p><a href="">Obliques</a></p>
 				<p><a href="">Entire Abs</a></p>
