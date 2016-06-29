@@ -237,7 +237,9 @@ body {
   .article .guerrillawrap .guerrillatext p {
     max-width: 35rem; }
   .article .sidebar {
-    background-color: #e6e6e6; }
+    background-color: #e6e6e6;
+    padding: 1rem;
+    border: 1px solid #cacaca; }
     .article .sidebar h3 {
       color: #434B4F;
       text-align: left;

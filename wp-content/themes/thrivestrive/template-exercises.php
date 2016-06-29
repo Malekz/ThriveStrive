@@ -22,8 +22,8 @@ Template Name: Exercises
 			<?php the_content(); ?>
 		</div>
 
-		<div class="small-12 large-4 columns sidebar">
-			<div class="body">
+		<div class="small-12 large-4 columns">
+			<div class="sidebar">
 				<h3>Muscle Groups</h3>
 				<ul class="no-bullet">
 					<li><a href="">Chest</a></li>
