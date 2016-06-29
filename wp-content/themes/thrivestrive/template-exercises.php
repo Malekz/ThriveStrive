@@ -15,7 +15,7 @@ Template Name: Exercises
 		</div>
 	</div>
 </section>
-<section class="article exercises">
+<section class="article">
 	<div class="row">
 		<div class="exercise small-12 large-8 columns">
 			<?php the_content(); ?>
