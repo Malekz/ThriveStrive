@@ -47,8 +47,6 @@ Template Name: Muscles
 
 	</div>
 
-
-
 	<div class="row">
 
 		<div class="small-12 large-4 columns text-center">
