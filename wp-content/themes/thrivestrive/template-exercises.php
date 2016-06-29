@@ -18,6 +18,7 @@ Template Name: Exercises
 <section class="article">
 	<div class="row">
 		<div class="exercise small-12 large-8 columns">
+			<p>Here are some exercises that can be done at your local gym. We&rsquo;ve looked for the most common exercises that target a specific muscle group so when the time comes and you want a bigger butt, broader shoulders, or sexier legs, you can find the exercises that you need to make those things happen.</p>
 			<?php the_content(); ?>
 		</div>
 
