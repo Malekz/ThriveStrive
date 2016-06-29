@@ -18,8 +18,8 @@ Template Name: Muscles
 <section class="muscles">
 	<div class="row">
 		<div class="small-12 large-4 columns text-center">
-			<div class="chest">
-				<h3>Chest</h3>
+			<div class="group">
+				<h3><a href="/chest">Chest</a></h3>
 				<p><a href="/chest/#upper-chest">Upper Chest</a></p>
 				<p><a href="/chest/#lower-chest">Lower Chest</a></p>
 				<p><a href="/chest/#entire-chest">Entire Chest</a></p>
@@ -27,8 +27,8 @@ Template Name: Muscles
 		</div>
 
 		<div class="small-12 large-4 columns text-center">
-			<div class="legs">
-				<h3>Legs</h3>
+			<div class="group">
+				<h3><a href="/legs">Legs</a></h3>
 				<p><a href="/legs/#hamstrings">Hamstrings</a></p>
 				<p><a href="/legs/#quadriceps">Quadriceps</a></p>
 				<p><a href="/legs/#calves">Calves</a></p>
@@ -37,8 +37,8 @@ Template Name: Muscles
 		</div>
 
 		<div class="small-12 large-4 columns text-center">
-			<div class="shoulders">
-				<h3>Shoulders</h3>
+			<div class="group">
+				<h3><a href="/shoulders">Shoulders</a></h3>
 				<p><a href="/shoulders/#front-side">Front Side</a></p>
 				<p><a href="/shoulders/#back-side">Back Side</a></p>
 				<p><a href="/shoulders/#entire-shoulder">Entire Shoulder</a></p>
@@ -50,16 +50,16 @@ Template Name: Muscles
 	<div class="row">
 
 		<div class="small-12 large-4 columns text-center">
-			<div class="back">
-				<h3>Back</h3>
+			<div class="group">
+				<h3><a href="/back">Back</a></h3>
 				<p><a href="/back/#upper-back">Upper Back</a></p>
 				<p><a href="/back/#lower-back">Lower Back</a></p>
 			</div>
 		</div>
 
 		<div class="small-12 large-4 columns text-center">
-			<div class="abs">
-				<h3>Abs</h3>
+			<div class="group">
+				<h3><a href="/abs">Abs</a></h3>
 				<p><a href="/abs/#upper-abs">Upper Abs</a></p>
 				<p><a href="/abs/#lower-abs">Lower Abs</a></p>
 				<p><a href="/abs/#obliques">Obliques</a></p>
@@ -68,8 +68,8 @@ Template Name: Muscles
 		</div>
 		
 		<div class="small-12 large-4 columns text-center">
-			<div class="arms">
-				<h3>Arms</h3>
+			<div class="group">
+				<h3><a href="/arms">Arms</a></h3>
 				<p><a href="/arms/#forearms">Forearms</a></p>
 				<p><a href="/arms/#back-forearm">Back of the Forearms</a></p>
 			</div>
@@ -78,15 +78,15 @@ Template Name: Muscles
 
 	<div class="row">
 		<div class="small-12 large-4 columns text-center">
-			<div class="biceps">
-				<h3>Biceps</h3>
+			<div class="group">
+				<h3><a href="/biceps">Biceps</a></h3>
 				<p><a href="/biceps/#entire-bicep">Full Bicep</a></p>
 			</div>
 		</div>
 
 		<div class="small-12 large-4 columns text-center">
-			<div class="triceps">
-				<h3>Triceps</h3>
+			<div class="group">
+				<h3><a href="/triceps">Triceps</a></h3>
 				<p><a href="/triceps/#entire-tricep">Full Tricep</a></p>
 			</div>
 		</div>

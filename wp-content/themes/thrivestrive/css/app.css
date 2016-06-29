@@ -450,63 +450,7 @@ footer {
 .muscles h3 {
   color: #434B4F; }
 
-.muscles .group, .muscles .chest {
-  padding: 1rem;
-  margin: 2rem;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #FF3D7F;
-  background-color: #fefefe; }
-
-.muscles .shoulders {
-  padding: 1rem;
-  margin: 2rem;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #FF3D7F;
-  background-color: #fefefe; }
-
-.muscles .biceps {
-  padding: 1rem;
-  margin: 2rem;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #FF3D7F;
-  background-color: #fefefe; }
-
-.muscles .triceps {
-  padding: 1rem;
-  margin: 2rem;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #FF3D7F;
-  background-color: #fefefe; }
-
-.muscles .legs {
-  padding: 1rem;
-  margin: 2rem;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #FF3D7F;
-  background-color: #fefefe; }
-
-.muscles .abs {
-  padding: 1rem;
-  margin: 2rem;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #FF3D7F;
-  background-color: #fefefe; }
-
-.muscles .back {
-  padding: 1rem;
-  margin: 2rem;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #FF3D7F;
-  background-color: #fefefe; }
-
-.muscles .arms {
+.muscles .group {
   padding: 1rem;
   margin: 2rem;
   border-width: 3px;

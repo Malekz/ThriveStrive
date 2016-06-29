@@ -26,14 +26,14 @@ Template Name: Exercises
 			<div class="sidebar">
 				<h3>Muscle Groups</h3>
 				<ul class="no-bullet">
-					<li><a href="">Chest</a></li>
-					<li><a href="">Legs</a></li>
-					<li><a href="">Shoulders</a></li>
-					<li><a href="">Back</a></li>
-					<li><a href="">Abs</a></li>
-					<li><a href="">Arms</a></li>
-					<li><a href="">Biceps</a></li>
-					<li><a href="">Triceps</a></li>
+					<li><a href="/chest">Chest</a></li>
+					<li><a href="/legs">Legs</a></li>
+					<li><a href="/shoulders">Shoulders</a></li>
+					<li><a href="/back">Back</a></li>
+					<li><a href="/abs">Abs</a></li>
+					<li><a href="/arms">Arms</a></li>
+					<li><a href="/biceps">Biceps</a></li>
+					<li><a href="/triceps">Triceps</a></li>
 				</ul>
 			</div>
 		</div>
