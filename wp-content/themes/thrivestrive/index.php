@@ -147,7 +147,7 @@ get_header();
 		        	</div>
 		        	<div class="row">
 		        		<div class="small-12 columns">
-		        			<button class="subscribe_button button expanded ck_subscribe_button btn fields" id="ck_subscribe_button">I&rsquo;m Ready to Watch!</button>
+		        			<button class="subscribe_button button expanded ck_subscribe_button btn fields" id="ck_subscribe_button">I&rsquo;m Ready to Beat My Lizard Brain!</button>
 		        		</div>
 		        	</div>
 		      	</div>
@@ -196,7 +196,7 @@ get_header();
 		        	</div>
 		        	<div class="row">
 		        		<div class="small-12 columns">
-		        			<button class="subscribe_button button expanded ck_subscribe_button btn fields" id="ck_subscribe_button">I&rsquo;m Ready to Watch!</button>
+		        			<button class="subscribe_button button expanded ck_subscribe_button btn fields" id="ck_subscribe_button">I&rsquo;m Ready to Ship Shape Up!</button>
 		        		</div>
 		        	</div>
 		      	</div>
@@ -245,7 +245,7 @@ get_header();
 		        	</div>
 		        	<div class="row">
 		        		<div class="small-12 columns">
-		        			<button class="subscribe_button button expanded ck_subscribe_button btn fields" id="ck_subscribe_button">I&rsquo;m Ready to Watch!</button>
+		        			<button class="subscribe_button button expanded ck_subscribe_button btn fields" id="ck_subscribe_button">I&rsquo;m Ready to Love My Body and Food!</button>
 		        		</div>
 		        	</div>
 		      	</div>
