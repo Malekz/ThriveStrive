@@ -1,12 +1,22 @@
 .cta {
 	padding: 2rem 0;
-	background: $slate;
+	background: linear-gradient(to left, rgba($slate, 0.85) 10%, rgba($slate, 0.85) 90%), url('https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg') fixed center no-repeat;
 	background-size: cover;
 	color: $white;
+	text-align: center;
 
 	h2 {
 		line-height: 1.2;
 		font-family: $body-font-family;
+		font-style: italic;
+		color: $white;
+		margin-bottom: 2rem;
+		font-weight: $global-weight-bold;
+	}
+	h3 {
+		font-family: $body-font-sans-serif;
+		color: $white;
+		border-bottom: 1px solid rgba($white, 0.5);
 	}
 	h3.subheader {
 		color: $white;
@@ -24,6 +34,15 @@
 		border: none;
 		.button {
 			background-color: $blue !important;
+			border: 1px solid $white;
+		}
+	}
+
+	.button {
+		border: 3px solid $white;
+		background-color: $blue;
+		&:hover {
+			background-color: $orange;
 		}
 	}
 }

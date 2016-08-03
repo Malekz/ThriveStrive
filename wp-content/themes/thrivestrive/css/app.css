@@ -9,13 +9,11 @@ a {
   transition: 0.2s linear all; }
 
 .button {
-  font-family: "proxima-nova", sans-serif; }
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 900; }
 
 h2 em {
-  font-family: "adelle", serif; }
-
-body {
-  background-size: cover !important; }
+  font-family: "ff-tisa-web-pro", serif; }
 
 .no-js .top-bar {
   display: none; }
@@ -79,14 +77,14 @@ body {
 
 .hero {
   padding: 5rem 0 5rem;
-  background: #7ACED6 url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/29194142/background.jpg") repeat;
+  background: linear-gradient(to left, rgba(122, 206, 214, 0.5) 10%, rgba(122, 206, 214, 0.5) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg") fixed center no-repeat;
+  background-size: cover;
   text-align: center; }
   @media screen and (max-width: 39.9375em) {
     .hero {
       padding: 2rem 1rem; } }
-  .hero div.title-box {
-    border: 3px double #fefefe;
-    padding: 3rem 1rem; }
+  .hero p {
+    margin-top: 2rem; }
   .hero h1 {
     color: #fefefe;
     line-height: 1;
@@ -112,26 +110,40 @@ body {
   .hero .subheader {
     color: #fefefe;
     line-height: 1.2;
-    font-family: "adelle", serif;
+    font-family: "ff-tisa-web-pro", serif;
     font-style: italic; }
   .hero .callout {
     border-width: 5px;
     border-color: rgba(92, 209, 180, 0.4); }
+  .hero .button {
+    border: 3px solid #fefefe; }
 
 .profiles {
   padding: 4rem 0;
-  background: #7ACED6 url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/29194142/background.jpg") repeat; }
+  background: linear-gradient(to left, rgba(67, 75, 79, 0.5) 10%, rgba(67, 75, 79, 0.5) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/02224735/tscrewsmile.jpg") fixed center no-repeat;
+  background-size: cover; }
   .profiles h2 {
     color: #fefefe; }
   .profiles .profile {
     border: 1px solid #e6e6e6;
-    padding: 10px;
+    padding: 5px;
     background-color: #fefefe; }
     .profiles .profile h3 {
-      margin-bottom: 0; }
+      margin-bottom: 5px;
+      background-color: #7ACED6;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .profiles .profile h3 a {
+        color: #fefefe; }
+      @media screen and (min-width: 64em) {
+        .profiles .profile h3 {
+          font-size: 2rem; } }
     .profiles .profile h4 {
-      margin: 0 0 1rem;
-      font-family: "adelle", serif; }
+      margin: -0.5rem 0 0;
+      font-family: "ff-tisa-web-pro", serif; }
+      .profiles .profile h4.subheader {
+        color: #333333;
+        font-weight: 900; }
     @media screen and (max-width: 63.9375em) {
       .profiles .profile {
         margin-bottom: 2rem; }
@@ -141,8 +153,6 @@ body {
       color: #FF8800; }
     .profiles .profile .profile-hero {
       margin-bottom: 1rem; }
-    .profiles .profile p {
-      font-size: 0.8rem; }
   .profiles .callout {
     border-width: 5px;
     border-color: #53c0ca; }
@@ -252,7 +262,7 @@ body {
   .slate h2 {
     color: #fefefe;
     font-style: italic;
-    font-family: "adelle", serif; }
+    font-family: "ff-tisa-web-pro", serif; }
     .slate h2 em {
       color: #FFF464; }
   .slate .articles-list a {
@@ -303,24 +313,6 @@ footer {
       color: #333333;
       border-color: #333333; }
 
-/*.background {
-	background-size: cover;
-}
-
-.food {
-	background: linear-gradient(90deg, rgba($green, 0.75) 10%, rgba($red, 0.75) 90%), url('https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/18204646/pineapple.jpg') fixed center no-repeat;
-	background-size: cover;
-}
-
-.fitness {
-	background: linear-gradient(90deg, rgba($red, 0.75) 10%, rgba($green, 0.75) 90%), url('https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/19005230/sprinter.jpg') fixed center no-repeat;
-	background-size: cover;
-}
-
-.motivation {
-	background: linear-gradient(90deg, rgba($red, 0.75) 10%, rgba($green, 0.75) 90%), url('https://s3.amazonaws.com/thrivestrive/wp-content/uploads/2016/05/19010046/winner.jpg') fixed center no-repeat;
-	background-size: cover;
-}*/
 .sharing {
   background-color: #eeeeee;
   color: #434B4F;
@@ -385,7 +377,7 @@ footer {
   .comments h2 {
     color: #434B4F;
     font-style: italic;
-    font-family: "adelle", serif; }
+    font-family: "ff-tisa-web-pro", serif; }
   .comments .comment-box {
     padding: 2rem;
     background-color: #fefefe; }
@@ -416,18 +408,46 @@ footer {
       font-size: 1.2rem;
       font-weight: 900; }
 
+.white {
+  padding: 2rem 0;
+  background-color: #fefefe; }
+  .white p, .white h2, .white h3, .white h4, .white ul, .white ol {
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto; }
+    @media screen and (max-width: 39.9375em) {
+      .white p, .white h2, .white h3, .white h4, .white ul, .white ol {
+        padding-left: 1rem;
+        padding-right: 1rem; } }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      .white p, .white h2, .white h3, .white h4, .white ul, .white ol {
+        padding-left: 1rem;
+        padding-right: 1rem; } }
+  .white h2, .white h3 {
+    font-family: "ff-tisa-web-pro", serif;
+    font-style: italic; }
+
 .cta {
   padding: 2rem 0;
-  background: #434B4F;
+  background: linear-gradient(to left, rgba(67, 75, 79, 0.85) 10%, rgba(67, 75, 79, 0.85) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg") fixed center no-repeat;
   background-size: cover;
-  color: #fefefe; }
+  color: #fefefe;
+  text-align: center; }
   .cta h2 {
     line-height: 1.2;
-    font-family: "adelle", serif; }
+    font-family: "ff-tisa-web-pro", serif;
+    font-style: italic;
+    color: #fefefe;
+    margin-bottom: 2rem;
+    font-weight: 900; }
+  .cta h3 {
+    font-family: "proxima-nova", sans-serif;
+    color: #fefefe;
+    border-bottom: 1px solid rgba(254, 254, 254, 0.5); }
   .cta h3.subheader {
     color: #fefefe; }
   .cta em {
-    font-family: "adelle", serif;
+    font-family: "ff-tisa-web-pro", serif;
     color: #FFF464;
     font-size: 2.5rem; }
     @media screen and (max-width: 39.9375em) {
@@ -437,7 +457,26 @@ footer {
     margin-bottom: 0;
     border: none; }
     .cta .callout .button {
-      background-color: #7ACED6 !important; }
+      background-color: #7ACED6 !important;
+      border: 1px solid #fefefe; }
+  .cta .button {
+    border: 3px solid #fefefe;
+    background-color: #7ACED6; }
+    .cta .button:hover {
+      background-color: #FF8800; }
+
+.reveal form h2 {
+  font-size: 1.6rem;
+  font-family: "ff-tisa-web-pro", serif;
+  font-style: italic;
+  margin-bottom: 1rem; }
+
+.reveal form .ck_email_field_group {
+  border: 1px solid #e6e6e6;
+  background-color: #fefefe;
+  padding: 1rem; }
+  .reveal form .ck_email_field_group .button {
+    margin-bottom: 0; }
 
 .title {
   padding: 4rem;
@@ -845,7 +884,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "adelle", serif;
+  font-family: "ff-tisa-web-pro", serif;
   font-weight: 400;
   line-height: 1.5;
   color: #333333;
@@ -3384,8 +3423,8 @@ body.is-reveal-open {
   display: none;
   z-index: 1006;
   padding: 1rem;
-  border: 1px solid #cacaca;
-  background-color: #fefefe;
+  border: 3px solid #7ACED6;
+  background-color: #FAFAFA;
   border-radius: 3px;
   position: relative;
   top: 100px;
@@ -3799,7 +3838,7 @@ table.hover tr:nth-of-type(even):hover {
         transform: translateY(-50%); }
 
 .top-bar {
-  padding: 1rem 0.5rem; }
+  padding: 0.5rem; }
   .top-bar::before, .top-bar::after {
     content: ' ';
     display: table; }

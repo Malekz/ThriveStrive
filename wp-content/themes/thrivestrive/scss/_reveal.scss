@@ -1,0 +1,17 @@
+.reveal {
+	form h2 {
+		font-size: rem-calc(32);
+		font-family: $body-font-family;
+		font-style: italic;
+		margin-bottom: 1rem;
+	}
+
+	form .ck_email_field_group {
+		border: 1px solid $light-gray;
+		background-color: $white;
+		padding: 1rem;
+		.button {
+			margin-bottom: 0;
+		}
+	}
+}

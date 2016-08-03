@@ -1,13 +1,16 @@
 .hero {
 	padding: 5rem 0 5rem;
-	background: $blue url('https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/29194142/background.jpg') repeat;
+	background: linear-gradient(to left, rgba($blue, 0.5) 10%, rgba($blue, 0.5) 90%), url('https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg') fixed center no-repeat;
+	background-size: cover;
 	text-align: center;
 	@include breakpoint (small only) {
 		padding: 2rem 1rem;
 	}
 	div.title-box {
-		border: 3px double $white;
-		padding: 3rem 1rem;
+
+	}
+	p {
+		margin-top: 2rem;
 	}
 	h1 {
 		color: $white;
@@ -43,6 +46,10 @@
 	.callout {
 		border-width: 5px;
 		border-color: darken(rgba($green, 0.4), 10%);
+	}
+
+	.button {
+		border: 3px solid $white;
 	}
 }
 

@@ -1,20 +1,34 @@
 .profiles {
 	padding: 4rem 0;
-	background: $blue url('https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/05/29194142/background.jpg') repeat;
+	background: linear-gradient(to left, rgba($slate, 0.5) 10%, rgba($slate, 0.5) 90%), url('https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/02224735/tscrewsmile.jpg') fixed center no-repeat;
+	background-size: cover;
 	h2 {
 		color: $white;
 	}
 	
 	.profile {
 		border: 1px solid $light-gray;
-		padding: 10px;
+		padding: 5px;
 		background-color: $white;
 		h3 {
-			margin-bottom: 0;
+			margin-bottom: 5px;
+			background-color: $blue;
+			a {
+				color: $white;
+			}
+			padding-top: 10px;
+			padding-bottom: 10px;
+			@include breakpoint(large) {
+				font-size: 2rem;
+			}
 		}
 		h4 {
-			margin: 0 0 1rem;
+			margin: rem-calc(-10) 0 0;
 			font-family: $body-font-family;
+			&.subheader {
+				color: $oil;
+				font-weight: $global-weight-bold;
+			}
 		}
 		@include breakpoint(medium down) {
 			margin-bottom: 2rem;
@@ -27,9 +41,6 @@
 		}
 		.profile-hero {
 			margin-bottom: 1rem;
-		}
-		p {
-			font-size: rem-calc(16);
 		}
 	}
 	.callout {
