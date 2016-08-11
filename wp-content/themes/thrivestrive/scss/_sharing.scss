@@ -9,6 +9,12 @@
 		padding: 2rem;
 		background-color: $blue;
 		color: $white;
+		font-family: $body-font-serif;
+		font-style: italic;
+	}
+	h3 {
+		font-family: $body-font-serif;
+		font-style: italic;
 	}
 	img {
 		padding: rem-calc(10);

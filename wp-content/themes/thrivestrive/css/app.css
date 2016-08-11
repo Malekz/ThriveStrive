@@ -13,7 +13,7 @@ a {
   font-weight: 900; }
 
 h2 em {
-  font-family: "ff-tisa-web-pro", serif; }
+  font-family: "proxima-nova", sans-serif; }
 
 .no-js .top-bar {
   display: none; }
@@ -140,7 +140,7 @@ h2 em {
           font-size: 2rem; } }
     .profiles .profile h4 {
       margin: -0.5rem 0 0;
-      font-family: "ff-tisa-web-pro", serif; }
+      font-family: "proxima-nova", sans-serif; }
       .profiles .profile h4.subheader {
         color: #333333;
         font-weight: 900; }
@@ -167,6 +167,10 @@ h2 em {
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .article h1 {
       font-size: 3rem; } }
+  .article h2, .article h3, .article h4, .article h5 {
+    text-align: center;
+    font-style: italic;
+    font-family: "ff-tisa-web-pro", serif; }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .article p, .article li {
       font-size: 0.9rem;
@@ -281,9 +285,7 @@ h2 em {
   background-color: #434B4F;
   padding: 1rem 0 2rem; }
   .slate h2 {
-    color: #fefefe;
-    font-style: italic;
-    font-family: "ff-tisa-web-pro", serif; }
+    color: #fefefe; }
     .slate h2 em {
       color: #FFF464; }
   .slate .articles-list a {
@@ -344,7 +346,12 @@ footer {
     border: 3px double #fefefe;
     padding: 2rem;
     background-color: #7ACED6;
-    color: #fefefe; }
+    color: #fefefe;
+    font-family: "ff-tisa-web-pro", serif;
+    font-style: italic; }
+  .sharing h3 {
+    font-family: "ff-tisa-web-pro", serif;
+    font-style: italic; }
   .sharing img {
     padding: 0.5rem;
     background-color: #fefefe;
@@ -445,7 +452,7 @@ footer {
         padding-left: 1rem;
         padding-right: 1rem; } }
   .white h2, .white h3 {
-    font-family: "ff-tisa-web-pro", serif;
+    font-family: "proxima-nova", sans-serif;
     font-style: italic; }
 
 .cta {
@@ -456,7 +463,7 @@ footer {
   text-align: center; }
   .cta h2 {
     line-height: 1.2;
-    font-family: "ff-tisa-web-pro", serif;
+    font-family: "proxima-nova", sans-serif;
     font-style: italic;
     color: #fefefe;
     margin-bottom: 2rem;
@@ -468,7 +475,7 @@ footer {
   .cta h3.subheader {
     color: #fefefe; }
   .cta em {
-    font-family: "ff-tisa-web-pro", serif;
+    font-family: "proxima-nova", sans-serif;
     color: #FFF464;
     font-size: 2.5rem; }
     @media screen and (max-width: 39.9375em) {
@@ -488,7 +495,7 @@ footer {
 
 .reveal form h2 {
   font-size: 1.6rem;
-  font-family: "ff-tisa-web-pro", serif;
+  font-family: "proxima-nova", sans-serif;
   font-style: italic;
   margin-bottom: 1rem; }
 
@@ -905,7 +912,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "ff-tisa-web-pro", serif;
+  font-family: "proxima-nova", sans-serif;
   font-weight: 400;
   line-height: 1.5;
   color: #333333;

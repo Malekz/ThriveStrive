@@ -12,6 +12,11 @@
 			font-size: 3rem;
 		}
 	}
+	h2, h3, h4, h5 {
+		text-align: center;
+		font-style: italic;
+		font-family: $body-font-serif;
+	}
 
 	p, li {
 		@include breakpoint (medium only) {
@@ -173,8 +178,6 @@
 	padding: 1rem 0 2rem;
 	h2 {
 		color: $white;
-		font-style: italic;
-		font-family: $body-font-family;
 		em {
 			color: $yellow;
 		}
