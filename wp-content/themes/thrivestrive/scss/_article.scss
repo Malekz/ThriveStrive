@@ -71,6 +71,34 @@
 		}
 	}
 
+	.article-box {
+		height: 330px;
+		border: 1px solid $light-gray;
+		padding: 1rem;
+		img {
+			max-width: 36px;
+			max-height: 36px;
+			border-radius: 1000px;
+			margin-bottom: 10px;
+		}
+		&:hover {
+			background-color: $smoke;
+		}
+		h3 {
+			font-size: 1rem;
+			margin-top: 0;
+		}
+		h3 a {
+			border-bottom: none;
+			&:hover {
+				color: $oil;
+			}
+		}
+		p {
+			font-size: rem-calc(16);
+		}
+	}
+
 	div.image {
 		text-align: center;
 		margin-bottom: 1rem;

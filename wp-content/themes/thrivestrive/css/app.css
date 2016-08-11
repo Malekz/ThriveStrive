@@ -211,6 +211,26 @@ h2 em {
     .article .articles-list a span {
       font-size: 1.2rem;
       font-weight: 900; }
+  .article .article-box {
+    height: 330px;
+    border: 1px solid #e6e6e6;
+    padding: 1rem; }
+    .article .article-box img {
+      max-width: 36px;
+      max-height: 36px;
+      border-radius: 1000px;
+      margin-bottom: 10px; }
+    .article .article-box:hover {
+      background-color: #eeeeee; }
+    .article .article-box h3 {
+      font-size: 1rem;
+      margin-top: 0; }
+    .article .article-box h3 a {
+      border-bottom: none; }
+      .article .article-box h3 a:hover {
+        color: #333333; }
+    .article .article-box p {
+      font-size: 0.8rem; }
   .article div.image {
     text-align: center;
     margin-bottom: 1rem; }

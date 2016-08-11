@@ -7,36 +7,34 @@ Template Name: Articles
 <?php get_header(); ?>
 
 <section class="hero">
-	<div class="row">
-		<div class="small-12 columns">
-			<div class="title-box">
+	<div class="lead-container">
+		<div class="row">
+			<div class="small-12 columns">
 				<h1>Never Stop Improving</h1>
-				<h2 class="subheader">The Full Thrive/Strive Collection</h2>
+				<h2 class="subheader">Once You Stop, You Die</h2>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="article slate">
+<section class="article">
 	<div class="row">
 		<div class="small-12 columns">
 			<?php 
 			// the query
-			$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
+			$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1, 'orderby' => 'date', 'order' => 'DESC')); ?>
 
 			<?php if ( $wpb_all_query->have_posts() ) : ?>
 
-			<ul class="articles-list no-bullet">
 
-				<!-- the loop -->
-				<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-					<?php $pinterest = get_field('pinterest'); ?>
-					
-					<li><a href="<?php the_permalink(); ?>"><img data-pin-nopin="true" title="<?php the_title(); ?>" alt="<?php the_title();?>" src="<?php echo $pinterest; ?>"></a></li>
-				<?php endwhile; ?>
-				<!-- end of the loop -->
-
-			</ul>
-
+			<?php
+			while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post();
+			  	$pinterest = get_field('pinterest_description', $cat_post->ID);
+			    //$out .= '<li>';
+			    //$out .=  '<a href="'.get_permalink($cat_post->ID).'" title="'.wptexturize($cat_post->post_title).'"><img data-pin-nopin="true" title="'.$cat_post->post_title.'" alt="'.$cat_post->post_title.'" src="'.$pinterest.'"></a></li>';
+			    $out = '<div class="small-6 large-3 columns end"><div class="article-box"><div class="text-center"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/11004910/avatar-48.jpg" data-pin-nopin="true"></div><h3><a href="'.get_permalink().'" title="'.get_the_title().'">'.get_the_title().'</a></h3><p>'.$pinterest.'</p></div></div>';
+			    echo $out;
+			endwhile;
+			?>
 				<?php wp_reset_postdata(); ?>
 
 			<?php else : ?>
