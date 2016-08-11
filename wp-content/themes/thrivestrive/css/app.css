@@ -212,9 +212,9 @@ h2 em {
       font-size: 1.2rem;
       font-weight: 900; }
   .article .article-box {
-    height: 330px;
+    height: 370px;
     border: 1px solid #e6e6e6;
-    padding: 1rem; }
+    padding: 1rem 0.5rem; }
     .article .article-box img {
       max-width: 36px;
       max-height: 36px;
