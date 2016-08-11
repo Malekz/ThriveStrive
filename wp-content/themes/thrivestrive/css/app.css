@@ -12,9 +12,6 @@ a {
   font-family: "proxima-nova", sans-serif;
   font-weight: 900; }
 
-h2 em {
-  font-family: "proxima-nova", sans-serif; }
-
 .no-js .top-bar {
   display: none; }
 
@@ -123,6 +120,10 @@ h2 em {
   background: linear-gradient(to left, rgba(67, 75, 79, 0.5) 10%, rgba(67, 75, 79, 0.5) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/02224735/tscrewsmile.jpg") fixed center no-repeat;
   background-size: cover; }
   .profiles h2 {
+    font-family: "ff-tisa-web-pro", serif;
+    line-height: 1.2;
+    font-style: italic;
+    font-weight: 900;
     color: #fefefe; }
   .profiles .profile {
     border: 1px solid #e6e6e6;
@@ -140,7 +141,7 @@ h2 em {
           font-size: 2rem; } }
     .profiles .profile h4 {
       margin: -0.5rem 0 0;
-      font-family: "proxima-nova", sans-serif; }
+      font-family: "ff-tisa-web-pro", serif; }
       .profiles .profile h4.subheader {
         color: #333333;
         font-weight: 900; }
@@ -435,6 +436,11 @@ footer {
     .content .articles-list a span {
       font-size: 1.2rem;
       font-weight: 900; }
+  .content h2 {
+    font-family: "ff-tisa-web-pro", serif;
+    line-height: 1.2;
+    font-style: italic;
+    font-weight: 900; }
 
 .white {
   padding: 2rem 0;
@@ -451,9 +457,6 @@ footer {
       .white p, .white h2, .white h3, .white h4, .white ul, .white ol {
         padding-left: 1rem;
         padding-right: 1rem; } }
-  .white h2, .white h3 {
-    font-family: "proxima-nova", sans-serif;
-    font-style: italic; }
 
 .cta {
   padding: 2rem 0;
@@ -462,14 +465,13 @@ footer {
   color: #fefefe;
   text-align: center; }
   .cta h2 {
+    font-family: "ff-tisa-web-pro", serif;
     line-height: 1.2;
-    font-family: "proxima-nova", sans-serif;
     font-style: italic;
     color: #fefefe;
     margin-bottom: 2rem;
     font-weight: 900; }
   .cta h3 {
-    font-family: "proxima-nova", sans-serif;
     color: #fefefe;
     border-bottom: 1px solid rgba(254, 254, 254, 0.5); }
   .cta h3.subheader {

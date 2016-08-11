@@ -80,36 +80,6 @@ get_header();
 		</div>
 	</div>
 </section>
-<section class="article slate">
-	<div class="row">
-		<div class="small-12 columns">
-			<h2 class="text-center">Ready to Dive In?</h2>
-			<?php 
-			// the query
-			$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
-
-			<?php if ( $wpb_all_query->have_posts() ) : ?>
-
-			<ul class="articles-list no-bullet">
-
-				<!-- the loop -->
-				<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-					<?php $pinterest = get_field('pinterest'); ?>
-					
-					<li><a href="<?php the_permalink(); ?>"><img data-pin-nopin="true" title="<?php the_title(); ?>" alt="<?php the_title();?>" src="<?php echo $pinterest; ?>"></a></li>
-				<?php endwhile; ?>
-				<!-- end of the loop -->
-
-			</ul>
-
-				<?php wp_reset_postdata(); ?>
-
-			<?php else : ?>
-				<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-			<?php endif; ?>
-		</div>
-	</div>
-</section>
 <div class="reveal" id="motivationModal" data-reveal>
 	<script src="https://assets.convertkit.com/assets/CKJS4.js?v=21"></script>
 	<div class="ck_form_container ck_inline" data-ck-version="5">

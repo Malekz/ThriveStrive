@@ -6,15 +6,14 @@
 	text-align: center;
 
 	h2 {
+		font-family: $body-font-serif;
 		line-height: 1.2;
-		font-family: $body-font-family;
 		font-style: italic;
 		color: $white;
 		margin-bottom: 2rem;
 		font-weight: $global-weight-bold;
 	}
 	h3 {
-		font-family: $body-font-sans-serif;
 		color: $white;
 		border-bottom: 1px solid rgba($white, 0.5);
 	}
