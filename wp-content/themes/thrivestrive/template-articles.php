@@ -16,7 +16,7 @@ Template Name: Articles
 		</div>
 	</div>
 </section>
-<section class="article">
+<section class="article library">
 	<div class="row">
 		<div class="small-12 columns">
 			<?php 
