@@ -37,7 +37,7 @@ get_header();
 		<div class="small-12 large-6 <?php if($pinterest == '') echo 'large-offset-3 end'; ?> columns">
 			<h3><a data-url="<?php the_permalink();?>" data-via="thrivesite" href="https://twitter.com/intent/tweet?text=<?php echo urlencode($title); ?>&url=<?php the_permalink();?>&via=thrivesite" class="button"><i class="fa fa-twitter"></i> Share on Twitter</a></h3>
 			<p>Share this on Twitter because you want to be that person people go to that has all of the good stuff.</p>
-			<h3><a target="_blank" href="https://www.facebook.com/dialog/share?app_id=241552952902856&display=popup&href=<?php the_permalink(); ?>&redirect_uri=<?php the_permalink(); ?>" class="button"><i class="fa fa-facebook"></i> Share on Facebook</a></h3>
+			<h3><a target="_blank" href="https://www.facebook.com/dialog/share?app_id=181840145561318&display=popup&href=<?php the_permalink(); ?>&redirect_uri=<?php the_permalink(); ?>" class="button"><i class="fa fa-facebook"></i> Share on Facebook</a></h3>
 			<p>Share this on Facebook because your family and former high school classmates need to be impressed with the knowledge that you have attained.</p>
 			<?php if($pinterest != '') : ?>
 				<h3><a href="https://www.pinterest.com/pin/create/button/" class="button" data-pin-do="buttonPin" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-custom="true" data-pin-description="<?php echo $pinterest_description;?>" data-pin-media="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink();?>"><i class="fa fa-pinterest"></i> Share on Pinterest</a></h3>
