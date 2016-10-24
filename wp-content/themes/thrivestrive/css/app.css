@@ -217,20 +217,22 @@ a {
       font-size: 1.2rem;
       font-weight: 900; }
   .article .article-box {
-    height: 350px;
-    border: 1px solid #e6e6e6;
-    padding: 1rem 0.5rem;
-    background-color: #fefefe; }
+    height: 375px;
+    border: 1px solid #cacaca;
+    background-color: #fefefe;
+    padding: 1rem;
+    margin-bottom: 2rem; }
     .article .article-box img {
       max-width: 36px;
       max-height: 36px;
       border-radius: 1000px;
       margin-bottom: 10px; }
     .article .article-box:hover {
-      background-color: #eeeeee; }
+      border-color: #7ACED6; }
     .article .article-box h3 {
       font-size: 1rem;
-      margin-top: 0; }
+      border-bottom: 3px double #cacaca;
+      padding-bottom: 0.5rem; }
     .article .article-box h3 a {
       border-bottom: none; }
       .article .article-box h3 a:hover {

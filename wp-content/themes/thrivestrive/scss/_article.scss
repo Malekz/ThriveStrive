@@ -77,10 +77,11 @@
 	}
 
 	.article-box {
-		height: 350px;
-		border: 1px solid $light-gray;
-		padding: 1rem 0.5rem;
+		height: 375px;
+		border: 1px solid $medium-gray;
 		background-color: $white;
+		padding: 1rem;
+		margin-bottom: 2rem;
 		img {
 			max-width: 36px;
 			max-height: 36px;
@@ -88,11 +89,12 @@
 			margin-bottom: 10px;
 		}
 		&:hover {
-			background-color: $smoke;
+			border-color: $blue;
 		}
 		h3 {
 			font-size: 1rem;
-			margin-top: 0;
+			border-bottom: 3px double $medium-gray;
+			padding-bottom: rem-calc(10);
 		}
 		h3 a {
 			border-bottom: none;
