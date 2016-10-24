@@ -232,7 +232,8 @@ a {
     .article .article-box h3 {
       font-size: 1rem;
       border-bottom: 3px double #cacaca;
-      padding-bottom: 0.5rem; }
+      padding-bottom: 0.5rem;
+      margin-top: 0; }
     .article .article-box h3 a {
       border-bottom: none; }
       .article .article-box h3 a:hover {
