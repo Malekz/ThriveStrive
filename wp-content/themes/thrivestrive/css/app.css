@@ -276,14 +276,16 @@ a {
   .article .guerrillawrap .guerrillatext p {
     max-width: 35rem; }
   .article .sidebar {
-    background-color: #e6e6e6;
-    padding: 1rem;
-    border: 1px solid #cacaca; }
+    padding: 0 1rem 1rem;
+    border-left: 1px solid #eeeeee; }
+    .article .sidebar h2, .article .sidebar h3, .article .sidebar h4 {
+      margin-top: 0; }
     .article .sidebar h3 {
       color: #434B4F;
-      text-align: left;
       margin: 0 0 1rem;
       padding: 0; }
+    .article .sidebar p {
+      font-size: 0.8rem; }
 
 .library {
   background-color: #eeeeee; }

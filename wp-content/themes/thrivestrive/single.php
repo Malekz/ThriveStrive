@@ -23,9 +23,20 @@ get_header();
 	</div>
 </section>
 <section class="article">
-	<div class="row">
-		<div class="small-12 columns">
+	<div class="row" data-equalizer data-equalize-on="large">
+		<div class="small-12 large-8 columns" data-equalizer-watch>
 			<?php the_content(); ?>
+		</div>
+		<div class="small-12 large-4 columns">
+			<div class="sidebar" data-equalizer-watch>
+				<div class="image">
+					<img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg" data-pin-nopin="true">
+				</div>
+				<h3>Hello!</h3>
+				<p>We are the Thrive/Strive crew. A family just trying to find the best ways to achieve happier bodies.</p>
+				<p>On Thrive/Strive we share our ups and downs, experiments, and overall journey so hopefully inspire and educate other awesome people.</p>
+				<p>We are so happy you are here! If you are looking to get a healthier body and happier state of mind then this is the place to be.</p>
+			</div>
 		</div>
 	</div>
 </section>
