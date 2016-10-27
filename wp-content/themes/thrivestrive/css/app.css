@@ -87,8 +87,7 @@ a {
     line-height: 1;
     margin-bottom: 0;
     font-size: 2rem;
-    font-weight: 900;
-    text-transform: uppercase; }
+    font-weight: 900; }
     @media screen and (min-width: 64em) {
       .hero h1 {
         font-size: 4rem; } }

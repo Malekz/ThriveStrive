@@ -29,9 +29,6 @@ get_header();
 		</div>
 		<div class="small-12 large-4 columns">
 			<div class="sidebar" data-equalizer-watch>
-				<div class="image">
-					<img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg" data-pin-nopin="true">
-				</div>
 				<h3>Hello!</h3>
 				<p>We are the Thrive/Strive crew. A family just trying to find the best ways to achieve happier bodies.</p>
 				<p>On Thrive/Strive we share our ups and downs, experiments, and overall journey so hopefully inspire and educate other awesome people.</p>
