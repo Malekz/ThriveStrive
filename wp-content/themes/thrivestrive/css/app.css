@@ -523,16 +523,17 @@ footer {
   border-style: solid;
   border-color: #fefefe; }
 
-.muscles h3 {
-  color: #434B4F; }
-
-.muscles .group {
-  padding: 1rem;
-  margin: 2rem;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #FF3D7F;
-  background-color: #fefefe; }
+.muscles {
+  background-color: #eeeeee; }
+  .muscles h3 {
+    color: #434B4F; }
+  .muscles .group {
+    padding: 1rem;
+    margin: 2rem;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FF3D7F;
+    background-color: #fefefe; }
 
 section.exercises h2 {
   color: #fefefe;
