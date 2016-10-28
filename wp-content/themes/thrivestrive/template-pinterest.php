@@ -22,10 +22,14 @@ Template Name: Pinterest Gallery
 					<?php $pinterest = get_field('pinterest'); ?>
 					<?php $pinterest2 = get_field('pinterest_2'); ?>
 					<?php $pinterest3 = get_field('pinterest_3'); ?>
+					<?php $pinterest4 = get_field('pinterest_4'); ?>
 					<?php $pinterest_description = get_field('pinterest_description'); ?>
 					<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
 					<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest2;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
 					<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest3;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
+					<?php if(! is_null($pinterest4) ) { ?>
+					<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest4;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
+					<?php } ?>
 				<?php endwhile; ?>
 				<!-- end of the loop -->
 
