@@ -75,7 +75,7 @@ get_header();
 		<div class="small-12 large-8 columns" data-equalizer-watch>
 			<?php the_content(); ?>
 		</div>
-		<div class="small-12 large-4 columns">
+		<div class="small-12 large-4 columns hide-for-small-only">
 			<div class="sidebar" data-equalizer-watch>
 				<h3>Hello!</h3>
 				<p>We are the Thrive/Strive crew. A family just trying to find the best ways to achieve happier bodies.</p>
