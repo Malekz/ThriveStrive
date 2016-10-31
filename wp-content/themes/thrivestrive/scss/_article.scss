@@ -80,7 +80,10 @@
 		height: 375px;
 		border: 1px solid $medium-gray;
 		background-color: $white;
-		padding: 1rem;
+		padding: rem-calc(10);
+		@include breakpoint(medium) {
+			padding: 1rem;
+		}
 		margin-bottom: 2rem;
 		img {
 			max-width: 36px;
