@@ -573,7 +573,8 @@ section.exercises .video {
     padding: 1rem;
     margin-top: 0 !important;
     margin-left: 0 !important;
-    margin-right: 0 !important; }
+    margin-right: 0 !important;
+    margin-bottom: 0.5rem; }
   .upgrade .ck_form_fields {
     width: 100%;
     float: none;
