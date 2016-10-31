@@ -77,12 +77,14 @@
 	}
 
 	.article-box {
-		height: 375px;
+		
 		border: 1px solid $medium-gray;
 		background-color: $white;
+		height: 300px;
 		padding: rem-calc(10);
 		@include breakpoint(medium) {
 			padding: 1rem;
+			height: 375px;
 		}
 		margin-bottom: 2rem;
 		img {
