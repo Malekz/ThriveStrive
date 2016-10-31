@@ -245,7 +245,7 @@ a {
     .article div.image img {
       padding: 0.5rem;
       border: 1px solid #e6e6e6;
-      border-radius: 3px; }
+      border-radius: 0; }
   .article div.video {
     text-align: center;
     margin-bottom: 1rem; }
@@ -378,9 +378,6 @@ footer {
 
 .ck_form {
   margin-top: 2rem !important;
-  max-width: 35rem;
-  margin-left: auto !important;
-  margin-right: auto !important;
   background-color: #434B4F !important;
   color: #fefefe !important;
   border: 1px solid #434B4F !important;
@@ -398,10 +395,10 @@ footer {
     font-family: "proxima-nova", sans-serif;
     color: #fefefe !important; }
   .ck_form .ck_control_group input {
-    border-radius: 3px !important; }
+    border-radius: 0 !important; }
   .ck_form .ck_subscribe_button {
     background: #7ACED6 !important;
-    border-radius: 3px !important;
+    border-radius: 0 !important;
     font-weight: 900 !important; }
   .ck_form .ck_guarantee {
     display: none !important; }
@@ -550,6 +547,47 @@ section.exercises h3 {
 
 section.exercises .video {
   padding-bottom: 2rem; }
+
+.upgrade {
+  background: linear-gradient(to left, rgba(51, 51, 51, 0.5) 10%, rgba(51, 51, 51, 0.5) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg") fixed center no-repeat;
+  background-size: cover;
+  padding: 1rem 0; }
+  .upgrade img {
+    border: 3px solid #fefefe; }
+  .upgrade h2, .upgrade h3 {
+    color: #fefefe;
+    font-family: "proxima-nova", sans-serif;
+    font-style: normal; }
+  .upgrade h2 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2; }
+  .upgrade h3 {
+    font-weight: 400; }
+  .upgrade .ck_form {
+    padding: 1rem;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
+  .upgrade .ck_form_fields {
+    width: 100%;
+    float: none;
+    padding: 0; }
+  .upgrade .ck_subscribe_form {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    background-color: #434B4F !important;
+    color: #fefefe !important;
+    border: 1px solid #434B4F !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    font-family: "proxima-nova", sans-serif !important; }
+    .upgrade .ck_subscribe_form .ck_form input[type="text"], .upgrade .ck_subscribe_form .ck_form input[type="email"] {
+      height: 2.15rem;
+      margin-bottom: 0; }
+    .upgrade .ck_subscribe_form button {
+      margin-bottom: 0; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -940,11 +978,11 @@ img {
 textarea {
   height: auto;
   min-height: 50px;
-  border-radius: 3px; }
+  border-radius: 0; }
 
 select {
   width: 100%;
-  border-radius: 3px; }
+  border-radius: 0; }
 
 #map_canvas img,
 #map_canvas embed,
@@ -963,7 +1001,7 @@ button {
   background: transparent;
   padding: 0;
   border: 0;
-  border-radius: 3px;
+  border-radius: 0;
   line-height: 1; }
   [data-whatinput='mouse'] button {
     outline: 0; }
@@ -1884,8 +1922,7 @@ kbd {
   margin: 0;
   background-color: #e6e6e6;
   color: #0a0a0a;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
-  border-radius: 3px; }
+  font-family: Consolas, "Liberation Mono", Courier, monospace; }
 
 .subheader {
   margin-top: 0.2rem;
@@ -2007,7 +2044,7 @@ kbd {
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   vertical-align: middle;
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: 0;
   padding: 0.85em 1em;
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
@@ -2133,7 +2170,7 @@ textarea {
   color: #0a0a0a;
   background-color: #fefefe;
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
-  border-radius: 3px;
+  border-radius: 0;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
   -webkit-appearance: none;
   -moz-appearance: none; }
@@ -2174,7 +2211,7 @@ textarea[readonly] {
 
 [type='submit'],
 [type='button'] {
-  border-radius: 3px;
+  border-radius: 0;
   -webkit-appearance: none;
   -moz-appearance: none; }
 
@@ -2226,9 +2263,9 @@ label {
   width: 100%;
   margin-bottom: 0.8rem; }
   .input-group > :first-child {
-    border-radius: 3px 0 0 3px; }
+    border-radius: 0 0 0 0; }
   .input-group > :last-child > * {
-    border-radius: 0 3px 3px 0; }
+    border-radius: 0 0 0 0; }
 
 .input-group-label, .input-group-field, .input-group-button {
   margin: 0;
@@ -2296,7 +2333,7 @@ select {
   line-height: normal;
   color: #0a0a0a;
   background-color: #fefefe;
-  border-radius: 3px;
+  border-radius: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="32" height="24" viewBox="0 0 32 24"><polygon points="0,0 32,0 16,24" style="fill: rgb%28138, 138, 138%29"></polygon></svg>');
@@ -2338,7 +2375,7 @@ select {
   background: #fefefe;
   border: 1px solid #e6e6e6;
   border-bottom: 0;
-  border-radius: 3px;
+  border-radius: 0;
   margin-left: 0; }
 
 .accordion-title {
@@ -2538,7 +2575,7 @@ select {
   margin: 0 0 1rem 0;
   padding: 1rem;
   border: 1px solid rgba(10, 10, 10, 0.25);
-  border-radius: 3px;
+  border-radius: 0;
   position: relative;
   color: #333333;
   background-color: white; }
@@ -2766,7 +2803,7 @@ select {
 .dropdown-pane {
   background-color: #333333;
   border: 1px solid #cacaca;
-  border-radius: 3px;
+  border-radius: 0;
   display: block;
   font-size: 1rem;
   padding: 1rem;
@@ -3046,7 +3083,7 @@ select {
   line-height: 1;
   white-space: nowrap;
   cursor: default;
-  border-radius: 3px;
+  border-radius: 0;
   background: #2199e8;
   color: #fefefe; }
   .label.secondary {
@@ -3264,7 +3301,7 @@ body {
   .pagination li {
     font-size: 0.7rem;
     margin-right: 0.05rem;
-    border-radius: 3px;
+    border-radius: 0;
     display: none; }
     .pagination li:last-child, .pagination li:first-child {
       display: inline-block; }
@@ -3276,7 +3313,7 @@ body {
     color: #0a0a0a;
     display: block;
     padding: 0.15rem 0.5rem;
-    border-radius: 3px; }
+    border-radius: 0; }
     .pagination a:hover,
     .pagination button:hover {
       background: #e6e6e6; }
@@ -3312,7 +3349,7 @@ body {
   background-color: #cacaca;
   height: 1rem;
   margin-bottom: 1rem;
-  border-radius: 3px; }
+  border-radius: 0; }
   .progress.primary .progress-meter {
     background-color: #2199e8; }
   .progress.secondary .progress-meter {
@@ -3329,8 +3366,7 @@ body {
   display: block;
   width: 0%;
   height: 100%;
-  background-color: #2199e8;
-  border-radius: 3px; }
+  background-color: #2199e8; }
 
 .progress-meter-text {
   position: absolute;
@@ -3343,8 +3379,7 @@ body {
   font-size: 0.75rem;
   font-weight: bold;
   color: #fefefe;
-  white-space: nowrap;
-  border-radius: 3px; }
+  white-space: nowrap; }
 
 .slider {
   position: relative;
@@ -3387,7 +3422,7 @@ body {
   transition: all 0.2s ease-in-out;
   -ms-touch-action: manipulation;
       touch-action: manipulation;
-  border-radius: 3px; }
+  border-radius: 0; }
   [data-whatinput='mouse'] .slider-handle {
     outline: 0; }
   .slider-handle:hover {
@@ -3463,7 +3498,7 @@ body.is-reveal-open {
   padding: 1rem;
   border: 3px solid #7ACED6;
   background-color: #FAFAFA;
-  border-radius: 3px;
+  border-radius: 0;
   position: relative;
   top: 100px;
   margin-left: auto;
@@ -3552,7 +3587,7 @@ body.is-reveal-open {
   width: 4rem;
   height: 2rem;
   transition: all 0.25s ease-out;
-  border-radius: 3px;
+  border-radius: 0;
   color: inherit;
   font-weight: inherit; }
   input + .switch-paddle {
@@ -3568,7 +3603,7 @@ body.is-reveal-open {
     width: 1.5rem;
     transition: all 0.25s ease-out;
     transform: translate3d(0, 0, 0);
-    border-radius: 3px; }
+    border-radius: 0; }
   input:checked ~ .switch-paddle {
     background: #2199e8; }
     input:checked ~ .switch-paddle::after {
@@ -3632,7 +3667,7 @@ body.is-reveal-open {
 table {
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 3px; }
+  border-radius: 0; }
   table thead,
   table tbody,
   table tfoot {
@@ -3752,7 +3787,7 @@ table.hover tr:nth-of-type(even):hover {
   line-height: 0;
   max-width: 100%;
   transition: box-shadow 200ms ease-out;
-  border-radius: 3px;
+  border-radius: 0;
   margin-bottom: 1rem; }
   .thumbnail:hover, .thumbnail:focus {
     box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5); }
@@ -3819,7 +3854,7 @@ table.hover tr:nth-of-type(even):hover {
   z-index: 10;
   top: calc(100% + 0.6495rem);
   max-width: 10rem !important;
-  border-radius: 3px; }
+  border-radius: 0; }
   .tooltip::before {
     content: '';
     display: block;

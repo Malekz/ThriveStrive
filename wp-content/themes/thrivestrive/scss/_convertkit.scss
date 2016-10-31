@@ -1,8 +1,5 @@
 .ck_form {
 	margin-top: 2rem !important;
-	max-width: 35rem;
-	margin-left: auto !important;
-	margin-right: auto !important;
 	background-color: $slate !important;
 	color: $white !important;
 	border: 1px solid $slate !important;
@@ -25,12 +22,12 @@
 	}
 
 	.ck_control_group input {
-		border-radius: $global-radius !important;
+		border-radius: 0 !important;
 	}
 
 	.ck_subscribe_button {
 		background: $blue !important;
-		border-radius: $global-radius !important;
+		border-radius: 0 !important;
 		font-weight: $global-weight-bold !important;
 	}
 
