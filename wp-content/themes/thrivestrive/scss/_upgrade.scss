@@ -39,7 +39,7 @@
 		padding: rem-calc(0) !important;
 		box-shadow: none !important;
 		font-family: $body-font-sans-serif !important;
-		.ck_form input[type="text"], .ck_form input[type="email"] {
+		.ck_form input[type="text"], .ck_form input[type="email"], input {
 			height: rem-calc(43);
 			margin-bottom: 0;
 		}

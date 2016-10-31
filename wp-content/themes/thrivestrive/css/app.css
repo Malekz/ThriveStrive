@@ -583,7 +583,7 @@ section.exercises .video {
     padding: 0 !important;
     box-shadow: none !important;
     font-family: "proxima-nova", sans-serif !important; }
-    .upgrade .ck_subscribe_form .ck_form input[type="text"], .upgrade .ck_subscribe_form .ck_form input[type="email"] {
+    .upgrade .ck_subscribe_form .ck_form input[type="text"], .upgrade .ck_subscribe_form .ck_form input[type="email"], .upgrade .ck_subscribe_form input {
       height: 2.15rem;
       margin-bottom: 0; }
     .upgrade .ck_subscribe_form button {
