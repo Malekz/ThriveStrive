@@ -40,3 +40,30 @@
 		}
 	}
 }
+
+.honeypot {
+	padding: 2rem 0;
+	color: $white;
+	background: $oil;
+	background-size: cover;
+	h2 {
+		font-family: $body-font-serif;
+		font-style: italic;
+		line-height: 1.2;
+	}
+	div.image img {
+		border: 3px solid $white;
+	}
+	.callout {
+		border: none;
+	}
+	.button {
+		background-color: $blue;
+		&:hover {
+			background-color: $oil;
+		}
+	}
+	strong {
+		background-color: $yellow;
+	}
+}

@@ -290,6 +290,13 @@ a {
       padding: 0; }
     .article .sidebar p {
       font-size: 0.8rem; }
+    .article .sidebar img {
+      border: 1px solid #eeeeee;
+      padding: 5px;
+      margin-bottom: 1rem; }
+    .article .sidebar .nolink a {
+      border-bottom: none;
+      text-decoration: none; }
 
 .library {
   background-color: #eeeeee; }
@@ -466,6 +473,26 @@ footer {
       .white p, .white h2, .white h3, .white h4, .white ul, .white ol {
         padding-left: 1rem;
         padding-right: 1rem; } }
+
+.honeypot {
+  padding: 2rem 0;
+  color: #fefefe;
+  background: #333333;
+  background-size: cover; }
+  .honeypot h2 {
+    font-family: "ff-tisa-web-pro", serif;
+    font-style: italic;
+    line-height: 1.2; }
+  .honeypot div.image img {
+    border: 3px solid #fefefe; }
+  .honeypot .callout {
+    border: none; }
+  .honeypot .button {
+    background-color: #7ACED6; }
+    .honeypot .button:hover {
+      background-color: #333333; }
+  .honeypot strong {
+    background-color: #FFF464; }
 
 .cta {
   padding: 2rem 0;

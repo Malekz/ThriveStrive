@@ -81,10 +81,46 @@ get_header();
 				<p>We are the Thrive/Strive crew. A family just trying to find the best ways to achieve happier bodies.</p>
 				<p>On Thrive/Strive we share our ups and downs, experiments, and overall journey so hopefully inspire and educate other awesome people.</p>
 				<p>We are so happy you are here! If you are looking to get a healthier body and happier state of mind then this is the place to be.</p>
+				<div class="image">
+					<img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/02222125/tscrew.jpg" data-pin-nopin="true" nopin alt="Thrive/Strive Crew">
+				</div>
+				<h3>Get Healthy, Be Happy</h3>
+				<div class="row">
+					<div class="small-12 large-6 columns">
+						<div class="nolink"><a href="https://thrivestrive.com/losing-weight-lazy-way/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/06/31191244/pinterest61.png" data-pin-nopin="true"></a></div>
+					</div>
+					<div class="small-12 large-6 columns">
+						<div class="nolink"><a href="https://thrivestrive.com/detox-diet-plan/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/10/26180626/pinterest210.png" data-pin-nopin="true"></a></div>
+					</div>
+					<div class="small-12 large-6 columns">
+						<div class="nolink"><a href="https://thrivestrive.com/how-to-lose-weight-fast/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/10/25175308/pinterest39.png" data-pin-nopin="true"></a></div>
+					</div>
+					<div class="small-12 large-6 columns">
+						<div class="nolink"><a href="https://thrivestrive.com/burn-1000-calories-workout/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/04184225/pinterest72.png" data-pin-nopin="true"></a></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
+<section class="honeypot">
+	<div class="row">
+		<?php
+			get_template_part('partials/popular', 'page');
+			// foreach($posttags as $tag) {
+			// 	if($tag->name == '1000subscribers') {
+			// 		get_template_part('partials/1000subscribers', 'page');
+			// 	}
+			// 	if($tag->name == 'blogrocket') {
+			// 		get_template_part('partials/blogrocket', 'page');
+			// 	}
+			// 	if($tag->name == 'courses') {
+			// 		get_template_part('partials/courses', 'page');
+			// 	}
+			// }
+		?>
+	</div>
+</section> 
 <section class="sharing">
 	<div class="row">
 		<div class="small-12 columns">

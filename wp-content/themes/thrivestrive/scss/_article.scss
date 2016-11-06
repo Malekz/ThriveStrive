@@ -183,6 +183,15 @@
 		p {
 			font-size: rem-calc(16);
 		}
+		img {
+			border: 1px solid $smoke;
+			padding: 5px;
+			margin-bottom: 1rem;
+		}
+		.nolink a {
+			border-bottom: none;
+			text-decoration: none;
+		}
 	}
 }
 .library {
