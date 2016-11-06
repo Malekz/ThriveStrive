@@ -57,7 +57,7 @@ get_header();
 			<h3>Grab the free guide to our Top 10 Favorite Ab Exercises.</h3>
 		</div>
 		<div class="small-12 large-2 columns hide-for-medium-only">
-			<img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/10/31145618/top-10-abs.png" class="">
+			<img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/06161201/pinterest-200.png" class="">
 		</div>
 	</div>
 </section>
