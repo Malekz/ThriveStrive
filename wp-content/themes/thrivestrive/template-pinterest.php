@@ -30,6 +30,10 @@ Template Name: Pinterest Gallery
 					<?php $pinterest9 = get_field('pinterest_9'); ?>
 					<?php $pinterest10 = get_field('pinterest_10'); ?>
 					<?php $pinterest11 = get_field('pinterest_11'); ?>
+					<?php $pinterest12 = get_field('pinterest_12'); ?>
+					<?php $pinterest13 = get_field('pinterest_13'); ?>
+					<?php $pinterest14 = get_field('pinterest_14'); ?>
+					<?php $pinterest15 = get_field('pinterest_15'); ?>
 					<?php $pinterest_description = get_field('pinterest_description'); ?>
 					<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
 					<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest2;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
@@ -57,6 +61,18 @@ Template Name: Pinterest Gallery
 					<?php } ?>
 					<?php if($pinterest11 != '') { ?>
 					<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest11;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
+					<?php } ?>
+					<?php if($pinterest12 != '') { ?>
+					<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest12;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
+					<?php } ?>
+					<?php if($pinterest13 != '') { ?>
+					<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest13;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
+					<?php } ?>
+					<?php if($pinterest14 != '') { ?>
+					<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest14;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
+					<?php } ?>
+					<?php if($pinterest15 != '') { ?>
+					<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest15;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
 					<?php } ?>
 				<?php endwhile; ?>
 				<!-- end of the loop -->
