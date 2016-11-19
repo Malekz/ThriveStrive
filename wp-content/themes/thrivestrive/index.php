@@ -13,73 +13,30 @@ get_header();
 		</div>
 	</div>
 </section>
-<section class="upgrade hide-for-small-only">
-	<div class="row">
-		<div class="small-12 large-10 columns">
-			<h2>Do you want to get a leaner, flatter, toner, and stronger stomach?</h2>
-			<script src="https://assets.convertkit.com/assets/CKJS4.js?v=21"></script>
-			<div class="ck_form_container ck_inline" data-ck-version="6">
-			  <div class="ck_form ck_naked">
-			  <div class="ck_form_fields">
-			    <div id="ck_success_msg" style="display:none;">
-			      <p>Success! Now check your email to grab your guide.</p>
-			    </div>
-
-			    <!--  Form starts here  -->
-			    <form id="ck_subscribe_form" class="ck_subscribe_form" action="https://app.convertkit.com/landing_pages/119102/subscribe" data-remote="true">
-			      <input type="hidden" value="{&quot;form_style&quot;:&quot;naked&quot;,&quot;embed_style&quot;:&quot;inline&quot;,&quot;embed_trigger&quot;:&quot;scroll_percentage&quot;,&quot;scroll_percentage&quot;:&quot;70&quot;,&quot;delay_seconds&quot;:&quot;10&quot;,&quot;display_position&quot;:&quot;br&quot;,&quot;display_devices&quot;:&quot;all&quot;,&quot;days_no_show&quot;:&quot;15&quot;,&quot;converted_behavior&quot;:&quot;show&quot;}" id="ck_form_options">
-			      <input type="hidden" name="id" value="119102" id="landing_page_id">
-			      <div class="ck_errorArea">
-			        <div id="ck_error_msg" style="display:none">
-			          <p>There was an error submitting your subscription. Please try again.</p>
-			        </div>
-			      </div>
-			      <div class="row collapse">
-			      	<div class="small-6 large-4 columns">
-			        	<input type="email" name="email" class="ck_email_address" id="ck_emailField" placeholder="Email Address" required>
-			        </div>
-			        <div class="small-6 large-4 columns">
-			       		<input type="text" name="first_name" class="ck_first_name" id="ck_firstNameField" placeholder="First Name">
-			       	</div>
-			       	<div class="small-12 large-4 columns">
-			       		<button class="button small expanded" id="ck_subscribe_button">Get Your Free Guide</button>
-			       	</div>
-			      </div>
-			      <div class="ck_control_group ck_captcha2_h_field_group ck-captcha2-h" style="position: absolute !important;left: -999em !important;">
-			        <input type="text" name="captcha2_h" class="ck-captcha2-h" id="ck_captcha2_h" placeholder="We use this field to detect spam bots. If you fill this in, you will be marked as a spammer.">
-			      </div>
-			    </form>
-			  </div>
-
-			</div>
-
-			</div>
-			<h3>Grab the free guide to our Top 10 Favorite Ab Exercises.</h3>
-		</div>
-		<div class="small-12 large-2 columns hide-for-medium-only">
-			<img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/06161201/pinterest-200.png" class="">
-		</div>
-	</div>
-</section>
 <section class="cta">
 	<div class="row">
 		<div class="small-12 columns">
-			<h2>What do you want to improve?</h2>
+			<h2>Are you ready to challenge yourself?</h2>
 		</div>
-		<div class="small-12 large-4 columns">
-			<h3>Nutrition</h3>
-			<p>&ldquo;I&rsquo;m ready to understand why ice cream and a martini isn&rsquo;t a food group.&rdquo;</p>
-			<p><a data-open="nutritionModal" class="button expanded large">Sign Me Up!</a></p>
+		<div class="large-3 small-6 columns">
+			<div class="image">
+				<div class="nolink"><a href="/muffin-top-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080632/muffin-top.png" data-pin-url="https://thrivestrive.com/muffin-top-challenge" data-pin-description=""></a></div>
+			</div>
 		</div>
-		<div class="small-12 large-4 columns">
-			<h3>Fitness</h3>
-			<p>&ldquo;It&rsquo;s time to find better ways to work out besides falling down the stairs.&rdquo;</p>
-			<p><a data-open="fitnessModal" class="button expanded large">Let&rsquo;s Get Started!</a></p>
+		<div class="large-3 small-6 columns">
+			<div class="image">
+				<div class="nolink"><a href="/booty-builder-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080629/booty-builder.png" data-pin-url="https://thrivestrive.com/booty-builder-challenge" data-pin-description=""></a></div>
+			</div>
 		</div>
-		<div class="small-12 large-4 columns">
-			<h3>Motivation</h3>
-			<p>&ldquo;All of these posters and coffee mugs aren&rsquo;t doing their job. What now?&rdquo;</p>
-			<p><a data-open="motivationModal" class="button expanded large">It&rsquo;s Go Time!</a></p>
+		<div class="large-3 small-6 columns">
+			<div class="image">
+				<div class="nolink"><a href="/thunder-thighs-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080634/thunder-thighs.png" data-pin-url="https://thrivestrive.com/thunder-thighs-challenge" data-pin-description=""></a></div>
+			</div>
+		</div>
+		<div class="large-3 small-6 columns">
+			<div class="image">
+				<div class="nolink"><a href="/body-blaster-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080628/body-blaster.png" data-pin-url="https://thrivestrive.com/body-blaster-challenge" data-pin-description=""></a></div>
+			</div>
 		</div>
 	</div>
 </section>
@@ -92,8 +49,6 @@ get_header();
 			<p>That is why we are going to do this together.</p>
 			<p>We aren&rsquo;t trying to compete in Bikini contests or get a record Instagram modeling deal. We just want to be better for us and we are going to do that by pushing each other and making sure nobody falls behind.</p>
 			<p>Welcome to Thrive/Strive.</p>
-			<p>Want to follow along with our suffering?</p>
-			<p><a data-open="followModal" class="button large expanded">Follow Our Journey!</a></p>
 		</div>
 	</div>
 </section>

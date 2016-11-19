@@ -61,9 +61,7 @@ Template Name: Booty Builder Challenge
 
 					</div>
 				<br>
-				<p>How do you expect to see any results if you don&rsquo;t challenge yourself? We&rsquo;ve put together a number of different fitness challenges for you to keep things fresh.</p>
-				<p>Each challenge is like a personal motivator in your inbox every morning.</p>
-				<p>Are you up to the challenge?</p>
+				<?php the_content(); ?>
 			</div>
 			<div class="small-12 large-6 columns">
 				<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080629/booty-builder.png" data-pin-url="https://thrivestrive.com/body-blaster" data-pin-description=""></div>
