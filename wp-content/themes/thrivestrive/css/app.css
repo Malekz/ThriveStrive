@@ -545,6 +545,10 @@ footer {
     background-color: #7ACED6; }
     .cta .button:hover {
       background-color: #FF8800; }
+  .cta img {
+    padding: 5px;
+    background-color: #fefefe;
+    border: 1px solid #eeeeee; }
 
 .reveal form h2 {
   font-size: 1.6rem;
