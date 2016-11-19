@@ -25,22 +25,22 @@ Template Name: Challenges
 			</div>
 			<div class="large-3 small-6 columns">
 				<div class="image">
-					<a href="/muffin-top"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080632/muffin-top.png" data-pin-url="https://thrivestrive.com/muffin-top" data-pin-description=""></a>
+					<a href="/muffin-top"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080632/muffin-top.png" data-pin-url="https://thrivestrive.com/muffin-top-challenge" data-pin-description=""></a>
 				</div>
 			</div>
 			<div class="large-3 small-6 columns">
 				<div class="image">
-					<a href="/booty-builder"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080629/booty-builder.png" data-pin-url="https://thrivestrive.com/booty-builder" data-pin-description=""></a>
+					<a href="/booty-builder"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080629/booty-builder.png" data-pin-url="https://thrivestrive.com/booty-builder-challenge" data-pin-description=""></a>
 				</div>
 			</div>
 			<div class="large-3 small-6 columns">
 				<div class="image">
-					<a href="/thunder-thighs"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080634/thunder-thighs.png" data-pin-url="https://thrivestrive.com/thunder-thighs" data-pin-description=""></a>
+					<a href="/thunder-thighs"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080634/thunder-thighs.png" data-pin-url="https://thrivestrive.com/thunder-thighs-challenge" data-pin-description=""></a>
 				</div>
 			</div>
 			<div class="large-3 small-6 columns">
 				<div class="image">
-					<a href="/body-blaster"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080628/body-blaster.png" data-pin-url="https://thrivestrive.com/body-blaster" data-pin-description=""></a>
+					<a href="/body-blaster"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080628/body-blaster.png" data-pin-url="https://thrivestrive.com/body-blaster-challenge" data-pin-description=""></a>
 				</div>
 			</div>
 		</div>
