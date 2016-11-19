@@ -21,7 +21,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 global $post, $product;
+the_title( '<h1 itemprop="name" class="product_title entry-title">', '</h1>' );
+
 ?>
+
 <div class="images">
 	<?php
 		if ( has_post_thumbnail() ) {

@@ -35,7 +35,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	 	return;
 	 }
 ?>
-
+<div class="row">
+	<div class="large-8 large-offset-2 small-12 columns">
 <div itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<?php
@@ -66,7 +67,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 		?>
 
 	</div><!-- .summary -->
-
 	<?php
 		/**
 		 * woocommerce_after_single_product_summary hook.
@@ -77,9 +77,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		 */
 		do_action( 'woocommerce_after_single_product_summary' );
 	?>
-
 	<meta itemprop="url" content="<?php the_permalink(); ?>" />
-
 </div><!-- #product-<?php the_ID(); ?> -->
-
+</div></div>
 <?php do_action( 'woocommerce_after_single_product' ); ?>
