@@ -87,16 +87,16 @@ get_header();
 				<h3>Get Healthy, Be Happy</h3>
 				<div class="row">
 					<div class="small-12 large-6 columns">
-						<div class="nolink"><a href="https://thrivestrive.com/losing-weight-lazy-way/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/06/31191244/pinterest61.png" data-pin-nopin="true"></a></div>
+						<div class="nolink"><a href="/muffin-top"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080632/muffin-top.png" data-pin-nopin="true"></a></div>
 					</div>
 					<div class="small-12 large-6 columns">
-						<div class="nolink"><a href="https://thrivestrive.com/detox-diet-plan/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/10/26180626/pinterest210.png" data-pin-nopin="true"></a></div>
+						<div class="nolink"><a href="/booty-builder"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080629/booty-builder.png" data-pin-nopin="true"></a></div>
 					</div>
 					<div class="small-12 large-6 columns">
-						<div class="nolink"><a href="https://thrivestrive.com/how-to-lose-weight-fast/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/10/25175308/pinterest39.png" data-pin-nopin="true"></a></div>
+						<div class="nolink"><a href="/thunder-thighs"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080634/thunder-thighs.png" data-pin-nopin="true"></a></div>
 					</div>
 					<div class="small-12 large-6 columns">
-						<div class="nolink"><a href="https://thrivestrive.com/burn-1000-calories-workout/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/04184225/pinterest72.png" data-pin-nopin="true"></a></div>
+						<div class="nolink"><a href="/body-blaster"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080628/body-blaster.png" data-pin-nopin="true"></a></div>
 					</div>
 				</div>
 			</div>
