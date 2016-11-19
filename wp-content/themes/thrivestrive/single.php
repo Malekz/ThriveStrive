@@ -96,7 +96,7 @@ get_header();
 		</div>
 		<div class="small-12 large-4 columns hide-for-small-only">
 			<div class="sidebar" data-equalizer-watch>
-				<h3>Hello!</h3>
+				<h3>Welcome to Thrive/Strive!</h3>
 				<p>We are the Thrive/Strive crew. A family just trying to find the best ways to achieve happier bodies.</p>
 				<p>On Thrive/Strive we share our ups and downs, experiments, and overall journey so hopefully inspire and educate other awesome people.</p>
 				<p>We are so happy you are here! If you are looking to get a healthier body and happier state of mind then this is the place to be.</p>
