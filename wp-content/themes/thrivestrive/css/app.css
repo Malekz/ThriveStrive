@@ -644,6 +644,11 @@ section.exercises .video {
   border: 1px solid #fefefe;
   margin-bottom: 1rem; }
 
+.product-snap {
+  padding: 1rem;
+  border: 1px solid #eeeeee;
+  text-align: center; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
    * 1. Set default font family to sans-serif.
