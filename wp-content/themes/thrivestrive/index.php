@@ -9,7 +9,7 @@ get_header();
 				<h1>We Are Normals Trying to Get Better</h1>
 				<h2 class="subheader">Together as a Team</h2>
 			</div>
-			<p><a data-open="motivationModal" class="button large">Take the Free, 5-Day Mind Over Matter Course</a></p>
+			<p><a data-open="motivationModal" class="button large">Take the Free, 5-Day Mind Over Body Course</a></p>
 		</div>
 	</div>
 </section>
