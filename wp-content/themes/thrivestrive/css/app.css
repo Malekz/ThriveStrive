@@ -394,7 +394,7 @@ footer {
     color: #FFF464; }
 
 .ck_form {
-  margin-top: 2rem !important;
+  margin-top: 0 !important;
   background-color: #434B4F !important;
   color: #fefefe !important;
   border: 1px solid #434B4F !important;
@@ -419,6 +419,13 @@ footer {
     font-weight: 900 !important; }
   .ck_form .ck_guarantee {
     display: none !important; }
+
+.landing_form {
+  padding: 1rem;
+  background-color: #eeeeee;
+  border: 1px solid #e6e6e6; }
+  .landing_form .button {
+    margin-bottom: 0; }
 
 .comments {
   padding: 2rem 1rem;

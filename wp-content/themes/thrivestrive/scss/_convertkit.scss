@@ -1,5 +1,5 @@
 .ck_form {
-	margin-top: 2rem !important;
+	margin-top: 0 !important;
 	background-color: $slate !important;
 	color: $white !important;
 	border: 1px solid $slate !important;
@@ -33,5 +33,15 @@
 
 	.ck_guarantee {
 		display: none !important;
+	}
+}
+
+.landing_form {
+	padding: 1rem;
+	background-color: $smoke;
+	border: 1px solid $light-gray;
+
+	.button {
+		margin-bottom: 0;
 	}
 }
