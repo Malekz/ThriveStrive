@@ -90,6 +90,9 @@ get_header();
 						if($tag->name == 'detox') {
 							get_template_part('partials/detox', 'page');
 						}
+						if($tag->name == 'nutrition') {
+							get_template_part('partials/nutrition', 'page');
+						}
 					}
 				}
 			?>
