@@ -21,11 +21,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 global $post, $product;
-the_title( '<h1 itemprop="name" class="product_title entry-title">', '</h1>' );
+the_title( '<h1 itemprop="name" class="product_title entry-title text-center">', '</h1>' );
 
 ?>
 
-<div class="images">
+<div class="images text-center">
 	<?php
 		if ( has_post_thumbnail() ) {
 			$attachment_count = count( $product->get_gallery_attachment_ids() );
@@ -38,7 +38,7 @@ the_title( '<h1 itemprop="name" class="product_title entry-title">', '</h1>' );
 			echo apply_filters(
 				'woocommerce_single_product_image_html',
 				sprintf(
-					'<a href="%s" itemprop="image" class="woocommerce-main-image zoom" title="%s" data-rel="prettyPhoto%s">%s</a>',
+					'<a href="%s" itemprop="image" class="woocommerce-main-image zoom text-center" title="%s" data-rel="prettyPhoto%s">%s</a>',
 					esc_url( $props['url'] ),
 					esc_attr( $props['caption'] ),
 					$gallery,
