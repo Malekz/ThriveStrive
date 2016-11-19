@@ -1,3 +1,7 @@
 <?php get_header(); ?>
-<?php woocommerce_content(); ?>
+<section class="article">
+	<div class="row">
+		<div class="small-12 columns"><?php woocommerce_content(); ?></div>
+	</div>
+</section>
 <?php get_footer(); ?>
