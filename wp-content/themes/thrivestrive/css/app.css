@@ -299,6 +299,11 @@ a {
   .article .nolink a {
     border-bottom: none;
     text-decoration: none; }
+  .article .callout {
+    background-color: #eeeeee; }
+    .article .callout .button {
+      border: 2px solid #fefefe;
+      text-decoration: none; }
 
 .library {
   background-color: #eeeeee; }

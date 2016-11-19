@@ -74,6 +74,25 @@ get_header();
 	<div class="row" data-equalizer data-equalize-on="large">
 		<div class="small-12 large-8 columns" data-equalizer-watch>
 			<?php the_content(); ?>
+			<?php 
+				$posttags = get_the_tags();
+				if ($posttags) { 
+					foreach($posttags as $tag) {
+						if($tag->name == 'fitness') {
+							get_template_part('partials/fitness', 'page');
+						}
+						if($tag->name == 'weightloss') {
+							get_template_part('partials/weightloss', 'page');
+						}
+						if($tag->name == 'yoga') {
+							get_template_part('partials/yoga', 'page');
+						}
+						if($tag->name == 'detox') {
+							get_template_part('partials/detox', 'page');
+						}
+					}
+				}
+			?>
 		</div>
 		<div class="small-12 large-4 columns hide-for-small-only">
 			<div class="sidebar" data-equalizer-watch>
