@@ -27,7 +27,6 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-<div class="row">
 <div class="small-12 large-4 columns" <?php post_class(); ?>>
 	<?php
 	/**
@@ -68,5 +67,4 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 */
 	do_action( 'woocommerce_after_shop_loop_item' );
 	?>
-</div>
 </div>
