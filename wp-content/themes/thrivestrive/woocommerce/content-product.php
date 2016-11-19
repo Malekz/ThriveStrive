@@ -27,8 +27,8 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-<div class="small-12 large-4 columns" <?php post_class(); ?>>
-<div class="product-snap">
+<div class="small-12 large-4 columns end" <?php post_class(); ?>>
+<div class="product-snap" data-equalizer-watch>
 	<?php
 	/**
 	 * woocommerce_before_shop_loop_item hook.
