@@ -42,6 +42,7 @@ if ( ! empty( $tabs ) ) : ?>
 			<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--<?php echo esc_attr( $key ); ?> panel entry-content wc-tab " id="tab-<?php echo esc_attr( $key ); ?>">
 				<?php call_user_func( $tab['callback'], $key, $tab ); ?>
 			</div>
+			<hr>
 		<?php endforeach; ?>
 	</div>
 
