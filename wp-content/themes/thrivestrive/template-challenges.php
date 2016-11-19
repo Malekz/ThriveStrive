@@ -18,7 +18,7 @@ Template Name: Challenges
 
 	<section class="article">
 		<div class="row">
-			<div class="small-12 columns">
+			<div class="small-12 large-8 large-offset-2 end columns">
 				<p>How do you expect to see any results if you don&rsquo;t challenge yourself? We&rsquo;ve put together a number of different fitness challenges for you to keep things fresh.</p>
 				<p>Each challenge is like a personal motivator in your inbox every morning.</p>
 				<p>Are you up to the challenge?</p>
