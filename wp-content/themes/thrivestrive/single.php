@@ -106,7 +106,7 @@ get_header();
 <section class="honeypot">
 	<div class="row">
 		<?php
-			get_template_part('partials/popular', 'page');
+			get_template_part('partials/challenge', 'page');
 			// foreach($posttags as $tag) {
 			// 	if($tag->name == '1000subscribers') {
 			// 		get_template_part('partials/1000subscribers', 'page');
