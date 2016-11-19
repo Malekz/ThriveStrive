@@ -634,6 +634,11 @@ section.exercises .video {
     .upgrade .ck_subscribe_form button {
       margin-bottom: 0; }
 
+.honeypot img {
+  padding: 5px;
+  border: 1px solid #fefefe;
+  margin-bottom: 1rem; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
    * 1. Set default font family to sans-serif.

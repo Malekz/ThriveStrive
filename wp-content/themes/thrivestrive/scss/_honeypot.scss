@@ -1,0 +1,7 @@
+.honeypot img {
+	padding: 5px;
+	border: 1px solid $white;
+	@include breakpoint(small) {
+		margin-bottom: 1rem;
+	}
+}
