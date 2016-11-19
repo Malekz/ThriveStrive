@@ -74,9 +74,12 @@ a {
 
 .hero {
   padding: 3rem 0;
-  background: linear-gradient(to left, rgba(122, 206, 214, 0.5) 10%, rgba(122, 206, 214, 0.5) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg") fixed center no-repeat;
-  background-size: cover;
+  background-color: #7ACED6;
   text-align: center; }
+  @media screen and (min-width: 40em) {
+    .hero {
+      background: linear-gradient(to left, rgba(122, 206, 214, 0.5) 10%, rgba(122, 206, 214, 0.5) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg") fixed center no-repeat;
+      background-size: cover; } }
   @media screen and (max-width: 39.9375em) {
     .hero {
       padding: 2rem 1rem; } }
@@ -293,9 +296,9 @@ a {
       border: 1px solid #eeeeee;
       padding: 5px;
       margin-bottom: 1rem; }
-    .article .sidebar .nolink a {
-      border-bottom: none;
-      text-decoration: none; }
+  .article .nolink a {
+    border-bottom: none;
+    text-decoration: none; }
 
 .library {
   background-color: #eeeeee; }
