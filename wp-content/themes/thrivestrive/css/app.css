@@ -170,6 +170,13 @@ a {
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .article h1 {
       font-size: 3rem; } }
+  .article h2, .article h3 {
+    border-top: 3px double #eeeeee;
+    border-bottom: 3px double #eeeeee;
+    padding: 10px 0;
+    text-align: center; }
+  .article h3 {
+    text-align: center; }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .article p, .article li {
       font-size: 0.9rem;

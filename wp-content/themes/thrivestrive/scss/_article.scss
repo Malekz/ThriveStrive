@@ -12,7 +12,14 @@
 			font-size: 3rem;
 		}
 	}
-	h2, h3, h4, h5 {
+	h2, h3 {
+		border-top: 3px double $smoke;
+		border-bottom: 3px double $smoke;
+		padding: 10px 0;
+		text-align: center;
+	}
+	h3 {
+		text-align: center;
 	}
 
 	p, li {
