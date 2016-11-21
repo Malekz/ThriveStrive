@@ -279,8 +279,9 @@ a {
       margin-top: 0; }
     .article .sidebar h3 {
       color: #434B4F;
-      margin: 0 0 1rem;
-      padding: 0; }
+      margin: 0;
+      padding: 0;
+      font-size: 1.4rem; }
     .article .sidebar p {
       font-size: 0.8rem; }
     .article .sidebar img {
