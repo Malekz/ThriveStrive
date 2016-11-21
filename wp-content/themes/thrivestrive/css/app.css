@@ -281,13 +281,14 @@ a {
       color: #434B4F;
       margin: 0;
       padding: 0;
-      font-size: 1.4rem; }
+      font-size: 1.4rem;
+      text-align: center; }
     .article .sidebar p {
       font-size: 0.8rem; }
     .article .sidebar img {
       border: 1px solid #eeeeee;
       padding: 5px;
-      margin-bottom: 1rem; }
+      margin-bottom: 0; }
   .article .nolink a {
     border-bottom: none;
     text-decoration: none; }

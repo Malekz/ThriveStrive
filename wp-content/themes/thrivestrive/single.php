@@ -107,7 +107,7 @@ get_header();
 					<img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/02222125/tscrew.jpg" data-pin-nopin="true" nopin alt="Thrive/Strive Crew">
 				</div>
 				<h3>Challenge Yourself</h3>
-				<div class="row">
+				<div class="row collapse">
 					<div class="small-12 large-6 columns">
 						<div class="nolink"><a href="/muffin-top-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080632/muffin-top.png" data-pin-nopin="true"></a></div>
 					</div>
@@ -121,8 +121,9 @@ get_header();
 						<div class="nolink"><a href="/body-blaster-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080628/body-blaster.png" data-pin-nopin="true"></a></div>
 					</div>
 				</div>
+				<br>
 				<h3>Get Healthy, Get Happy</h3>
-				<div class="row">
+				<div class="row collapse">
 					<div class="small-12 large-6 columns">
 						<div class="nolink"><a href="https://thrivestrive.com/benefits-of-fasting/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/18171251/pinterest117.jpg" data-pin-nopin="true"></a></div>
 					</div>
@@ -130,10 +131,10 @@ get_header();
 						<div class="nolink"><a href="https://thrivestrive.com/losing-weight-lazy-way/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/10/07004829/pinterest121.png" data-pin-nopin="true"></a></div>
 					</div>
 					<div class="small-12 large-6 columns">
-						<div class="nolink"><a href="https://thrivestrive.com/yoga-lose-weight-quickly/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/15201504/pinterest114.jpg" data-pin-nopin="true"></a></div>
+						<div class="nolink"><a href="https://thrivestrive.com/lose-weight-one-spoonful-tricks/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/10/13141859/pinterest112.jpg" data-pin-nopin="true"></a></div>
 					</div>
 					<div class="small-12 large-6 columns">
-						<div class="nolink"><a href="https://thrivestrive.com/lose-weight-one-spoonful-tricks/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/10/13141859/pinterest112.jpg" data-pin-nopin="true"></a></div>
+						<div class="nolink"><a href="https://thrivestrive.com/yoga-lose-weight-quickly/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/15201504/pinterest114.jpg" data-pin-nopin="true"></a></div>
 					</div>
 				</div>
 			</div>
