@@ -169,10 +169,11 @@
 		}
 		h3 {
 			color: $slate;
-			margin: 0;
-			padding: 0;
+			padding: 10px 0;
 			font-size: rem-calc(28);
 			text-align: center;
+			border-top: 3px double $smoke;
+			border-bottom: 3px double $smoke;
 		}
 		p {
 			font-size: rem-calc(16);

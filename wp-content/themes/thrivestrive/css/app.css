@@ -279,10 +279,11 @@ a {
       margin-bottom: 0.5rem; }
     .article .sidebar h3 {
       color: #434B4F;
-      margin: 0;
-      padding: 0;
+      padding: 10px 0;
       font-size: 1.4rem;
-      text-align: center; }
+      text-align: center;
+      border-top: 3px double #eeeeee;
+      border-bottom: 3px double #eeeeee; }
     .article .sidebar p {
       font-size: 0.8rem; }
     .article .sidebar img {
