@@ -276,7 +276,7 @@ a {
     padding: 0 1rem 1rem;
     border-left: 1px solid #eeeeee; }
     .article .sidebar h2, .article .sidebar h3, .article .sidebar h4 {
-      margin-top: 0; }
+      margin-bottom: 0.5rem; }
     .article .sidebar h3 {
       color: #434B4F;
       margin: 0;
