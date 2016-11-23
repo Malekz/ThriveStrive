@@ -318,6 +318,7 @@ a {
   background-color: #434B4F;
   padding: 1rem 0 2rem; }
   .slate h2 {
+    border: none;
     color: #fefefe; }
     .slate h2 em {
       color: #FFF464; }
