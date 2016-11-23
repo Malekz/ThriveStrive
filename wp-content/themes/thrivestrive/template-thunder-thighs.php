@@ -64,7 +64,7 @@ Template Name: Thunder Thighs Challenge
 				<?php the_content(); ?>
 			</div>
 			<div class="small-12 large-6 columns">
-				<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/19080634/thunder-thighs.png" data-pin-url="https://thrivestrive.com/body-blaster" data-pin-description=""></div>
+				<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/23234240/thunder-thighs1.jpg" data-pin-url="https://thrivestrive.com/body-blaster" data-pin-description=""></div>
 			</div>
 		</div>
 	</section>
