@@ -72,7 +72,7 @@ get_header();
 </section>
 <section class="article">
 	<div class="row" data-equalizer data-equalize-on="large">
-		<div class="small-12 large-8 columns" data-equalizer-watch>
+		<div class="small-12 large-8 columns post" data-equalizer-watch>
 			<?php the_content(); ?>
 			<?php 
 				$posttags = get_the_tags();
@@ -99,6 +99,9 @@ get_header();
 		</div>
 		<div class="small-12 large-4 columns hide-for-small-only">
 			<div class="sidebar" data-equalizer-watch>
+				<div class="image">
+					<img src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-description="<?php echo $pinterest_description; ?>">
+				</div>
 				<h3>Welcome to Thrive/Strive!</h3>
 				<p>We are the Thrive/Strive crew. A family just trying to find the best ways to achieve happier bodies.</p>
 				<p>On Thrive/Strive we share our ups and downs, experiments, and overall journey so hopefully inspire and educate other awesome people.</p>

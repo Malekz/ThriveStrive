@@ -18,6 +18,16 @@
 		padding: 10px 0;
 		text-align: center;
 	}
+
+	.post {
+		h2, h3 {
+			border: none;
+			text-align: left;
+		}
+		h2 {
+			margin-top: 2rem;
+		}
+	}
 	h3 {
 		text-align: center;
 	}
