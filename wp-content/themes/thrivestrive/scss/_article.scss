@@ -89,7 +89,7 @@
 		
 		border: 1px solid $medium-gray;
 		background-color: $white;
-		height: 290px;
+		height: 320px;
 		padding: rem-calc(10);
 		margin-bottom: 1rem;
 		@include breakpoint(medium) {
@@ -108,9 +108,10 @@
 		}
 		h3 {
 			font-size: 1rem;
-			border-bottom: 3px double $medium-gray;
+			border-bottom: 3px double $smoke;
 			padding-bottom: rem-calc(10);
 			margin-top: 0;
+			text-align: left;
 		}
 		h3 a {
 			border-bottom: none;
@@ -215,6 +216,9 @@
 }
 .library {
 	background-color: $smoke;
+	h3 {
+		text-align: left;
+	}
 }
 .slate {
 	background-color: $slate;

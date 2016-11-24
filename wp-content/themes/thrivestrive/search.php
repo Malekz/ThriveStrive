@@ -1,12 +1,12 @@
 <?php
 
 get_header(); ?>
-<section id="content" class="content">
+<section id="content" class="article content library">
 	<div class="row">
 		<div class="small-12 columns">
-		<h2 class="text-center">Search Results for <em><?php echo get_search_query(); ?></em></h2>
+			<h2 class="text-center">Search Results for <em><?php echo get_search_query(); ?></em></h2>
+		</div>
 		<?php if ( have_posts() ) : ?>
-			<ul class="articles-list no-bullet">
 			<?php
 			// Start the loop.
 			while ( have_posts() ) : the_post(); ?>
@@ -17,13 +17,14 @@ get_header(); ?>
 				 * If you want to overload this in a child theme then include a file
 				 * called content-search.php and that will be used instead.
 				 */
-				$pinterest = get_field('pinterest');
-				?>
-				<li><a href="<?php the_permalink(); ?>"><img  data-pin-nopin="true" title="" alt="" src="<?php echo $pinterest; ?>"></a></li>
-				<?php
+				$pinterest = get_field('pinterest_description');
+				$out = '<div class="small-12 large-3 columns end"><div class="article-box"><div class=""><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/11004910/avatar-48.jpg" data-pin-nopin="true"></div><h3><a href="'.get_permalink().'" title="'.get_the_title().'">'.get_the_title().'</a></h3><p>'.$pinterest.'</p></div></div>';
+			    echo $out;
 			// End the loop.
 			endwhile;
-			echo '</ul>';
+		?>
+		<div class="small-12 columns">
+		<?php
 			// Previous/next page navigation.
 			the_posts_pagination( array(
 				'prev_text'          => __( 'Previous page', 'twentyfifteen' ),
