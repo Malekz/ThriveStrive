@@ -164,26 +164,12 @@ get_header();
 </section> 
 <section class="sharing">
 	<div class="row">
-		<div class="small-12 columns">
-			<h2 class="text-center">Enjoyed <em><?php the_title(); ?></em>? Share it with your friends so they to can follow the Thrive/Strive journey.</h2>
-		</div>
 		<div class="small-12 large-6 <?php if($pinterest == '') echo 'large-offset-3 end'; ?> columns">
-			<h3><a data-url="<?php the_permalink();?>" data-via="thrivesite" href="https://twitter.com/intent/tweet?text=<?php echo urlencode($title); ?>&url=<?php the_permalink();?>&via=thrivesite" class="button"><i class="fa fa-twitter"></i> Share on Twitter</a></h3>
-			<p>Share this on Twitter because you want to be that person people go to that has all of the good stuff.</p>
-			<h3><a target="_blank" href="https://www.facebook.com/dialog/share?app_id=181840145561318&display=popup&href=<?php the_permalink(); ?>&redirect_uri=<?php the_permalink(); ?>" class="button"><i class="fa fa-facebook"></i> Share on Facebook</a></h3>
-			<p>Share this on Facebook because your family and former high school classmates need to be impressed with the knowledge that you have attained.</p>
-			<?php if($pinterest != '') : ?>
-				<h3><a href="https://www.pinterest.com/pin/create/button/" class="button" data-pin-do="buttonPin" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-custom="true" data-pin-description="<?php echo $pinterest_description;?>" data-pin-media="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink();?>"><i class="fa fa-pinterest"></i> Share on Pinterest</a></h3>
-				<p>Share this on Pinterest because I took the time to create this awesome image just so you could have something awesome to share.</p>
-			<?php endif; ?>
+			<h2 class="">Enjoyed <em><?php the_title(); ?></em>? Share it with your friends so they to can follow the Thrive/Strive journey.</h2>
+			<h3><a href="https://www.pinterest.com/pin/create/button/" class="button expanded" data-pin-do="buttonPin" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-custom="true" data-pin-description="<?php echo $pinterest_description;?>" data-pin-media="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink();?>"><i class="fa fa-pinterest"></i> Share on Pinterest</a></h3>
 		</div>
-		<?php if($pinterest != '') : ?>
-			<div class="small-12 large-6 columns">
-				<img src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-description="<?php echo $pinterest_description; ?>">
-			</div>
-		<?php endif;?>
-		<div class="small-12 columns">
-			<h2 class="text-center">Shared <em><?php the_title(); ?></em> with every single person you know? Awesome! We love you even more. Now, why don&rsquo;t you join the discussion below?<br><i class="fa fa-arrow-down"></i></h2>
+		<div class="small-12 large-6 columns">
+			<img src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-id="<?php echo $pinterest_id; ?>" data-pin-description="<?php echo $pinterest_description; ?>">
 		</div>
 	</div>
 </section>
