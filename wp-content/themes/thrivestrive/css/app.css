@@ -108,9 +108,7 @@ a {
         font-size: 2rem; } }
   .hero .subheader {
     color: #fefefe;
-    line-height: 1.2;
-    font-family: "proxima-nova", sans-serif;
-    font-style: italic; }
+    line-height: 1.2; }
   .hero .callout {
     border-width: 5px;
     border-color: rgba(92, 209, 180, 0.4); }
