@@ -180,6 +180,8 @@ a {
     text-align: left; }
   .article .post h2 {
     margin-top: 2rem; }
+  .article .post a {
+    font-weight: 900; }
   .article h3 {
     text-align: center; }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
