@@ -403,7 +403,8 @@ footer {
   .sharing p {
     margin-bottom: 2rem; }
   .sharing em {
-    color: #FFF464; }
+    color: #FFF464;
+    font-style: normal; }
 
 .ck_form {
   margin-top: 0 !important;
