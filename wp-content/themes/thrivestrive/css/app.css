@@ -445,9 +445,7 @@ footer {
   background-color: #eeeeee;
   color: #fefefe; }
   .comments h2 {
-    color: #434B4F;
-    font-style: italic;
-    font-family: "proxima-nova", sans-serif; }
+    color: #434B4F; }
   .comments .comment-box {
     padding: 2rem;
     background-color: #fefefe; }
@@ -505,8 +503,6 @@ footer {
   background: #333333;
   background-size: cover; }
   .honeypot h2 {
-    font-family: "proxima-nova", sans-serif;
-    font-style: italic;
     line-height: 1.2; }
   .honeypot div.image img {
     border: 3px solid #fefefe; }
