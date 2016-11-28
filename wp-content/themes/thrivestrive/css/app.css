@@ -162,7 +162,7 @@ a {
   padding: 2rem 0;
   background-color: #fefefe; }
   .article a {
-    border-bottom: 1px solid #FF3D7F; }
+    border-bottom: 1px solid #FF8800; }
     .article a:hover {
       border-color: #fefefe; }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
@@ -1911,12 +1911,12 @@ h6 {
     font-size: 0.8rem; } }
 
 a {
-  color: #FF3D7F;
+  color: #FF8800;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #ff1162; }
+    color: #db7500; }
   a img {
     border: 0; }
 
@@ -2911,7 +2911,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: #FF3D7F transparent transparent;
+  border-color: #FF8800 transparent transparent;
   border-top-style: solid;
   border-bottom-width: 0;
   right: 5px;
@@ -2944,7 +2944,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent #FF3D7F transparent transparent;
+  border-color: transparent #FF8800 transparent transparent;
   border-right-style: solid;
   border-left-width: 0; }
 
@@ -2954,7 +2954,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent #FF3D7F;
+  border-color: transparent transparent transparent #FF8800;
   border-left-style: solid;
   border-right-width: 0; }
 
@@ -2976,7 +2976,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #FF3D7F transparent transparent;
+    border-color: #FF8800 transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -2998,7 +2998,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #FF3D7F transparent transparent;
+    border-color: transparent #FF8800 transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .dropdown.menu.medium-vertical > li.opens-right > a::after {
@@ -3007,7 +3007,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #FF3D7F;
+    border-color: transparent transparent transparent #FF8800;
     border-left-style: solid;
     border-right-width: 0; } }
 
@@ -3029,7 +3029,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #FF3D7F transparent transparent;
+    border-color: #FF8800 transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     right: 5px;
@@ -3051,7 +3051,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #FF3D7F transparent transparent;
+    border-color: transparent #FF8800 transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .dropdown.menu.large-vertical > li.opens-right > a::after {
@@ -3060,7 +3060,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #FF3D7F;
+    border-color: transparent transparent transparent #FF8800;
     border-left-style: solid;
     border-right-width: 0; } }
 
@@ -3105,7 +3105,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #FF3D7F transparent transparent;
+    border-color: transparent #FF8800 transparent transparent;
     border-right-style: solid;
     border-left-width: 0; }
   .is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
@@ -3114,7 +3114,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #FF3D7F;
+    border-color: transparent transparent transparent #FF8800;
     border-left-style: solid;
     border-right-width: 0; }
   .is-dropdown-submenu .is-dropdown-submenu {
