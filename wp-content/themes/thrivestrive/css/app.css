@@ -266,12 +266,10 @@ a {
     margin-top: 0;
     text-align: center; }
   .article blockquote {
-    max-width: 35rem;
     border-width: 3px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.5rem;
-    font-style: italic;
     padding-bottom: 1px; }
   .article .pull-quote {
     border: 3px double #e6e6e6;
