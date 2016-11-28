@@ -61,7 +61,7 @@ get_header();
 			<div class="profile">
 				<h3 class="text-center"><a href="/elisa">Elisa</a></h3>
 				<div class="profile-hero"><a href="/elisa"><img data-pin-nopin="true" alt="Elisa Scrivens" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/02230232/elisa.jpg"></a></div>
-				<h4 class="text-center subheader"><em>The Wife</em></h4>
+				<h4 class="text-center subheader">The Wife</h4>
 				<p class="text-center">Feisty. Beautiful. Tough. Stubborn.</p>
 			</div>
 		</div>
@@ -69,7 +69,7 @@ get_header();
 			<div class="profile">
 				<h3 class="text-center"><a href="/stephen">Stephen</a></h3>
 				<div class="profile-hero"><a href="stephen"><img data-pin-nopin="true" alt="Stephen Scrivens" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/02230240/stephen.jpg"></a></div>
-				<h4 class="text-center subheader"><em>The Little Brother</em></h4>
+				<h4 class="text-center subheader">The Little Brother</h4>
 				<p class="text-center">Kind. Strong. Lovable. Golden God.</p>
 			</div>
 		</div>
@@ -77,7 +77,7 @@ get_header();
 			<div class="profile">
 				<h3 class="text-center"><a href="/paul">Paul</a></h3>
 				<div class="profile-hero"><a href="/paul"><img data-pin-nopin="true" alt="Paul Scrivens" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/02230237/paul.jpg"></a></div>
-				<h4 class="text-center subheader"><em>The Husband</em></h4>
+				<h4 class="text-center subheader">The Husband</h4>
 				<p class="text-center">Shiny head. Skinny fat. Hilarious.</p>
 			</div>
 		</div>
