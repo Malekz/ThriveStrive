@@ -1,4 +1,4 @@
-<div class="callout">
+<div class="callout upsell">
 <h3>Want Learn Our Secrets for Losing Weight and Keeping It Off?</h3>
 
 <p>At Thrive/Strive we understand that getting the body that you want is a journey and it doesn&rsquo;t happen overnight.</p>

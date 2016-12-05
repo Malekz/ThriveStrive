@@ -75,27 +75,31 @@ get_header();
 		<div class="small-12 large-8 columns post" data-equalizer-watch>
 			<?php the_content(); ?>
 			<?php 
-				get_template_part('partials/library', 'page');
-				// $posttags = get_the_tags();
-				// if ($posttags) { 
-				// 	foreach($posttags as $tag) {
-				// 		if($tag->name == 'fitness') {
-				// 			get_template_part('partials/fitness', 'page');
-				// 		}
-				// 		if($tag->name == 'weightloss') {
-				// 			get_template_part('partials/weightloss', 'page');
-				// 		}
-				// 		if($tag->name == 'yoga') {
-				// 			get_template_part('partials/yoga', 'page');
-				// 		}
-				// 		if($tag->name == 'detox') {
-				// 			get_template_part('partials/detox', 'page');
-				// 		}
-				// 		if($tag->name == 'nutrition') {
-				// 			get_template_part('partials/nutrition', 'page');
-				// 		}
-				// 	}
-				// }
+				$posttags = get_the_tags();
+				if ($posttags) { 
+					foreach($posttags as $tag) {
+						if($tag->name == 'fitness') {
+				 			//get_template_part('partials/fitness', 'page');
+				 			get_template_part('partials/library', 'page');
+				 		}
+				 		if($tag->name == 'weightloss') {
+				 			get_template_part('partials/weightloss', 'page');
+				 		}
+				 		if($tag->name == 'yoga') {
+				 			get_template_part('partials/yoga', 'page');
+				 		}
+				 		if($tag->name == 'detox') {
+				 			//get_template_part('partials/detox', 'page');
+				 			get_template_part('partials/library', 'page');
+				 		}
+				 		if($tag->name == 'nutrition') {
+				 			//get_template_part('partials/nutrition', 'page');
+				 			get_template_part('partials/library', 'page');
+				 		}
+				 	}
+				} else {
+					get_template_part('partials/library', 'page');
+				}
 			?>
 		</div>
 		<div class="small-12 large-4 columns hide-for-small-only">
