@@ -306,6 +306,9 @@ a {
     .article .callout .button {
       border: 2px solid #fefefe;
       text-decoration: none; }
+  .article .gallery div.image img {
+    background-color: #fefefe;
+    padding: 0.25rem; }
 
 .library {
   background-color: #eeeeee; }

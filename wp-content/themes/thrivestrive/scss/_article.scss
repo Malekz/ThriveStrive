@@ -214,6 +214,14 @@
 			text-decoration: none;
 		}
 	}
+	.gallery {
+		div.image {
+			img {
+				background-color: $white;
+				padding: rem-calc(5);
+			}
+		}
+	}
 }
 .library {
 	background-color: $smoke;
