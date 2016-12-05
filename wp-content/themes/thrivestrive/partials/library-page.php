@@ -22,10 +22,10 @@
 <p>The current titles in the digital library include:</p>
 
 <ul>
-<li>23 Lazy Ways to Lose Weight</li>
-<li>31 Low-Carb Veggie Recipes</li>
-<li>19 Fat-Burning Smoothie Recipes</li>
-<li>16 Zero-Calorie Foods and Awesome Recipes</li>
+<li>23 Lazy Ways to Lose Weight (71 pages)</li>
+<li>31 Low-Carb Veggie Recipes (57 pages)</li>
+<li>19 Fat-Burning Smoothie Recipes (36 pages)</li>
+<li>16 Zero-Calorie Foods and Awesome Recipes (56 pages)</li>
 </ul>
 
 <p>More guides will be added each month and you will always have access to them. We want the world to be happy and that starts with loving who you see in the mirror.</p>
