@@ -5,7 +5,7 @@
 
 <p>Every day there are new advances being discovered in the health &amp; wellness community and it can be a real pain trying to keep up with it all. That is why we do it for you.</p>
 
-<p>Gaining access to the Thrive/Strive digital library means that you will have unlimited access to all of our mini-guides forever. Even better, when a guide is updated you will get sent the newest version.</p>
+<p><strong>Gaining access to the Thrive/Strive digital library means that you will have unlimited access to all of our mini-guides forever.</strong> Even better, when a guide is updated you will get sent the newest version.</p>
 
 <p>When have you ever bought a book that received updates for years?</p>
 
