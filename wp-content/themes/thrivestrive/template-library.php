@@ -25,7 +25,7 @@ Template Name: Weight Loss Library
 				<p>Because the weight loss journey is a constant journey I want to offer you an exclusive deal to my Weight Loss Library.</p>
 				<p>Every month my team and I will add two new guides to the library and consistently update the current titles so that you can ensure you are always knowledgeable about the latest methods of losing weight.</p>
 				<p>What makes this Weight Loss Library so special?</p>
-				<p class="text-center"><a data-dpd-type="button" data-variant="price-right" data-text="PURCHASE NOW" data-button-size="dpd-large" data-bg-color="ff8800" data-bg-color-hover="ffa10b" data-text-color="ffffff" data-pr-bg-color="ffffff" data-pr-color="000000" data-lightbox="1" href="https://thrive-strive.dpdcart.com/cart/add?product_id=141859&amp;method_id=151566">PURCHASE NOW</a><script src="https://thrive-strive.dpdcart.com/dpd.js"></script></p>
+				<p class="text-center"><a data-dpd-type="button" data-variant="price-right" data-text="PURCHASE NOW" data-button-size="dpd-large" data-bg-color="ff8800" data-bg-color-hover="ffa10b" data-text-color="ffffff" data-pr-bg-color="ffffff" data-pr-color="000000" data-lightbox="1" href="https://thrive-strive.dpdcart.com/cart/add?product_id=141860&amp;method_id=151567">PURCHASE NOW</a><script src="https://thrive-strive.dpdcart.com/dpd.js"></script></p>
 				<h3>Unlimited Access Forever for Just $19</h3>
 				<p>It sucks to buy a book, read it once, and then it serves no other purpose. There is always new information to acquire but that usually means buying another book.</p>
 				<p>With the Weight Loss Library the books are updated when I come across new things to share and you immediately get access to the newest version of the books.</p>
@@ -33,7 +33,7 @@ Template Name: Weight Loss Library
 				<p>You pay a small price today and you will get access to the Weight Loss Library without restrictions. No monthly payments. No upgrade fees.</p>
 				<p><strong>Pay once and get access to all the current books and future books.</strong> Two new books added each month!</p>
 				<p>The goal isn&rsquo;t to make you pay for more and more secret methods. I want to provide as much knowledge about weight loss as possible and ensure that you know all of your options.</p>
-				<p class="text-center"><a data-dpd-type="button" data-variant="price-right" data-text="PURCHASE NOW" data-button-size="dpd-large" data-bg-color="ff8800" data-bg-color-hover="ffa10b" data-text-color="ffffff" data-pr-bg-color="ffffff" data-pr-color="000000" data-lightbox="1" href="https://thrive-strive.dpdcart.com/cart/add?product_id=141859&amp;method_id=151566">PURCHASE NOW</a><script src="https://thrive-strive.dpdcart.com/dpd.js"></script></p>
+				<p class="text-center"><a data-dpd-type="button" data-variant="price-right" data-text="PURCHASE NOW" data-button-size="dpd-large" data-bg-color="ff8800" data-bg-color-hover="ffa10b" data-text-color="ffffff" data-pr-bg-color="ffffff" data-pr-color="000000" data-lightbox="1" href="https://thrive-strive.dpdcart.com/cart/add?product_id=141860&amp;method_id=151567">PURCHASE NOW</a><script src="https://thrive-strive.dpdcart.com/dpd.js"></script></p>
 			</div>
 			<div class="small-12 large-4 columns">
 				<div class="sidebar" data-equalizer-watch>
