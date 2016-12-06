@@ -34,8 +34,7 @@
 			      	<!--<li><a href="/muscles">Exercises</a></li>-->
 			      	<li><a href="/challenges">Challenges</a></li>
 			      	<li><a href="/shop">Shop</a></li>
-			      	<li><a href="/about">About</a></li>
-			      	<li><a href="/contact">Talk to us</a></li>
+			      	<li><a href="/weight-loss-library">Books</a></li>
 			      	<!--<li><a href="/faq">FAQs</a></li>-->
 			      	<!--<li><a href="/resources">Resources</a></li>-->
 		    	</ul>
