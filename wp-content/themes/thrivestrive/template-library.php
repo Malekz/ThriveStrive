@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Tripwire
+Template Name: Weight Loss Library
 */
 ?>
 
