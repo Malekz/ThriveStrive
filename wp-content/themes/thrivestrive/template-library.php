@@ -26,7 +26,7 @@ Template Name: Weight Loss Library
 				<p>Every month my team and I will add two new guides to the library and consistently update the current titles so that you can ensure you are always knowledgeable about the latest methods of losing weight.</p>
 				<p>What makes this Weight Loss Library so special?</p>
 				<p class="text-center"><a data-dpd-type="button" data-variant="price-right" data-text="PURCHASE NOW" data-button-size="dpd-large" data-bg-color="ff8800" data-bg-color-hover="ffa10b" data-text-color="ffffff" data-pr-bg-color="ffffff" data-pr-color="000000" data-lightbox="1" href="https://thrive-strive.dpdcart.com/cart/add?product_id=141859&amp;method_id=151566">PURCHASE NOW</a><script src="https://thrive-strive.dpdcart.com/dpd.js"></script></p>
-				<h3>Unlimited Access Forever for Just $7</h3>
+				<h3>Unlimited Access Forever for Just $19</h3>
 				<p>It sucks to buy a book, read it once, and then it serves no other purpose. There is always new information to acquire but that usually means buying another book.</p>
 				<p>With the Weight Loss Library the books are updated when I come across new things to share and you immediately get access to the newest version of the books.</p>
 				<p>For life.</p>
