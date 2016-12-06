@@ -29,19 +29,19 @@
 </ul>
 
 <div class="row collapse gallery">
-	<div class="small-6 large-3 columns">
-		<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/05154443/fat-burning-smoothies.png" data-pin-nopin="true"></div>
-	</div>
-	<div class="small-6 large-3 columns">
-		<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/05154444/lazy-ways.png" data-pin-nopin="true"></div>
-	</div>
-	<div class="small-6 large-3 columns">
-		<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/05154447/low-carb-veggies.png" data-pin-nopin="true"></div>
-	</div>
-	<div class="small-6 large-3 columns">
-		<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/05154449/zero-calorie-foods.png" data-pin-nopin="true"></div>
-	</div>
-</div>
+						<div class="small-6 large-3 columns">
+							<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/06224406/fat-burning-smoothies1.png" data-pin-nopin="true"></div>
+						</div>
+						<div class="small-6 large-3 columns">
+							<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/06224408/lazy-ways1.png" data-pin-nopin="true"></div>
+						</div>
+						<div class="small-6 large-3 columns">
+							<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/06224409/low-carb-veggies1.png" data-pin-nopin="true"></div>
+						</div>
+						<div class="small-6 large-3 columns">
+							<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/06224410/zero-calorie-foods1.png" data-pin-nopin="true"></div>
+						</div>
+					</div>
 
 <p>More guides will be added each month and you will always have access to them. We want the world to be happy and that starts with loving who you see in the mirror.</p>
 
