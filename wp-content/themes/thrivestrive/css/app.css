@@ -306,6 +306,8 @@ a {
     .article .callout .button {
       border: 2px solid #fefefe;
       text-decoration: none; }
+  .article .callout.upsell {
+    margin-bottom: 2rem; }
   .article .gallery div.image img {
     background-color: #fefefe;
     padding: 0.25rem; }
@@ -371,7 +373,6 @@ footer {
   text-align: center; }
   footer a {
     color: #FF8800;
-    border-bottom: 1px solid #FF3D7F;
     font-weight: 900; }
     footer a:hover {
       color: #333333;
