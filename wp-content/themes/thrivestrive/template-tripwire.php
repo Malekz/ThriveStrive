@@ -18,7 +18,7 @@ Template Name: Tripwire
 
 	<section class="article">
 		<div class="row">
-			<div class="small-12 large-8 columns" data-equalizer-watch>
+			<div class="small-12 large-8 columns post" data-equalizer-watch>
 				<h2>Stop Paying Monthly Fees for Weight Loss Knowledge</h2>
 				<p>Losing weight requires knowledge about yourself and your body.</p>
 				<p>There is no magic pill that you can pop and wake up the next day with the body that you want. <strong>However, if you understand why your body gains weight and have a plan of action in preventing that weight gain then you will wake up one day with the body that you've been dreaming about.</strong></p>
