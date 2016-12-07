@@ -45,7 +45,5 @@
 
 <p>More guides will be added each month and you will always have access to them. We want the world to be happy and that starts with loving who you see in the mirror.</p>
 
-<p>Gain lifetime access to the Thrive/Strive digital library for just $13.</p>
-
 <p>If you don&rsquo;t start now, when will you finally begin?</p>
 </div>
