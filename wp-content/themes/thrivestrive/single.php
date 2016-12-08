@@ -22,7 +22,7 @@ get_header();
 		</div>
 	</div>
 </section>
-<section class="upgrade hide-for-small-only">
+<section class="upgrade">
 	<div class="row">
 		<div class="small-12 large-10 columns">
 			<h2>Do you want to get a leaner, flatter, toner, and stronger stomach?</h2>
@@ -65,7 +65,7 @@ get_header();
 			</div>
 			<h3>Grab the free guide to our Top 10 Favorite Ab Exercises.</h3>
 		</div>
-		<div class="small-12 large-2 columns hide-for-medium-only">
+		<div class="small-12 large-2 columns hide-for-medium-only hide-for-small-only">
 			<img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/24002116/pinterest4.jpg" class="" data-pin-nopin="true">
 		</div>
 	</div>
