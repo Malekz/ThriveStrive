@@ -601,9 +601,15 @@ section.exercises .video {
   padding-bottom: 2rem; }
 
 .upgrade {
-  background: linear-gradient(to left, rgba(51, 51, 51, 0.5) 10%, rgba(51, 51, 51, 0.5) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg") fixed center no-repeat;
-  background-size: cover;
+  background-color: #434B4F;
   padding: 1rem 0; }
+  @media screen and (min-width: 40em) {
+    .upgrade {
+      background: linear-gradient(to left, rgba(51, 51, 51, 0.5) 10%, rgba(51, 51, 51, 0.5) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg") fixed center no-repeat;
+      background-size: cover; } }
+  @media screen and (max-width: 39.9375em) {
+    .upgrade {
+      text-align: center; } }
   .upgrade img {
     border: 3px solid #fefefe; }
   .upgrade h2, .upgrade h3 {

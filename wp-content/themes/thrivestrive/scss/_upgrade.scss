@@ -1,7 +1,14 @@
 .upgrade {
-	background: linear-gradient(to left, rgba($oil, 0.5) 10%, rgba($oil, 0.5) 90%), url('https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg') fixed center no-repeat;
-	background-size: cover;
+	background-color: $slate;
+	@include breakpoint(medium up) {
+		background: linear-gradient(to left, rgba($oil, 0.5) 10%, rgba($oil, 0.5) 90%), url('https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg') fixed center no-repeat;
+		background-size: cover;
+	}
+	
 	padding: 1rem 0;
+	@include breakpoint(small only) {
+		text-align: center;
+	}
 	img {
 		border: 3px solid $white;
 	}
