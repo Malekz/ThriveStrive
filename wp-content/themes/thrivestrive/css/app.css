@@ -325,6 +325,8 @@ a {
     .article .testimonial span.avatar img {
       border-radius: 1000px;
       max-width: 48px; }
+    .article .testimonial a.button {
+      text-decoration: none; }
   .article span.orange {
     color: #FF8800; }
 
