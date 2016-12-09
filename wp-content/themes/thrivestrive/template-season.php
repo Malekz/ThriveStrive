@@ -179,6 +179,9 @@ Template Name: Season
 				<p><strong>What happens if I skip a day?</strong><br>That&rsquo;s okay, it happens. The goal of Lose It, Leave It, Love It is to arm you with all of the necessary tools, knowledge, and support to succeed in your weight loss journey.</p>
 				<p>If you fall off a bit the community will be there to help pick you back up.</p>
 				<p><strong>What if I can&rsquo;t make it to the gym?</strong><br>Life gets in the way. Thankfully, there are always alternative exercises that you can perform in your home. If you choose to do the bodyweight track then you can do the workouts anywhere.</p>
+				<p><strong>Is this really different from other weight loss programs?</strong><br>Yes! I've made sure that this program focuses on providing you with a support system that will help you across the finish line.</p>
+				<p>If you&rsquo;re just looking for a diet and want to do it alone then you can read all of the free content on this site.</p>
+				<p>In fact, I will be following the program along with you!</p>
 			</div>
 			<div class="small-12 large-4 columns">
 				<div class="sidebar">
