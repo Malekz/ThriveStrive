@@ -257,7 +257,7 @@
 	}
 }
 .sales-break {
-	padding: 2rem 0;
+	padding: 2rem 0 0;
 	background-color: $blue;
 	color: $white;
 		h2 {
@@ -271,6 +271,7 @@
 			border: none;
 			&.subheader {
 				color: $white;
+				line-height: 1.2;
 				}}
 		p, li {
 			font-weight: $global-weight-bold;
@@ -281,6 +282,7 @@
 		}
 		ul {
 			list-style-type: none;
+			margin-bottom: 2rem;
 		}
 		li:before {
 		  position: absolute;

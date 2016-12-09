@@ -1,3 +1,16 @@
+.cta-top {
+	background-color: $orange;
+	color: $white;
+	padding-top: 1rem;
+	a {
+		color: $yellow;
+		text-decoration: underline;
+	}
+	p {
+		font-weight: $global-weight-bold;
+	}
+}
+
 .cta {
 	padding: 2rem 0;
 	background: linear-gradient(to left, rgba($slate, 0.85) 10%, rgba($slate, 0.85) 90%), url('https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg') fixed center no-repeat;

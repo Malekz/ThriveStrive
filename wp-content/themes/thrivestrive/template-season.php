@@ -124,7 +124,7 @@ Template Name: Season
 				<p>So why is it 12 weeks? Because if you want to <strong>Leave It Off</strong> then you need to build up good habits. That can&rsquo;t be done in a couple of days.</p>
 				<p>You&rsquo;ll gain access to:</p>
 				<ul>
-					<li><strong>12 weeks of workouts.</strong> Never worry about doing the same workout twice.</li>
+					<li><strong>2x12 weeks of workouts.</strong> Never worry about doing the same workout twice. You&rsquo;ll have your choice of bodyweight workouts or gym workouts.</li>
 					<li><strong>Nutrition Guide.</strong> Understand the different foods you can eat and how to calculate your Macros (and what those are).</li>
 					<li>Vitamins and supplements recommendations.</li>
 					<li>Access to Private Facebook Group</li>
@@ -165,8 +165,32 @@ Template Name: Season
 		<div class="row">
 			<div class="small-12 large-8 large-offset-2 end columns">
 				<h2>Season 1 Begins on January 3rd</h2>
-				<h3 class="subheader">Reserve Your Spot Today and Save 50%</h3>
+				<h3 class="subheader">Reserve Your Spot Today and Save 50%. Limited to the First 20 Signups.</h3>
 				<p class="text-center"><a data-dpd-type="button" data-variant="price-right" data-text="RESERVE YOUR SPOT NOW" data-button-size="dpd-large" data-bg-color="ff8800" data-bg-color-hover="ffa10b" data-text-color="ffffff" data-pr-bg-color="ffffff" data-pr-color="000000" data-lightbox="1" href="https://thrive-strive.dpdcart.com/cart/add?product_id=142093&amp;method_id=151813">RESERVE YOUR SPOT NOW</a><script src="https://thrive-strive.dpdcart.com/dpd.js"></script></p>
+				<h3 class="subheader"><strike>20</strike> 17 50% Off Spots Remaining</h3>
+			</div>
+		</div>
+	</section>
+	<section class="article">
+		<div class="row">
+			<div class="small-12 large-8 post columns">
+				<p>If you have a question that isn&rsquo;t answered below you can send an email to <a mailto="elisa@thrivestrive.com">elisa@thrivestrive.com</a> and I will respond as soon as possible.</p>	
+				<h2>Questions?</h2>
+				<p><strong>What happens if I skip a day?</strong><br>That&rsquo;s okay, it happens. The goal of Lose It, Leave It, Love It is to arm you with all of the necessary tools, knowledge, and support to succeed in your weight loss journey.</p>
+				<p>If you fall off a bit the community will be there to help pick you back up.</p>
+				<p><strong>What if I can&rsquo;t make it to the gym?</strong><br>Life gets in the way. Thankfully, there are always alternative exercises that you can perform in your home. If you choose to do the bodyweight track then you can do the workouts anywhere.</p>
+			</div>
+			<div class="small-12 large-4 columns">
+				<div class="sidebar">
+					<div class="image">
+						<img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/02230232/elisa.jpg" data-pin-nopin="true">
+					</div>
+					<p>Hi! My name is Elisa and I hate trying to lose weight. I am not really a fan of working out either.</p>
+					<p>However, I want to look good and feel happy so that means eating right and working out.</p>
+					<p>Over the past couple of years I have gained 20lbs, lost 15lbs, gained 5lbs, lost 7lbs, and many other ups and downs.</p>
+					<p>It sucked until I found a group of women to work with.</p>
+					<p>I realized that my problem was that I felt like I was alone on my journey. That&rsquo;s why I created the <strong>Lose It, Leave It, Love It</strong> Program.</p>
+				</div>
 			</div>
 		</div>
 	</section>

@@ -334,7 +334,7 @@ a {
     text-align: left; }
 
 .sales-break {
-  padding: 2rem 0;
+  padding: 2rem 0 0;
   background-color: #7ACED6;
   color: #fefefe; }
   .sales-break h2 {
@@ -346,14 +346,16 @@ a {
     margin: 0 0 1rem;
     border: none; }
     .sales-break h3.subheader {
-      color: #fefefe; }
+      color: #fefefe;
+      line-height: 1.2; }
   .sales-break p, .sales-break li {
     font-weight: 900;
     font-size: 1.2rem; }
   .sales-break li {
     margin-bottom: 1rem; }
   .sales-break ul {
-    list-style-type: none; }
+    list-style-type: none;
+    margin-bottom: 2rem; }
   .sales-break li:before {
     position: absolute;
     margin-left: -1.3em;
@@ -560,6 +562,16 @@ footer {
       background-color: #333333; }
   .honeypot strong {
     background-color: #FFF464; }
+
+.cta-top {
+  background-color: #FF8800;
+  color: #fefefe;
+  padding-top: 1rem; }
+  .cta-top a {
+    color: #FFF464;
+    text-decoration: underline; }
+  .cta-top p {
+    font-weight: 900; }
 
 .cta {
   padding: 2rem 0;
