@@ -78,7 +78,7 @@ a {
   text-align: center; }
   @media screen and (min-width: 40em) {
     .hero {
-      background: linear-gradient(to left, rgba(122, 206, 214, 0.5) 10%, rgba(122, 206, 214, 0.5) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg") fixed center no-repeat;
+      background: linear-gradient(to left, rgba(122, 206, 214, 0.75) 10%, rgba(122, 206, 214, 0.75) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/01010935/thecrew.jpg") fixed center no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 39.9375em) {
     .hero {
@@ -311,11 +311,60 @@ a {
   .article .gallery div.image img {
     background-color: #fefefe;
     padding: 0.25rem; }
+  .article .testimonial {
+    background-color: #ffffed;
+    padding: 1rem 1rem 0;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 1rem; }
+    .article .testimonial p {
+      font-size: 0.8rem; }
+    .article .testimonial span.avatar {
+      margin-right: 1rem;
+      margin-bottom: 1rem; }
+    .article .testimonial span.avatar img {
+      border-radius: 1000px;
+      max-width: 48px; }
+  .article span.orange {
+    color: #FF8800; }
 
 .library {
   background-color: #eeeeee; }
   .library h3 {
     text-align: left; }
+
+.sales-break {
+  padding: 2rem 0;
+  background-color: #7ACED6;
+  color: #fefefe; }
+  .sales-break h2 {
+    color: #fefefe;
+    border: none;
+    padding: 0;
+    margin: 0; }
+  .sales-break h3 {
+    margin: 0 0 1rem;
+    border: none; }
+    .sales-break h3.subheader {
+      color: #fefefe; }
+  .sales-break p, .sales-break li {
+    font-weight: 900;
+    font-size: 1.2rem; }
+  .sales-break li {
+    margin-bottom: 1rem; }
+  .sales-break ul {
+    list-style-type: none; }
+  .sales-break li:before {
+    position: absolute;
+    margin-left: -1.3em;
+    font-weight: bold;
+    content: "\2713";
+    color: #FFF464; }
+  .sales-break li.tick:before {
+    content: "\2713";
+    color: #FFF464; }
+  .sales-break li {
+    line-height: 1.2; }
 
 .slate {
   background-color: #434B4F;

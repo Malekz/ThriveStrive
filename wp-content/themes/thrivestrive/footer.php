@@ -1,7 +1,7 @@
 		<footer>
 			<div class="row">
 				<div class="small-12 columns">
-					<p>&copy;<?php echo date('Y');?> Thrive/Strive | <a href="https://sproutkit.com?ref=thrivestrive">WordPress Design &amp; Dev</a> by SproutKit</p>
+					<p>&copy;<?php echo date('Y');?> Thrive/Strive</p>
 				</div>
 			</div>
 		</footer>

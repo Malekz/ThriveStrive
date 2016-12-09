@@ -225,6 +225,30 @@
 			}
 		}
 	}
+
+	.testimonial {
+		background-color: $yellow-light;
+		padding: 1rem 1rem 0;
+		border: 1px solid $light-gray;
+		border-radius: 5px;
+		p {
+			font-size: rem-calc(16);
+		}
+		margin-bottom: 1rem;
+		span.avatar {
+			margin-right: 1rem;
+			margin-bottom: 1rem;
+		}
+		span.avatar img {
+			border-radius: 1000px;
+			max-width: 48px;
+		}
+	}
+	
+
+	span.orange {
+		color: $orange;
+	}
 }
 .library {
 	background-color: $smoke;
@@ -232,6 +256,47 @@
 		text-align: left;
 	}
 }
+.sales-break {
+	padding: 2rem 0;
+	background-color: $blue;
+	color: $white;
+		h2 {
+			color: $white;
+			border: none;
+			padding: 0;
+			margin: 0;
+		}
+		h3 { 
+			margin: 0 0 1rem;
+			border: none;
+			&.subheader {
+				color: $white;
+				}}
+		p, li {
+			font-weight: $global-weight-bold;
+			font-size: rem-calc(24);
+		}
+		li {
+			margin-bottom: 1rem;
+		}
+		ul {
+			list-style-type: none;
+		}
+		li:before {
+		  position: absolute;
+		  margin-left: -1.3em;
+		  font-weight: bold;
+		  content: "\2713";
+		  color: $yellow;
+		}
+		li.tick:before {
+		  content: "\2713";
+		  color: $yellow;
+		}
+		li {
+			line-height: 1.2;
+		}
+	}
 .slate {
 	background-color: $slate;
 	padding: 1rem 0 2rem;

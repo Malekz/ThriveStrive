@@ -39,7 +39,7 @@
 			      	<!--<li><a href="/resources">Resources</a></li>-->
 		    	</ul>
 		 	 </div>
-		 	<div class="top-bar-right">
+		 	<div class="top-bar-right show-for-large">
 		 		<ul class="menu">
 		 			<li>
 				 		<form role="search" method="get" id="searchform" class="searchform" action="/">
