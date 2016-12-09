@@ -73,9 +73,9 @@ Template Name: Season
 					<div class="float-left">
 						<span class="avatar"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/09075355/28.jpg" data-pin-nopin="true"></span>
 					</div>
-					<p>Having a community of women following along on the same journey as me helped me lose 12lbs. in the first 6 weeks.</p>
-					<p>I loved the fact that you didn&rsquo;t tell me what I had to eat like most diets, but gave me guidelines on the 100s of different meals that I could prepare for myself that wouldn&rsquo;t set me back.</p>
-					<p>Thank you, Elisa!</p>
+					<p>For so long I felt like something was missing. Losing weight shouldn&rsquo;t be this hard but I kept on failing.</p>
+					<p>Thank you for providing me with a system of support that helped me through the times when I wanted to give up.</p>
+					<p>This was an invaluable experience.</p>
 					<p><strong>Gina D.</strong></p>
 				</div>
 			</div>
