@@ -74,10 +74,6 @@ get_header();
 	<div class="row" data-equalizer data-equalize-on="large">
 		<div class="small-12 large-8 columns post" data-equalizer-watch>
 			<?php the_content(); ?>
-			<div class="testimonial">
-				<h3>Will 2017 Finally Be the Year That You Succeed With Your Weight Loss Journey?</h3>
-				<p><a href="/season-1" class="button">Check out Lose It, Leave It, Love It: Season 1</a></p>
-			</div>
 			<?php 
 				$posttags = get_the_tags();
 				if ($posttags) { 

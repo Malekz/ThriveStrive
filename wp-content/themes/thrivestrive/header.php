@@ -21,13 +21,6 @@
 		    async defer
 		    src="//assets.pinterest.com/js/pinit.js"
 		></script>
-		<section class="cta-top">
-			<div class="row">
-				<div class="small-12 columns">
-					<p class="text-center">Ready to lose weight in 2017? Check out <a href="/season-1">Lose It, Leave It, Love It: Season 1</a>.</p>
-				</div>
-			</div>
-		</section>
 		<div class="title-bar" data-responsive-toggle="thrive-menu" data-hide-for="large">
 			<button class="menu-icon" type="button" data-toggle></button>
 			<div class="title-bar-title">Thrive/Strive</div>
