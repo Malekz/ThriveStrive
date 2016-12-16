@@ -22,54 +22,6 @@ get_header();
 		</div>
 	</div>
 </section>
-<section class="upgrade">
-	<div class="row">
-		<div class="small-12 large-10 columns">
-			<h2>Do you want to get a leaner, flatter, toner, and stronger stomach?</h2>
-			<script src="https://assets.convertkit.com/assets/CKJS4.js?v=21"></script>
-			<div class="ck_form_container ck_inline" data-ck-version="6">
-			  <div class="ck_form ck_naked">
-			  <div class="ck_form_fields">
-			    <div id="ck_success_msg" style="display:none;">
-			      <p>Success! Now check your email to grab your guide.</p>
-			    </div>
-
-			    <!--  Form starts here  -->
-			    <form id="ck_subscribe_form" class="ck_subscribe_form" action="https://app.convertkit.com/landing_pages/119102/subscribe" data-remote="true">
-			      <input type="hidden" value="{&quot;form_style&quot;:&quot;naked&quot;,&quot;embed_style&quot;:&quot;inline&quot;,&quot;embed_trigger&quot;:&quot;scroll_percentage&quot;,&quot;scroll_percentage&quot;:&quot;70&quot;,&quot;delay_seconds&quot;:&quot;10&quot;,&quot;display_position&quot;:&quot;br&quot;,&quot;display_devices&quot;:&quot;all&quot;,&quot;days_no_show&quot;:&quot;15&quot;,&quot;converted_behavior&quot;:&quot;show&quot;}" id="ck_form_options">
-			      <input type="hidden" name="id" value="119102" id="landing_page_id">
-			      <div class="ck_errorArea">
-			        <div id="ck_error_msg" style="display:none">
-			          <p>There was an error submitting your subscription. Please try again.</p>
-			        </div>
-			      </div>
-			      <div class="row collapse">
-			      	<div class="small-6 large-4 columns">
-			        	<input type="email" name="email" class="ck_email_address" id="ck_emailField" placeholder="Email Address" required>
-			        </div>
-			        <div class="small-6 large-4 columns">
-			       		<input type="text" name="first_name" class="ck_first_name" id="ck_firstNameField" placeholder="First Name">
-			       	</div>
-			       	<div class="small-12 large-4 columns">
-			       		<button class="button small expanded" id="ck_subscribe_button">Get Your Free Guide</button>
-			       	</div>
-			      </div>
-			      <div class="ck_control_group ck_captcha2_h_field_group ck-captcha2-h" style="position: absolute !important;left: -999em !important;">
-			        <input type="text" name="captcha2_h" class="ck-captcha2-h" id="ck_captcha2_h" placeholder="We use this field to detect spam bots. If you fill this in, you will be marked as a spammer.">
-			      </div>
-			    </form>
-			  </div>
-
-			</div>
-
-			</div>
-			<h3>Grab the free guide to our Top 10 Favorite Ab Exercises.</h3>
-		</div>
-		<div class="small-12 large-2 columns hide-for-medium-only hide-for-small-only">
-			<img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/24002116/pinterest4.jpg" class="" data-pin-nopin="true">
-		</div>
-	</div>
-</section>
 <section class="article">
 	<div class="row" data-equalizer data-equalize-on="large">
 		<div class="small-12 large-8 columns post" data-equalizer-watch>
