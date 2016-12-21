@@ -10,7 +10,7 @@ a {
 
 .button {
   font-family: "proxima-nova", sans-serif;
-  font-weight: 900; }
+  font-weight: 700; }
 
 .no-js .top-bar {
   display: none; }
@@ -29,7 +29,7 @@ a {
 
 .top-bar li a {
   font-family: "proxima-nova", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   color: #434B4F;
   text-transform: uppercase;
   font-size: 0.8rem; }
@@ -90,7 +90,7 @@ a {
     line-height: 1;
     margin-bottom: 0;
     font-size: 2rem;
-    font-weight: 900; }
+    font-weight: 700; }
     @media screen and (min-width: 64em) {
       .hero h1 {
         font-size: 4rem; } }
@@ -108,12 +108,16 @@ a {
         font-size: 2rem; } }
   .hero .subheader {
     color: #fefefe;
-    line-height: 1.2; }
+    line-height: 1.2;
+    margin-bottom: 0; }
   .hero .callout {
     border-width: 5px;
     border-color: rgba(92, 209, 180, 0.4); }
   .hero .button {
-    border: 3px solid #fefefe; }
+    border: 3px solid #fefefe;
+    margin-bottom: 0; }
+  .hero p {
+    margin-bottom: 0; }
 
 .profiles {
   padding: 4rem 0;
@@ -121,7 +125,7 @@ a {
   background-size: cover; }
   .profiles h2 {
     line-height: 1.2;
-    font-weight: 900;
+    font-weight: 700;
     color: #fefefe; }
   .profiles .profile {
     border: 1px solid #e6e6e6;
@@ -141,7 +145,7 @@ a {
       margin: -0.5rem 0 0; }
       .profiles .profile h4.subheader {
         color: #333333;
-        font-weight: 900; }
+        font-weight: 700; }
     @media screen and (max-width: 63.9375em) {
       .profiles .profile {
         margin-bottom: 2rem; }
@@ -176,7 +180,7 @@ a {
   .article .post h2 {
     margin-top: 2rem; }
   .article .post a {
-    font-weight: 900; }
+    font-weight: 700; }
   .article h3 {
     text-align: center; }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
@@ -216,7 +220,7 @@ a {
           margin-right: 1%; } }
     .article .articles-list a span {
       font-size: 1.2rem;
-      font-weight: 900; }
+      font-weight: 700; }
   .article .article-box {
     border: 1px solid #cacaca;
     background-color: #fefefe;
@@ -351,7 +355,7 @@ a {
       color: #fefefe;
       line-height: 1.2; }
   .sales-break p, .sales-break li {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1.2rem; }
   .sales-break li {
     margin-bottom: 1rem; }
@@ -426,7 +430,7 @@ footer {
   text-align: center; }
   footer a {
     color: #FF8800;
-    font-weight: 900; }
+    font-weight: 700; }
     footer a:hover {
       color: #333333;
       border-color: #333333; }
@@ -469,7 +473,7 @@ footer {
   .ck_form .ck_form_content h3.ck_form_title, .ck_form h3.ck_form_title {
     color: #FFF464 !important; }
   .ck_form .ck_description p {
-    font-weight: 900 !important; }
+    font-weight: 700 !important; }
   .ck_form .ck_image {
     margin-right: 10px; }
   .ck_form .ck_label {
@@ -481,7 +485,7 @@ footer {
   .ck_form .ck_subscribe_button {
     background: #7ACED6 !important;
     border-radius: 0 !important;
-    font-weight: 900 !important; }
+    font-weight: 700 !important; }
   .ck_form .ck_guarantee {
     display: none !important; }
 
@@ -526,10 +530,10 @@ footer {
           margin-right: 1%; } }
     .content .articles-list a span {
       font-size: 1.2rem;
-      font-weight: 900; }
+      font-weight: 700; }
   .content h2 {
     line-height: 1.2;
-    font-weight: 900; }
+    font-weight: 700; }
 
 .white {
   padding: 2rem 0;
@@ -573,7 +577,7 @@ footer {
     color: #FFF464;
     text-decoration: underline; }
   .cta-top p {
-    font-weight: 900; }
+    font-weight: 700; }
 
 .cta {
   padding: 2rem 0;
@@ -585,7 +589,7 @@ footer {
     line-height: 1.2;
     color: #fefefe;
     margin-bottom: 2rem;
-    font-weight: 900; }
+    font-weight: 700; }
   .cta h3 {
     color: #fefefe;
     border-bottom: 1px solid rgba(254, 254, 254, 0.5); }
@@ -1912,7 +1916,7 @@ i {
 
 strong,
 b {
-  font-weight: 900;
+  font-weight: 700;
   line-height: inherit; }
 
 small {
@@ -1926,7 +1930,7 @@ h4,
 h5,
 h6 {
   font-family: "proxima-nova", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-style: normal;
   color: #434B4F;
   text-rendering: optimizeLegibility;
@@ -2019,7 +2023,7 @@ dl {
   margin-bottom: 1rem; }
   dl dt {
     margin-bottom: 0.3rem;
-    font-weight: 900; }
+    font-weight: 700; }
 
 blockquote {
   margin: 0 0 1rem;
@@ -2497,7 +2501,7 @@ select {
   margin-top: -0.4rem;
   margin-bottom: 0.8rem;
   font-size: 0.6rem;
-  font-weight: 900;
+  font-weight: 700;
   color: #ec5840; }
   .form-error.is-visible {
     display: block; }
@@ -3806,7 +3810,7 @@ table {
     border: 1px solid #f1f1f1;
     background-color: #fefefe; }
   table caption {
-    font-weight: 900;
+    font-weight: 700;
     padding: 0.4rem 0.5rem 0.5rem; }
   table thead,
   table tfoot {
@@ -3820,7 +3824,7 @@ table {
     table tfoot th,
     table tfoot td {
       padding: 0.4rem 0.5rem 0.5rem;
-      font-weight: 900;
+      font-weight: 700;
       text-align: left; }
   table tbody tr:nth-child(even) {
     background-color: #f1f1f1; }
@@ -3972,7 +3976,7 @@ table.hover tr:nth-of-type(even):hover {
 
 .has-tip {
   border-bottom: dotted 1px #8a8a8a;
-  font-weight: 900;
+  font-weight: 700;
   position: relative;
   display: inline-block;
   cursor: help; }
