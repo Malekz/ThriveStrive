@@ -78,6 +78,19 @@
 	h2, h3, p {
 		color: $white;
 	}
+	ul
+	{
+	   padding-left: 20px;
+	   text-indent: 2px;
+	   list-style: none;
+	   list-style-position: outside;
+	}
+	li:before {
+		content: '✔';   
+	    margin-left: -1rem;
+	    margin-right: rem-calc(10);
+	    color: $yellow;
+	}
 	li {
 		font-weight: $global-weight-bold;
 		font-size: rem-calc(22);

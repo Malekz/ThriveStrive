@@ -657,6 +657,16 @@ footer {
     font-weight: 900; }
   .cta-keto h2, .cta-keto h3, .cta-keto p {
     color: #fefefe; }
+  .cta-keto ul {
+    padding-left: 20px;
+    text-indent: 2px;
+    list-style: none;
+    list-style-position: outside; }
+  .cta-keto li:before {
+    content: '✔';
+    margin-left: -1rem;
+    margin-right: 0.5rem;
+    color: #FFF464; }
   .cta-keto li {
     font-weight: 700;
     font-size: 1.1rem; }
