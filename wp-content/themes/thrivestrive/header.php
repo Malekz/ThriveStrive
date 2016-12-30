@@ -29,7 +29,7 @@
 		  	<div class="top-bar-left">
 		    	<ul class="vertical large-horizontal menu" data-responsive-menu="large-dropdown">
 			      	<li class="menu-text hide-for-small-only hide-for-medium-only"><a href="/">Thrive/Strive</a></li>
-			      	<!--<li><a href="/start">Start Here</a></li>-->
+			      	<li><a href="/keto-dash">Keto Dash System</a></li>
 			      	<li><a href="/library">Library</a></li>
 			      	<!--<li><a href="/muscles">Exercises</a></li>-->
 			      	<li><a href="/challenges">Challenges</a></li>
@@ -39,7 +39,7 @@
 			      	<!--<li><a href="/resources">Resources</a></li>-->
 		    	</ul>
 		 	 </div>
-		 	<div class="top-bar-right show-for-large">
+		 	<!--<div class="top-bar-right show-for-large">
 		 		<ul class="menu">
 		 			<li>
 				 		<form role="search" method="get" id="searchform" class="searchform" action="/">
@@ -52,5 +52,5 @@
 				 		</form>
 				 	</li>
 				</ul>
-		 	</div>
+		 	</div>-->
 		</div>	
