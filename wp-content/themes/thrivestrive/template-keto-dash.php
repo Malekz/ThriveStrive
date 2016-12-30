@@ -66,8 +66,9 @@ Template Name: Keto Dash
 					<div class="float-left">
 						<span class="avatar"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/09075354/4.jpg" data-pin-nopin="true"></span>
 					</div>
-					<p>Having a community of women following along on the same journey as me helped me lose 12 lbs. in the first 14 days.</p>
+					<p>Having a community of women following along on the same journey as me helped me lose more weight than I had even hoped for.</p>
 					<p>I loved the fact that you didn&rsquo;t tell me what I had to eat like most diets, but gave me guidelines on the 100s of different meals that I could prepare for myself that wouldn&rsquo;t set me back.</p>
+					<p>Even better, my migraines have stopped. I can't tell you how happy this makes me feel as I feel like I am finally getting my life back again!</p>
 					<p>Thank you, Elisa!</p>
 					<p><strong>Michelle S.</strong></p>
 				</div>
@@ -130,7 +131,7 @@ Template Name: Keto Dash
 				<p>I've tried what feels like hundreds of different weight loss programs and they all had their pros and cons. Unfortunately, none of them helped to break me of my bad habits and I always found that I would gain the weight back quicker than I lose it.</p>
 				<p><strong>That's when I decided to create a weight loss program of my own tailored to people that have faced the same struggle.</strong></p>
 				<ul>
-					<li>A program that doesn&rsquo;t pin you into a corner with what you can eat.</li>
+					<li>A program that offers a variety of healthy meals.</li>
 					<li>A program that keeps workouts interesting and diverse.</li>
 					<li>A program that offers a support system and community that you can turn to instead of trying to do it all on your own.</li>
 				</ul>
@@ -162,7 +163,7 @@ Template Name: Keto Dash
 					<p>It seemed like that my unhappiness with my body bled out into other areas of my life.</p>
 					<p>Every time I tried to lose weight I ran into roadblocks namely the one called life. My schedule is chaotic so it can be hard to plan consistent workouts.</p>
 					<p><strong>The Keto Dash System</strong> gave me my confidence and happiness back.</p>
-					<p>I lost 20 lbs in 3 weeks and I have no intention of finding where I put it!</p>
+					<p>While losing weight is great, I love how the ketogenic diet has me feeling. I'm much happier every day and have a lot more energy.</p>
 					<p><strong>Tina R.</strong></p>
 				</div>
 				<div class="testimonial clearfix">
