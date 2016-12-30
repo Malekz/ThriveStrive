@@ -119,6 +119,17 @@ a {
   .hero p {
     margin-bottom: 0; }
 
+.keto {
+  color: #fefefe;
+  padding-bottom: 3rem; }
+  @media screen and (min-width: 40em) {
+    .keto {
+      background: linear-gradient(to left, rgba(122, 206, 214, 0.75) 10%, rgba(122, 206, 214, 0.75) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/29223217/pexels-photo-136409.jpeg") fixed center no-repeat;
+      background-size: cover; } }
+  @media screen and (max-width: 39.9375em) {
+    .keto {
+      padding: 2rem 1rem; } }
+
 .profiles {
   padding: 4rem 0;
   background: linear-gradient(to left, rgba(67, 75, 79, 0.5) 10%, rgba(67, 75, 79, 0.5) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/02224735/tscrewsmile.jpg") fixed center no-repeat;
@@ -321,7 +332,7 @@ a {
     border: 1px solid #e6e6e6;
     border-radius: 5px;
     margin-bottom: 1rem; }
-    .article .testimonial p {
+    .article .testimonial p, .article .testimonial li {
       font-size: 0.8rem; }
     .article .testimonial span.avatar {
       margin-right: 1rem;
@@ -331,6 +342,9 @@ a {
       max-width: 48px; }
     .article .testimonial a.button {
       text-decoration: none; }
+    .article .testimonial h3 {
+      border: none;
+      text-align: left; }
   .article span.orange {
     color: #FF8800; }
 
@@ -340,23 +354,34 @@ a {
     text-align: left; }
 
 .sales-break {
-  padding: 2rem 0 0;
+  padding: 2rem 0;
   background-color: #7ACED6;
   color: #fefefe; }
+  .sales-break div.image img {
+    padding: 3px;
+    border: 1px solid #fefefe;
+    background-color: #fefefe;
+    margin-bottom: 2rem; }
   .sales-break h2 {
     color: #fefefe;
     border: none;
     padding: 0;
-    margin: 0; }
+    margin: 0 0 1rem; }
   .sales-break h3 {
     margin: 0 0 1rem;
-    border: none; }
+    border: none;
+    color: #fefefe; }
     .sales-break h3.subheader {
-      color: #fefefe;
       line-height: 1.2; }
   .sales-break p, .sales-break li {
     font-weight: 700;
     font-size: 1.2rem; }
+  .sales-break .callout p {
+    font-weight: 400;
+    font-size: 1rem; }
+  .sales-break .callout h3 {
+    color: #333333;
+    margin-bottom: 0.5rem; }
   .sales-break li {
     margin-bottom: 1rem; }
   .sales-break ul {
@@ -617,6 +642,26 @@ footer {
     padding: 5px;
     background-color: #fefefe;
     border: 1px solid #eeeeee; }
+
+.cta-keto {
+  color: #fefefe;
+  padding: 2rem 0; }
+  @media screen and (min-width: 40em) {
+    .cta-keto {
+      background: linear-gradient(to left, rgba(67, 75, 79, 0.75) 10%, rgba(67, 75, 79, 0.75) 90%), url("https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/29223217/pexels-photo-136409.jpeg") fixed center no-repeat;
+      background-size: cover; } }
+  @media screen and (max-width: 39.9375em) {
+    .cta-keto {
+      padding: 2rem 1rem; } }
+  .cta-keto h2 {
+    font-weight: 900; }
+  .cta-keto h2, .cta-keto h3, .cta-keto p {
+    color: #fefefe; }
+  .cta-keto li {
+    font-weight: 700;
+    font-size: 1.1rem; }
+  .cta-keto h2 {
+    line-height: 1.2; }
 
 .reveal form h2 {
   font-size: 1.6rem;

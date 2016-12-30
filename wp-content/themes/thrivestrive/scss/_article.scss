@@ -231,7 +231,7 @@
 		padding: 1rem 1rem 0;
 		border: 1px solid $light-gray;
 		border-radius: 5px;
-		p {
+		p, li {
 			font-size: rem-calc(16);
 		}
 		margin-bottom: 1rem;
@@ -245,6 +245,10 @@
 		}
 		a.button {
 			text-decoration: none;
+		}
+		h3 {
+			border: none;
+			text-align: left;
 		}
 	}
 	
@@ -260,26 +264,41 @@
 	}
 }
 .sales-break {
-	padding: 2rem 0 0;
+	padding: 2rem 0;
 	background-color: $blue;
 	color: $white;
+	div.image img {
+		padding: 3px;
+		border: 1px solid $white;
+		background-color: $white;
+		margin-bottom: 2rem;
+	}
 		h2 {
 			color: $white;
 			border: none;
 			padding: 0;
-			margin: 0;
+			margin: 0 0 1rem;
 		}
 		h3 { 
 			margin: 0 0 1rem;
 			border: none;
+			color: $white;
 			&.subheader {
-				color: $white;
+				
 				line-height: 1.2;
 				}}
 		p, li {
 			font-weight: $global-weight-bold;
 			font-size: rem-calc(24);
 		}
+	.callout p {
+		font-weight: $global-weight-normal;
+		font-size: rem-calc(20);
+	}
+	.callout h3 {
+		color: $oil;
+		margin-bottom: rem-calc(10);
+	}
 		li {
 			margin-bottom: 1rem;
 		}
