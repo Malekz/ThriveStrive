@@ -29,7 +29,7 @@
 		  	<div class="top-bar-left">
 		    	<ul class="vertical large-horizontal menu" data-responsive-menu="large-dropdown">
 			      	<li class="menu-text hide-for-small-only hide-for-medium-only"><a href="/">Thrive/Strive</a></li>
-			      	<li><a href="/keto-dash">Keto Dash System</a></li>
+			      	<li><a href="/keto-dash">The Keto Dash System</a></li>
 			      	<li><a href="/library">Library</a></li>
 			      	<!--<li><a href="/muscles">Exercises</a></li>-->
 			      	<li><a href="/challenges">Challenges</a></li>
