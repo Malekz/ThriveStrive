@@ -70,16 +70,16 @@ get_header();
 				<h3>Challenge Yourself</h3>
 				<div class="row collapse">
 					<div class="small-12 large-6 columns">
-						<div class="nolink"><a href="/muffin-top-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/23234239/muffin-top1.jpg" data-pin-nopin="true"></a></div>
+						<div class="nolink"><a href="/muffin-top-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/31223117/muffin-top.jpg" data-pin-nopin="true"></a></div>
 					</div>
 					<div class="small-12 large-6 columns">
-						<div class="nolink"><a href="/booty-builder-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/23234237/booty-builder1.jpg" data-pin-nopin="true"></a></div>
+						<div class="nolink"><a href="/booty-builder-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/31223113/booty-builder.jpg" data-pin-nopin="true"></a></div>
 					</div>
 					<div class="small-12 large-6 columns">
-						<div class="nolink"><a href="/thunder-thighs-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/23234240/thunder-thighs1.jpg" data-pin-nopin="true"></a></div>
+						<div class="nolink"><a href="/thunder-thighs-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/31223122/thunder-thighs.jpg" data-pin-nopin="true"></a></div>
 					</div>
 					<div class="small-12 large-6 columns">
-						<div class="nolink"><a href="/body-blaster-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/23234236/body-blaster1.jpg" data-pin-nopin="true"></a></div>
+						<div class="nolink"><a href="/body-blaster-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/31223109/body-blaster.jpg" data-pin-nopin="true"></a></div>
 					</div>
 				</div>
 				<br>
