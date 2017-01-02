@@ -82,22 +82,6 @@ get_header();
 						<div class="nolink"><a href="/body-blaster-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/31223109/body-blaster.jpg" data-pin-nopin="true"></a></div>
 					</div>
 				</div>
-				<br>
-				<h3>Get Healthy, Get Happy</h3>
-				<div class="row collapse">
-					<div class="small-12 large-6 columns">
-						<div class="nolink"><a alt="benefits fasting" title="9 benefits of fasting" href="https://thrivestrive.com/benefits-of-fasting/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/23220255/pinterest70.png" data-pin-nopin="true"></a></div>
-					</div>
-					<div class="small-12 large-6 columns">
-						<div class="nolink"><a alt="lose weight lazy people" title="9 lazy ways to lose weight" href="https://thrivestrive.com/losing-weight-lazy-way/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/10/23221241/pinterest20.png" data-pin-nopin="true"></a></div>
-					</div>
-					<div class="small-12 large-6 columns">
-						<div class="nolink"><a href="https://thrivestrive.com/lose-weight-one-spoonful-tricks/" title="Lose weight with cinnamon" alt="Lose weight with cinnamon"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/10/23224408/pinterest40.png" data-pin-nopin="true"></a></div>
-					</div>
-					<div class="small-12 large-6 columns">
-						<div class="nolink"><a alt="yoga lose weight quick" title="Yoga lose weight quickly" href="https://thrivestrive.com/yoga-lose-weight-quickly/"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/11/23223712/pinterest81.png" data-pin-nopin="true"></a></div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
