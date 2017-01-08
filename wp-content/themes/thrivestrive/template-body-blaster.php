@@ -64,7 +64,7 @@ Template Name: Body Blaster Challenge
 				<?php the_content(); ?>
 			</div>
 			<div class="small-12 large-6 columns">
-				<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/31223111/body-blaster.png" data-pin-url="https://thrivestrive.com/body-blaster" data-pin-description="Want to get a full body workout that burns fat, helps your lose weight quickly, and builds muscle? Then this is the challenge for you."></div>
+				<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2017/01/08044410/body-blaster.jpg" data-pin-url="https://thrivestrive.com/body-blaster" data-pin-description="Want to get a full body workout that burns fat, helps your lose weight quickly, and builds muscle? Then this is the challenge for you."></div>
 			</div>
 		</div>
 	</section>

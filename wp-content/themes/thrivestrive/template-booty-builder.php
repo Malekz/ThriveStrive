@@ -64,7 +64,7 @@ Template Name: Booty Builder Challenge
 				<?php the_content(); ?>
 			</div>
 			<div class="small-12 large-6 columns">
-				<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/31223115/booty-builder.png" data-pin-url="https://thrivestrive.com/body-blaster" data-pin-description="Looking for a workout that helps you get a bigger and firmer butt? This booty workout is meant for you."></div>
+				<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2017/01/08044411/booty-builder.jpg" data-pin-url="https://thrivestrive.com/body-blaster" data-pin-description="Looking for a workout that helps you get a bigger and firmer butt? This booty workout is meant for you."></div>
 			</div>
 		</div>
 	</section>

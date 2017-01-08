@@ -64,7 +64,7 @@ Template Name: Thunder Thighs Challenge
 				<?php the_content(); ?>
 			</div>
 			<div class="small-12 large-6 columns">
-				<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/12/31223123/thunder-thighs.png" data-pin-url="https://thrivestrive.com/body-blaster" data-pin-description="How do you get rid of thunder thighs? You take the 7-day Thunder Thigh challenge. Burn fat and build muscle in your thighs."></div>
+				<div class="image"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2017/01/08044416/thunder-thighs.jpg" data-pin-url="https://thrivestrive.com/body-blaster" data-pin-description="How do you get rid of thunder thighs? You take the 7-day Thunder Thigh challenge. Burn fat and build muscle in your thighs."></div>
 			</div>
 		</div>
 	</section>
