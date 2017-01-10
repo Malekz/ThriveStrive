@@ -1,5 +1,5 @@
 <div class="callout">
-<h3>Ready to Lose 10-21 lbs in the Next 21 Days?</h3>
+<h3>Ready to Lose 10-21 lbs in the Next 28 Days?</h3>
 <p>If you're really serious about losing weight and want to create a new lifestyle for yourself then the <a href="https://club.ketodash.com" target="_blank" rel="nofollow">Keto Dash System</a> is for you.</p>
 
 <p>What if you were told that doctors and scientists have been using a diet for over 50 years to help cure obesity, diabetes, heart disease, high cholesterol, high blood pressure, cardiovascular disease, bipolar disease, and even cancer?</p>
