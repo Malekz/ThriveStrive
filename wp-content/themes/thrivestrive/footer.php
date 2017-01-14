@@ -1,7 +1,7 @@
 		<footer>
 			<div class="row">
 				<div class="small-12 columns">
-					<p>&copy;<?php echo date('Y');?> Thrive/Strive</p>
+					<p>&copy;<?php echo date('Y');?> Thrive/Strive | Get Right</p>
 				</div>
 			</div>
 		</footer>
