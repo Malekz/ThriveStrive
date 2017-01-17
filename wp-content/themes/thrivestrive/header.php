@@ -29,12 +29,12 @@
 		  	<div class="top-bar-left">
 		    	<ul class="vertical large-horizontal menu" data-responsive-menu="large-dropdown">
 			      	<li class="menu-text hide-for-small-only hide-for-medium-only"><a href="/">Thrive/Strive</a></li>
-			      	<li><a href="/keto-dash">The Keto Dash System</a></li>
 			      	<li><a href="/library">Library</a></li>
 			      	<!--<li><a href="/muscles">Exercises</a></li>-->
-			      	<li><a href="/challenges">Challenges</a></li>
+			      	<!--<li><a href="/challenges">Challenges</a></li>-->
 			      	<!--<li><a href="/shop">Shop</a></li>-->
 			      	<li><a href="/weight-loss-library">Books</a></li>
+			      	<li><a href="https://club.ketodash.com">28-Day Weight Loss Challenge</a></li>
 			      	<!--<li><a href="/faq">FAQs</a></li>-->
 			      	<!--<li><a href="/resources">Resources</a></li>-->
 		    	</ul>
