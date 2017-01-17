@@ -25,5 +25,5 @@
 
 <p>Sounds too good to be true, right? Well it isn't and I am happy to teach you all about it with the <a href="https://club.ketodash.com" target="_blank" rel="nofollow">28-Day Weight Loss Challenge</a>.</p>
 
-<p><a href="https://club.ketodash.com" class="thirstylink button expanded large" rel="nofollow" target="_blank" title="Keto Dash: Season 1">Check Out 28-Day Weight Loss Challenge Now</a></p>
+<p><a href="https://club.ketodash.com" class="thirstylink button expanded large" rel="nofollow" target="_blank" title="Keto Dash: Season 1">Check Out the 28-Day Weight Loss Challenge Now</a></p>
 </div>
