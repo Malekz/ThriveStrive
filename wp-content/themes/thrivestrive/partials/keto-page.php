@@ -1,6 +1,7 @@
+<?php $post_slug = get_post_field( 'post_name', get_post() ); ?>
 <div class="callout">
 <h3>Ready to Lose 10-21 lbs in the Next 28 Days?</h3>
-<p>If you're really serious about losing weight and want to create a new lifestyle for yourself then the <a href="https://club.ketodash.com" target="_blank" rel="nofollow">28-Day Weight Loss Challenge</a> is for you.</p>
+<p>If you're really serious about losing weight and want to create a new lifestyle for yourself then the <a href="https://club.ketodash.com/?utm_source=bitchafit_post_footer&utm_campaign=<?php echo $post_slug; ?>&utm_medium=blog_post" target="_blank" rel="nofollow">28-Day Weight Loss Challenge</a> is for you.</p>
 
 <p>The Ketogenic Diet has changed our lives. It has turned our bodies from sugar-burners to fat-burners.</p>
 
