@@ -353,6 +353,11 @@ a {
   .library h3 {
     text-align: left; }
 
+.quotes {
+  background-color: #eeeeee; }
+  .quotes img {
+    margin-bottom: 1rem; }
+
 .sales-break {
   padding: 2rem 0;
   background-color: #7ACED6;
