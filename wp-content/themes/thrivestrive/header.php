@@ -30,28 +30,9 @@
 		    	<ul class="vertical large-horizontal menu" data-responsive-menu="large-dropdown">
 			      	<li class="menu-text hide-for-small-only hide-for-medium-only"><a href="/">Thrive/Strive</a></li>
 			      	<li><a href="/library">Library</a></li>
-			      	<!--<li><a href="/muscles">Exercises</a></li>-->
-			      	<!--<li><a href="/challenges">Challenges</a></li>-->
-			      	<!--<li><a href="/shop">Shop</a></li>-->
 			      	<li><a href="/motivational-quotes">Motivation</a></li>
 			      	<li><a href="/weight-loss-library">Books</a></li>
 			      	<li><a href="https://club.ketodash.com">28-Day Weight Loss Challenge</a></li>
-			      	<!--<li><a href="/faq">FAQs</a></li>-->
-			      	<!--<li><a href="/resources">Resources</a></li>-->
 		    	</ul>
 		 	 </div>
-		 	<!--<div class="top-bar-right show-for-large">
-		 		<ul class="menu">
-		 			<li>
-				 		<form role="search" method="get" id="searchform" class="searchform" action="/">
-				 			<div class="input-group">
-				 			  	<input class="input-group-field" type="text" name="s" id="s">
-				 			  	<div class="input-group-button">
-				 			    	<input type="submit" class="button" value="Search">
-				 			  	</div>
-				 			</div>
-				 		</form>
-				 	</li>
-				</ul>
-		 	</div>-->
 		</div>	
