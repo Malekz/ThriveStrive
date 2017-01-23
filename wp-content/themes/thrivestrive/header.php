@@ -33,6 +33,7 @@
 			      	<!--<li><a href="/muscles">Exercises</a></li>-->
 			      	<!--<li><a href="/challenges">Challenges</a></li>-->
 			      	<!--<li><a href="/shop">Shop</a></li>-->
+			      	<li><a href="/motivational-quotes">Motivation</a></li>
 			      	<li><a href="/weight-loss-library">Books</a></li>
 			      	<li><a href="https://club.ketodash.com">28-Day Weight Loss Challenge</a></li>
 			      	<!--<li><a href="/faq">FAQs</a></li>-->
