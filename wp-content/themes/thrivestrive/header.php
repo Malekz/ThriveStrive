@@ -13,7 +13,6 @@
 		<?php wp_head(); ?>
 		<script src="https://use.typekit.net/hbz7aio.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
-		<script src="https://use.fontawesome.com/d0cd269dfc.js"></script>
 	</head>
 	<body>
 		<script
