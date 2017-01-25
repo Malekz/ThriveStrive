@@ -11,5 +11,5 @@
 
 <p>Sounds too good to be true, right? Well it isn't and we are happy to teach you all about it with the <a href="https://club.ketodash.com/?utm_source=thrivestrive_post_footer&utm_campaign=<?php echo $post_slug; ?>&utm_medium=blog_post" target="_blank" rel="nofollow">28-Day Weight Loss Challenge</a>.</p>
 
-<p><a href="https://club.ketodash.com/?utm_source=thrivestrive_post_footer&utm_campaign=<?php echo $post_slug; ?>&utm_medium=blog_post" target="_blank" rel="nofollow">Check Out the 28-Day Weight Loss Challenge Now</a></p>
+<p><a href="https://club.ketodash.com/?utm_source=thrivestrive_post_footer&utm_campaign=<?php echo $post_slug; ?>&utm_medium=blog_post" target="_blank" rel="nofollow" class="button large expanded">Check Out the 28-Day Weight Loss Challenge Now</a></p>
 </div>
