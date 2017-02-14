@@ -21,8 +21,8 @@ get_header();
 	</div>
 </section>
 <section class="article">
-	<div class="row" data-equalizer data-equalize-on="large">
-		<div class="small-12 large-8 columns post" data-equalizer-watch>
+	<div class="row">
+		<div class="small-12 large-8 columns post">
 			<?php the_content(); ?>
 			<?php 
 				get_template_part('partials/keto', 'page');
@@ -54,7 +54,7 @@ get_header();
 			?>
 		</div>
 		<div class="small-12 large-4 columns hide-for-small-only">
-			<div class="sidebar" data-equalizer-watch>
+			<div class="sidebar">
 				<div class="image">
 					<img src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>">
 				</div>
