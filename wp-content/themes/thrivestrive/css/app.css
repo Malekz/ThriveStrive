@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Heebo:400,500,700,900");
 /**
  * Foundation for Sites by ZURB
  * Version 6.2.1
@@ -9,7 +10,7 @@ a {
   transition: 0.2s linear all; }
 
 .button {
-  font-family: "proxima-nova", sans-serif;
+  font-family: "Heebo", sans-serif;
   font-weight: 700; }
 
 .no-js .top-bar {
@@ -22,13 +23,13 @@ a {
     display: none; } }
 
 .title-bar {
-  font-family: "proxima-nova", sans-serif; }
+  font-family: "Heebo", sans-serif; }
 
 .top-bar ul {
   background-color: transparent; }
 
 .top-bar li a {
-  font-family: "proxima-nova", sans-serif;
+  font-family: "Heebo", sans-serif;
   font-weight: 700;
   color: #434B4F;
   text-transform: uppercase;
@@ -499,7 +500,7 @@ footer {
   border: 1px solid #434B4F !important;
   padding: 0.25rem !important;
   box-shadow: none !important;
-  font-family: "proxima-nova", sans-serif !important; }
+  font-family: "Heebo", sans-serif !important; }
   .ck_form .ck_form_content h3.ck_form_title, .ck_form h3.ck_form_title {
     color: #FFF464 !important; }
   .ck_form .ck_description p {
@@ -508,7 +509,7 @@ footer {
     margin-right: 10px; }
   .ck_form .ck_label {
     font-size: 0.8rem;
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Heebo", sans-serif;
     color: #fefefe !important; }
   .ck_form .ck_control_group input {
     border-radius: 0 !important; }
@@ -626,7 +627,7 @@ footer {
   .cta h3.subheader {
     color: #fefefe; }
   .cta em {
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Heebo", sans-serif;
     color: #FFF464;
     font-size: 2.5rem; }
     @media screen and (max-width: 39.9375em) {
@@ -680,7 +681,7 @@ footer {
 
 .reveal form h2 {
   font-size: 1.6rem;
-  font-family: "proxima-nova", sans-serif;
+  font-family: "Heebo", sans-serif;
   font-style: italic;
   margin-bottom: 1rem; }
 
@@ -741,7 +742,7 @@ section.exercises .video {
     border: 3px solid #fefefe; }
   .upgrade h2, .upgrade h3 {
     color: #fefefe;
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Heebo", sans-serif;
     font-style: normal; }
   .upgrade h2 {
     margin-bottom: 0.5rem;
@@ -768,7 +769,7 @@ section.exercises .video {
     border-radius: 0 !important;
     padding: 0 !important;
     box-shadow: none !important;
-    font-family: "proxima-nova", sans-serif !important; }
+    font-family: "Heebo", sans-serif !important; }
     .upgrade .ck_subscribe_form .ck_form input[type="text"], .upgrade .ck_subscribe_form .ck_form input[type="email"], .upgrade .ck_subscribe_form input {
       height: 2.15rem;
       margin-bottom: 0; }
@@ -1156,7 +1157,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "proxima-nova", sans-serif;
+  font-family: "Heebo", sans-serif;
   font-weight: 400;
   line-height: 1.5;
   color: #333333;
@@ -1989,7 +1990,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "proxima-nova", sans-serif;
+  font-family: "Heebo", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #434B4F;
@@ -2385,10 +2386,6 @@ textarea {
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #cacaca; }
-
-input::-moz-placeholder,
-textarea::-moz-placeholder {
   color: #cacaca; }
 
 input:-ms-input-placeholder,
@@ -3328,7 +3325,8 @@ body {
   width: 100%;
   overflow-x: hidden;
   position: relative;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   -webkit-overflow-scrolling: auto; }
 
 .off-canvas-wrapper-inner {
@@ -3346,7 +3344,8 @@ body {
   min-height: 100%;
   background: #333333;
   transition: transform 0.5s ease;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   z-index: 1;
   padding-bottom: 0.1px;
   box-shadow: 0 0 10px rgba(10, 10, 10, 0.5); }
@@ -4259,7 +4258,8 @@ table.hover tr:nth-of-type(even):hover {
   -ms-transform: translateY(-100%);
       transform: translateY(-100%);
   transition-property: transform, opacity;
-  backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden; }
 
 .slide-in-down.mui-enter.mui-enter-active {
   -ms-transform: translateY(0);
@@ -4271,7 +4271,8 @@ table.hover tr:nth-of-type(even):hover {
   -ms-transform: translateX(-100%);
       transform: translateX(-100%);
   transition-property: transform, opacity;
-  backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden; }
 
 .slide-in-left.mui-enter.mui-enter-active {
   -ms-transform: translateX(0);
@@ -4283,7 +4284,8 @@ table.hover tr:nth-of-type(even):hover {
   -ms-transform: translateY(100%);
       transform: translateY(100%);
   transition-property: transform, opacity;
-  backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden; }
 
 .slide-in-up.mui-enter.mui-enter-active {
   -ms-transform: translateY(0);
@@ -4295,7 +4297,8 @@ table.hover tr:nth-of-type(even):hover {
   -ms-transform: translateX(100%);
       transform: translateX(100%);
   transition-property: transform, opacity;
-  backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden; }
 
 .slide-in-right.mui-enter.mui-enter-active {
   -ms-transform: translateX(0);
@@ -4307,7 +4310,8 @@ table.hover tr:nth-of-type(even):hover {
   -ms-transform: translateY(0);
       transform: translateY(0);
   transition-property: transform, opacity;
-  backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden; }
 
 .slide-out-down.mui-leave.mui-leave-active {
   -ms-transform: translateY(100%);
@@ -4319,7 +4323,8 @@ table.hover tr:nth-of-type(even):hover {
   -ms-transform: translateX(0);
       transform: translateX(0);
   transition-property: transform, opacity;
-  backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden; }
 
 .slide-out-right.mui-leave.mui-leave-active {
   -ms-transform: translateX(100%);
@@ -4331,7 +4336,8 @@ table.hover tr:nth-of-type(even):hover {
   -ms-transform: translateY(0);
       transform: translateY(0);
   transition-property: transform, opacity;
-  backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden; }
 
 .slide-out-up.mui-leave.mui-leave-active {
   -ms-transform: translateY(-100%);
@@ -4343,7 +4349,8 @@ table.hover tr:nth-of-type(even):hover {
   -ms-transform: translateX(0);
       transform: translateX(0);
   transition-property: transform, opacity;
-  backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden; }
 
 .slide-out-left.mui-leave.mui-leave-active {
   -ms-transform: translateX(-100%);
