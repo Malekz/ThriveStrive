@@ -29,9 +29,7 @@
 		    	<ul class="vertical large-horizontal menu" data-responsive-menu="large-dropdown">
 			      	<li class="menu-text hide-for-small-only hide-for-medium-only"><a href="/">Thrive/Strive</a></li>
 			      	<li><a href="/library">Library</a></li>
-			      	<li><a href="/motivational-quotes">Motivation</a></li>
-			      	<li><a href="/weight-loss-library">Books</a></li>
-			      	<li><a href="https://club.ketodash.com">28-Day Weight Loss Challenge</a></li>
+			      	<li><a href="https://ketodash.com?utm_source=thrive_strive_nav&utm_campaign=nav&utm_medium=nav" target="_blank">28-Day Weight Loss Challenge</a></li>
 		    	</ul>
 		 	 </div>
 		</div>	
