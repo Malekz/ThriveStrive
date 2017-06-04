@@ -33,6 +33,9 @@ get_header();
 				  			get_template_part('partials/fitness', 'page');
 				  			//get_template_part('partials/library', 'page');
 				  		}
+				  		if($tag->name == 'keto') {
+				  			get_template_part('partials/keto', 'page');
+				  		}
 				  		if($tag->name == 'weightloss') {
 				  			get_template_part('partials/weightloss', 'page');
 				  		}
