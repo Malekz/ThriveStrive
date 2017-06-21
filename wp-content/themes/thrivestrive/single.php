@@ -30,7 +30,7 @@ get_header();
 				if ($posttags) { 
 				 	foreach($posttags as $tag) {
 				 		if($tag->name == 'fitness') {
-				  			get_template_part('partials/fitness', 'page');
+				  			get_template_part('partials/weightloss', 'page');
 				  			//get_template_part('partials/library', 'page');
 				  		}
 				  		if($tag->name == 'keto') {
