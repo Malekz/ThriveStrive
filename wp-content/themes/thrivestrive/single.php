@@ -40,7 +40,7 @@ get_header();
 				  			get_template_part('partials/weightloss', 'page');
 				  		}
 				  		if($tag->name == 'yoga') {
-				  			get_template_part('partials/yoga', 'page');
+				  			get_template_part('partials/weightloss', 'page');
 				  		}
 				  		if($tag->name == 'detox') {
 				  			get_template_part('partials/detox', 'page');
