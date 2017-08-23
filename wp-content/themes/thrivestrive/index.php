@@ -19,9 +19,18 @@ get_header();
 		</div>
 		<div class="small-12 large-8 large-offset-2 columns end">
 			<div class="callout">
-				<p class="text-left">The secret behind the people that know how to lose weight and those that struggle to lose weight is knowledge.</p>
-				<p class="text-left">It has nothing to do with secret pills or crazy workouts. In this 3 day challenge, you'll learn why your body loves to store fat, how you can turn it into a fat burning machine, and how to maintain the lifestyle through awesome meals.</p>
-				<p style="margin-bottom: 0;"><script src="//static.leadpages.net/leadboxes/current/embed.js" async defer></script> <a href="" style="margin-bottom: 0;" class="button expanded large" data-leadbox-popup="1454bc973f72a2:16408842c946dc" data-leadbox-domain="billionaireblogclub.lpusercontent.com">Start Your Free 3-Day Weight Loss Challenge</a></p> 
+				<div class="row">
+					<div class="small-12 large-4 columns">
+						<div class="image">
+							<script src="//static.leadpages.net/leadboxes/current/embed.js" async defer></script> <a href="" style="margin-bottom: 0;" class="" data-leadbox-popup="1454bc973f72a2:16408842c946dc" data-leadbox-domain="billionaireblogclub.lpusercontent.com"><img data-pin-description="Transform your body in 3 days and change your life forever with the 3-day weight loss challenge." data-pin-url="https://ketodash.com/weight-loss-challenge" data-pin-media="https://s3-us-west-2.amazonaws.com/bitchafit-master/wp-content/uploads/2017/08/23200626/weight-loss-challenge-pin3.jpg" data-pin-custom="true" data-pin-do="buttonPin" alt="Transform your body in 3 days and change your life forever with the 3-day weight loss challenge." src="https://s3-us-west-2.amazonaws.com/bitchafit-master/wp-content/uploads/2017/08/23200626/weight-loss-challenge-pin3.jpg"></a>
+						</div>
+					</div>
+					<div class="small-12 large-8 columns">
+						<p class="text-left">The secret behind the people that know how to lose weight and those that struggle to lose weight is knowledge.</p>
+						<p class="text-left">It has nothing to do with secret pills or crazy workouts. In this 3 day challenge, you'll learn why your body loves to store fat, how you can turn it into a fat burning machine, and how to maintain the lifestyle through awesome meals.</p>
+						<p style="margin-bottom: 0;"><script src="//static.leadpages.net/leadboxes/current/embed.js" async defer></script> <a href="" style="margin-bottom: 0;" class="button expanded large" data-leadbox-popup="1454bc973f72a2:16408842c946dc" data-leadbox-domain="billionaireblogclub.lpusercontent.com">Start Your Free 3-Day Weight Loss Challenge Today!</a></p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!--<div class="large-3 small-6 columns">
