@@ -9,16 +9,22 @@ get_header();
 				<h1>We Are Normals Trying to Get Better</h1>
 				<h2 class="subheader">Together as a Team</h2>
 			</div>
-			<p><a data-open="motivationModal" class="button large">Take the Free, 5-Day Mind Over Body Course</a></p>
 		</div>
 	</div>
 </section>
 <section class="cta">
 	<div class="row">
 		<div class="small-12 columns">
-			<h2>Are you ready to challenge yourself?</h2>
+			<h2>Are you ready to challenge yourself? Take the 3-Day Weight Loss Challenge!</h2>
 		</div>
-		<div class="large-3 small-6 columns">
+		<div class="small-12 large-8 large-offset-2 columns end">
+			<div class="callout">
+				<p class="text-left">The secret behind the people that know how to lose weight and those that struggle to lose weight is knowledge.</p>
+				<p class="text-left">It has nothing to do with secret pills or crazy workouts. In this 3 day challenge, you'll learn why your body loves to store fat, how you can turn it into a fat burning machine, and how to maintain the lifestyle through awesome meals.</p>
+				<p style="margin-bottom: 0;"><script src="//static.leadpages.net/leadboxes/current/embed.js" async defer></script> <a href="" style="margin-bottom: 0;" class="button expanded large" data-leadbox-popup="1454bc973f72a2:16408842c946dc" data-leadbox-domain="billionaireblogclub.lpusercontent.com">Start Your Free 3-Day Weight Loss Challenge</a></p> 
+			</div>
+		</div>
+		<!--<div class="large-3 small-6 columns">
 			<div class="image">
 				<div class="nolink"><a href="/muffin-top-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2017/01/08044413/muffin-top.jpg" data-pin-url="https://thrivestrive.com/muffin-top-challenge" data-pin-description=""></a></div>
 			</div>
@@ -37,7 +43,7 @@ get_header();
 			<div class="image">
 				<div class="nolink"><a href="/body-blaster-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2017/01/08044410/body-blaster.jpg" data-pin-url="https://thrivestrive.com/body-blaster-challenge" data-pin-description=""></a></div>
 			</div>
-		</div>
+		</div>-->
 	</div>
 </section>
 <section class="content white">

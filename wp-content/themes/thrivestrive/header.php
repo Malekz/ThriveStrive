@@ -11,8 +11,6 @@
 		<?php endif; ?>
 		<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 		<?php wp_head(); ?>
-		<script src="https://use.typekit.net/hbz7aio.js"></script>
-		<script>try{Typekit.load();}catch(e){}</script>
 	</head>
 	<body>
 		<script
@@ -29,7 +27,7 @@
 		    	<ul class="vertical large-horizontal menu" data-responsive-menu="large-dropdown">
 			      	<li class="menu-text hide-for-small-only hide-for-medium-only"><a href="/">Thrive/Strive</a></li>
 			      	<li><a href="/library">Library</a></li>
-			      	<li><a href="https://ketodash.com?utm_source=thrive_strive_nav&utm_campaign=nav&utm_medium=nav" target="_blank">28-Day Weight Loss Challenge</a></li>
+			      	<li><a href="https://ketodash.com?utm_source=thrive_strive_nav&utm_campaign=nav&utm_medium=nav" target="_blank">Start Your 28-Day Weight Loss Challenge</a></li>
 		    	</ul>
 		 	 </div>
 		</div>	
