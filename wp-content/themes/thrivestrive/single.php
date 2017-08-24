@@ -73,9 +73,9 @@ get_header();
 					<script src="//static.leadpages.net/leadboxes/current/embed.js" async defer></script> <a href="" style="margin-bottom: 0;" class="" data-leadbox-popup="1454bc973f72a2:16408842c946dc" data-leadbox-domain="billionaireblogclub.lpusercontent.com"><img data-pin-description="Transform your body in 3 days and change your life forever with the 3-day weight loss challenge." data-pin-url="https://ketodash.com/weight-loss-challenge" data-pin-media="https://s3-us-west-2.amazonaws.com/bitchafit-master/wp-content/uploads/2017/08/23200626/weight-loss-challenge-pin3.jpg" data-pin-custom="true" data-pin-do="buttonPin" alt="Transform your body in 3 days and change your life forever with the 3-day weight loss challenge." src="https://s3-us-west-2.amazonaws.com/bitchafit-master/wp-content/uploads/2017/08/23200626/weight-loss-challenge-pin3.jpg"></a>
 				</div>
 				<h3>Get Started With Keto</h3>
-				<p>Our book, <em><a href="https://ketodash.com/3-day-keto">3-Day Keto</a></em>, will help to quickly get you to speed on the Ketogenic Diet along with practical advice on how to achieve ketosis as quickly as possible.</p>
+				<p>Our book, <em><a href="https://ketodash.com/weight-loss-manual">The 3-Day Weight Loss Manual</a></em>, will help to quickly get you up to speed on the Ketogenic Diet along with practical advice on how to achieve ketosis and weight loss as quickly as possible.</p>
 				<div class="image">
-					<a href="https://ketodash.com/3-day-keto"><img src="https://s3-us-west-2.amazonaws.com/bitchafit-master/wp-content/uploads/2017/08/21032049/cover1.jpg" data-pin-nopin="true"></a>
+					<a href="https://ketodash.com/weight-loss-manual"><img src="https://s3-us-west-2.amazonaws.com/bitchafit-master/wp-content/uploads/2017/08/24194240/weight-loss-manual.jpg" data-pin-nopin="true"></a>
 				</div>
 			</div>
 		</div>
