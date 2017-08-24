@@ -33,26 +33,6 @@ get_header();
 				</div>
 			</div>
 		</div>
-		<!--<div class="large-3 small-6 columns">
-			<div class="image">
-				<div class="nolink"><a href="/muffin-top-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2017/01/08044413/muffin-top.jpg" data-pin-url="https://thrivestrive.com/muffin-top-challenge" data-pin-description=""></a></div>
-			</div>
-		</div>
-		<div class="large-3 small-6 columns">
-			<div class="image">
-				<div class="nolink"><a href="/booty-builder-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2017/01/08044411/booty-builder.jpg" data-pin-url="https://thrivestrive.com/booty-builder-challenge" data-pin-description=""></a></div>
-			</div>
-		</div>
-		<div class="large-3 small-6 columns">
-			<div class="image">
-				<div class="nolink"><a href="/thunder-thighs-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2017/01/08044416/thunder-thighs.jpg" data-pin-url="https://thrivestrive.com/thunder-thighs-challenge" data-pin-description=""></a></div>
-			</div>
-		</div>
-		<div class="large-3 small-6 columns">
-			<div class="image">
-				<div class="nolink"><a href="/body-blaster-challenge"><img src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2017/01/08044410/body-blaster.jpg" data-pin-url="https://thrivestrive.com/body-blaster-challenge" data-pin-description=""></a></div>
-			</div>
-		</div>-->
 	</div>
 </section>
 <section class="content white">

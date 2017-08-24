@@ -9,4 +9,5 @@
 <div class="small-12 large-8 columns">
 	<h3 style="color: #fff;">The secret behind the people that know how to lose weight and those that struggle to lose weight is knowledge.</h3>
 	<h3 style="color: #fff;">It has nothing to do with secret pills or crazy workouts. In this 3 day challenge, you'll learn why your body loves to store fat, how you can turn it into a fat burning machine, and how to maintain the lifestyle through awesome meals.</h3>
+	<p style="margin-bottom: 0;"><script src="//static.leadpages.net/leadboxes/current/embed.js" async defer></script> <a href="" style="margin-bottom: 0;" class="button expanded large" data-leadbox-popup="1454bc973f72a2:16408842c946dc" data-leadbox-domain="billionaireblogclub.lpusercontent.com">Start Your Free 3-Day Weight Loss Challenge Today!</a></p>
 </div>
