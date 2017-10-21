@@ -6,8 +6,7 @@ get_header();
 		<div class="small-12 columns">
 			<div class="title-box">
 				<h2 class="subheader">We Aren&rsquo;t Instagram Fitness Heroes</h2>
-				<h1>We Are Normals Trying to Get Better</h1>
-				<h2 class="subheader">Together as a Team</h2>
+				<h1>We Are Normals Trying to Get Better Together</h1>
 			</div>
 		</div>
 	</div>
