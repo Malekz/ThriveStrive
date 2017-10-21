@@ -8,44 +8,44 @@ Template Name: Pinterest Gallery
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <section class="article">
 	<div class="row">
-		<div class="small-12 columns">
 			<?php 
 			// the query
 			$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1, 'orderby' => 'date', 'order' => 'DESC')); ?>
 
 			<?php if ( $wpb_all_query->have_posts() ) : ?>
 
-			<ul class="articles-list no-bullet">
-
 				<!-- the loop -->
 				<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-					<?php $pinterest = get_field('pinterest'); ?>
-					<?php $pinterest2 = get_field('pinterest_2'); ?>
-					<?php $pinterest3 = get_field('pinterest_3'); ?>
-					<?php $pinterest4 = get_field('pinterest_4'); ?>
-					<?php $pinterest5 = get_field('pinterest_5'); ?>
-					<?php $pinterest6 = get_field('pinterest_6'); ?>
-					<?php $pinterest_description = get_field('pinterest_description'); ?>
-					<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
+					<?php 
+						$pinterest = get_field('pinterest');
+						$pinterest2 = get_field('pinterest_2');
+						$pinterest3 = get_field('pinterest_3');
+						$pinterest4 = get_field('pinterest_4');
+						$pinterest5 = get_field('pinterest_5');
+						$pinterest6 = get_field('pinterest_6');
+						$pinterest_description = get_field('pinterest_description');
+					?>
+					<?php if(! empty($pinterest)) { ?>
+						<div class="small-12 large-2 columns" style="margin-bottom: 1rem;"><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></div>
+					<?php } ?>
 					<?php if(! empty($pinterest2)) { ?>
-						<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest2;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
+						<div class="small-12 large-2 columns" style="margin-bottom: 1rem;"><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest2;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></div>
 					<?php } ?>
 					<?php if(! empty($pinterest3)) { ?>
-						<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest3;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
+						<div class="small-12 large-2 columns" style="margin-bottom: 1rem;"><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest3;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></div>
 					<?php } ?>
 					<?php if(! empty($pinterest4)) { ?>
-						<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest4;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
+						<div class="small-12 large-2 columns" style="margin-bottom: 1rem;"><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest4;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></div>
 					<?php } ?>
 					<?php if(! empty($pinterest5)) { ?>
-						<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest5;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
+						<div class="small-12 large-2 columns" style="margin-bottom: 1rem;"><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest5;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></div>
 					<?php } ?>
 					<?php if(! empty($pinterest6)) { ?>
-						<li><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest6;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></li>
+						<div class="small-12 large-2 columns" style="margin-bottom: 1rem;"><a href="<?php the_permalink(); ?>"><img alt="<?php the_title();?>" src="<?php echo $pinterest6;?>" data-pin-url="<?php the_permalink(); ?>" data-pin-description="<?php echo $pinterest_description; ?>"></a></div>
 					<?php } ?>
 				<?php endwhile; ?>
 				<!-- end of the loop -->
 
-			</ul>
 
 				<?php wp_reset_postdata(); ?>
 
