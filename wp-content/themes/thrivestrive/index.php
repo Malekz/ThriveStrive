@@ -5,8 +5,8 @@ get_header();
 	<div class="row">
 		<div class="small-12 columns">
 			<div class="title-box">
-				<h2 class="subheader">We Aren&rsquo;t Instagram Fitness Heroes</h2>
-				<h1>We Are Normals Trying to Get Better Together</h1>
+				<h2 class="subheader">Seeing How We Can Get the Most Out of Today</h2>
+				<h1>Helping You Get the Most Out of Your Body and Mind</h1>
 			</div>
 		</div>
 	</div>
@@ -46,35 +46,27 @@ get_header();
 		</div>
 	</div>
 </section>
-<section class="profiles">
+<section class="article library">
 	<div class="row">
-		<div class="small-12 columns">
-			<h2 class="text-center">The Thrive/Strive Crew</h2>
-		</div>
-		<div class="small-12 large-4 columns">
-			<div class="profile">
-				<h3 class="text-center"><a href="/elisa">Elisa</a></h3>
-				<div class="profile-hero"><a href="/elisa"><img data-pin-nopin="true" alt="Elisa Scrivens" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/02230232/elisa.jpg"></a></div>
-				<h4 class="text-center subheader">The Wife</h4>
-				<p class="text-center">Feisty. Beautiful. Tough. Stubborn.</p>
-			</div>
-		</div>
-		<div class="small-12 large-4 columns">
-			<div class="profile">
-				<h3 class="text-center"><a href="/stephen">Stephen</a></h3>
-				<div class="profile-hero"><a href="stephen"><img data-pin-nopin="true" alt="Stephen Scrivens" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/02230240/stephen.jpg"></a></div>
-				<h4 class="text-center subheader">The Little Brother</h4>
-				<p class="text-center">Kind. Strong. Lovable. Golden God.</p>
-			</div>
-		</div>
-		<div class="small-12 large-4 columns">
-			<div class="profile">
-				<h3 class="text-center"><a href="/paul">Paul</a></h3>
-				<div class="profile-hero"><a href="/paul"><img data-pin-nopin="true" alt="Paul Scrivens" src="https://s3-us-west-2.amazonaws.com/thrivestrive-master/wp-content/uploads/2016/08/02230237/paul.jpg"></a></div>
-				<h4 class="text-center subheader">The Husband</h4>
-				<p class="text-center">Shiny head. Skinny fat. Hilarious.</p>
-			</div>
-		</div>
+			<?php 
+			// the query
+			$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1, 'orderby' => 'date', 'order' => 'DESC')); ?>
+
+			<?php if ( $wpb_all_query->have_posts() ) : ?>
+
+
+			<?php
+			while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post();
+			  	$pinterest = get_field('pinterest_description', $cat_post->ID);
+			    $out = '<div class="small-12 large-3 columns end"><div class="article-box"><!--<div class="hide-for-small-only"><img src="https://s3-us-west-2.amazonaws.com/thedailynutrition-master/wp-content/uploads/2017/10/15161002/favicon.png" data-pin-nopin="true"></div>--><h3><a href="'.get_permalink().'" title="'.get_the_title().'">'.get_the_title().'</a></h3><p>'.$pinterest.'</p></div></div>';
+			    echo $out;
+			endwhile;
+			?>
+				<?php wp_reset_postdata(); ?>
+
+			<?php else : ?>
+				<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+			<?php endif; ?>
 	</div>
 </section>
 <div class="reveal" id="motivationModal" data-reveal>
